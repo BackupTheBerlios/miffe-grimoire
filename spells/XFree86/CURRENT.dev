@@ -1,6 +1,0 @@
-if  [  -z  "$BRANCH"  ];  then
-  case  $VERSION  in
-    4.3.99.7)  bzcat  $COMPILE_LOGS/XFree86,dev.bz2  |
-            grep  -q  -x  "Adding fontconfig-2.2.0 with patch"  ;;
-  esac
-fi
