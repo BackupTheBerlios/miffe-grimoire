@@ -23,11 +23,11 @@ fi
 
 install  -m 0754  $SCRIPT_DIR/apcupsd $SCRIPT_DIR/UPSdown /etc/init.d	&&
 
-ln  -s /etc/init.d/apcupsd /etc/rc0.d/K79apcupsd	&&
-ln  -s /etc/init.d/UPSdown /etc/rc0.d/K98UPSdown	&&
-ln  -s /etc/init.d/apcupsd /etc/rc1.d/K79apcupsd	&&
-ln  -s /etc/init.d/apcupsd /etc/rc2.d/S20apcupsd	&&
-ln  -s /etc/init.d/apcupsd /etc/rc3.d/S20apcupsd	&&
-ln  -s /etc/init.d/apcupsd /etc/rc4.d/S20apcupsd	&&
-ln  -s /etc/init.d/apcupsd /etc/rc5.d/S20apcupsd	&&
-ln  -s /etc/init.d/apcupsd /etc/rc6.d/K79apcupsd
+ln  -sf /etc/init.d/apcupsd /etc/rc0.d/K79apcupsd	&&
+ln  -sf /etc/init.d/UPSdown /etc/rc0.d/K98UPSdown	&&
+ln  -sf /etc/init.d/apcupsd /etc/rc1.d/K79apcupsd	&&
+ln  -sf /etc/init.d/apcupsd /etc/rc2.d/S20apcupsd	&&
+ln  -sf /etc/init.d/apcupsd /etc/rc3.d/S20apcupsd	&&
+ln  -sf /etc/init.d/apcupsd /etc/rc4.d/S20apcupsd	&&
+ln  -sf /etc/init.d/apcupsd /etc/rc5.d/S20apcupsd	&&
+ln  -sf /etc/init.d/apcupsd /etc/rc6.d/K79apcupsd
