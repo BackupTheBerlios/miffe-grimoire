@@ -4,7 +4,6 @@
      SOURCE="~mwandel/jhead/jhead-$VERSION"
         URL="http://www.sentex.net"
    HOMEPAGE="http://www.sentex.net/~mwandel/jhead"
-        REQ="httpd php"
   FRESHMEAT="jhead"
       SHORT="jhead is a command line driven Exif header parser and manipulator"
 cat << EOF
