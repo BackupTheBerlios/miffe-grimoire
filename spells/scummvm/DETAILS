@@ -1,7 +1,7 @@
-    VERSION=( "0.4.1" )
+    VERSION=( "0.5.1" )
    CATEGORY="game emulator"
         URL="$SOURCEFORGE_URL"
-     SOURCE="$SPELL/$SPELL\_$VERSION-src"
+     SOURCE="$SPELL/$SPELL-$VERSION"
    HOMEPAGE="http://scummvm.sourceforge.net"
         REQ="SDL"
      OPT[0]="libvorbis:::For OGG music support"
