@@ -1,4 +1,4 @@
-      VERSION=( "1.9" )
+      VERSION=( "1.9.1" "1.9" )
       CATEGORY="utility"
      ATTRIBUTE="console new"
         SOURCE="sonypid-$VERSION"

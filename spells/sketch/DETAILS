@@ -1,4 +1,4 @@
-       VERSION=( "0.6.16pre2" )
+       VERSION=( "0.6.16" "0.6.16pre2" )
       CATEGORY="graphic-editor"
      ATTRIBUTE="x11 python new"
         SOURCE="files/src/sketch/sketch-$VERSION"
