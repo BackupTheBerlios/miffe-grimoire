@@ -1,5 +1,5 @@
    VERSION=( "21.4.15" "21.4.14" "21.4.13" "21.4.12" )
-    IGNORE="\-elc|\-info|\src"
+    IGNORE="\-elc|\-info|\-src"
   CATEGORY="editor"
  ATTRIBUTE="console x11"
     SOURCE="xemacs-21.4/xemacs-$VERSION"
