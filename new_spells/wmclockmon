@@ -1,10 +1,12 @@
- VERSION=( "0.4.0" )
-CATEGORY="dockapps"
-     URL="http://tnemeth.free.fr/projets/programmes/"
-  SOURCE="$SPELL-$VERSION"
-HOMEPAGE="http://tnemeth.free.fr/projets/dockapps.html"
-     REQ="x11"
-    DESC="wmclockmon is a Digital clock dockapp
+  VERSION=( "0.8.0" )
+ CATEGORY="dockapps"
+ATTRIBUTE="x11 utility"
+      URL="http://tnemeth.free.fr/projets/programmes/"
+   SOURCE="$SPELL-$VERSION"
+ HOMEPAGE="http://tnemeth.free.fr/projets/dockapps.html"
+      REQ="x11 glib-v1.2 gtk+-v1.2"
+ ESTIMATE="42"
+     DESC="wmclockmon is a Digital clock dockapp
 At least, a nice digital clock with 3 different styles,
 and that uses locales to display week-day and month names.
 "

@@ -1,0 +1,12 @@
+  VERSION=( "1.0.2" "0.9.3" )
+ CATEGORY="dockapps"
+ATTRIBUTE="x11 utility"
+      URL="http://tnemeth.free.fr/projets/programmes/"
+   SOURCE="$SPELL-$VERSION"
+ HOMEPAGE="http://tnemeth.free.fr/projets/dockapps.html"
+      REQ="x11 gtk+-v1.2 glib-v1.2"
+ ESTIMATE="33"
+ EPROVIDE="wmmailload"
+    DESC="wmmaiload is a dockapp that monitors mail in mboxfiles
+wmmaiload monitors your incomming mails in 1 or more mbox files.
+"

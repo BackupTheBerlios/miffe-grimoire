@@ -1,4 +1,4 @@
-   VERSION=( "1.5" )
+   VERSION=( "1.6" "1.5" )
   CATEGORY="library science"
  ATTRIBUTE="new library"
   HOMEPAGE="http://www.gnu.org/software/gsl"

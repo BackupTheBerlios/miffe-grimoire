@@ -1,4 +1,4 @@
-    VERSION=( "2.2" "2.1" "2.0" )
+    VERSION=( "2.3" "2.2" "2.1" "2.0" )
    CATEGORY="graphic"
   ATTRIBUTE="utility"
      SOURCE="~mwandel/jhead/jhead-$VERSION"

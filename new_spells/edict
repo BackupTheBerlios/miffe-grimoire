@@ -1,4 +1,4 @@
-   VERSION=( "1.2" )
+   VERSION=( "2.0" "1.2" )
   CATEGORY="dictionary"
  ATTRIBUTE="new console"
   HOMEPAGE="http://edictionary.sourceforge.net"

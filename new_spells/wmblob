@@ -1,15 +1,20 @@
- VERSION=( "0.0.2" )
-CATEGORY="dockapps"
-     URL="http://www.dockapps.org/download.php/id/205/"
-  SOURCE="$SPELL-$VERSION"
-HOMEPAGE="http://www.dockapps.org/file.php/id/155/"
-     REQ="x11"
-    DESC="wmblob shows some blobs moving around.
+  VERSION=( "1.0.3" )
+ CATEGORY="dockapps"
+ATTRIBUTE="x11 utility"
+      URL="http://www.dockapps.org/download.php/id"
+   SOURCE="541/$SPELL-$VERSION"
+ HOMEPAGE="http://www.dockapps.org/file.php/id/155/"
+      REQ="x11 gtk+"
+ ESTIMATE="38"
+     DESC="wmblob shows some blobs moving around.
 It does nothing useful, it's just a toy.
 "
 
 function build() {
-  make            &&
-  prepare_install &&
-  make install PREFIX="/usr"
+  ./configure	--prefix=/usr		\
+		--sysconfdir=/etc	\
+		$OPTS			&&
+  make            			&&
+  prepare_install 			&&
+  make  install
 }

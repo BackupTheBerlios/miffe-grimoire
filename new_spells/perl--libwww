@@ -1,5 +1,5 @@
 inherit  perl--modules
-   VERSION=( "5.802" "5.801" "5.800" )
+   VERSION=( "5.803" "5.802" "5.801" "5.800" )
     SOURCE="G/GA/GAAS/libwww-perl-$VERSION"
   HOMEPAGE="$HOMEPAGE/search?dist=libwww-perl"
        REQ=( "" 

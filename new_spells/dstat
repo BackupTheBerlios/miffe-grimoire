@@ -1,4 +1,4 @@
-   VERSION=( "0.5.5" "0.5.4" )
+   VERSION=( "0.5.7" "0.5.5" "0.5.4" )
   CATEGORY="utility"
  ATTRIBUTE="console"
   HOMEPAGE="http://dag.wieers.com/home-made/dstat"

@@ -1,4 +1,4 @@
-    VERSION=( "2.12.8" "2.12.7" )
+    VERSION=( "2.12.9" "2.12.8" "2.12.7" )
    CATEGORY="graphic science"
   ATTRIBUTE="new console"
      SOURCE="gri/gri-$VERSION"
