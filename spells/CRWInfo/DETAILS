@@ -1,0 +1,15 @@
+       VERSION=( "0.2" )
+      CATEGORY="digital-camera"
+     ATTRIBUTE="console utility  new"
+        SOURCE="~sven/crwinfo/CRWInfo-$VERSION"
+           URL="http://neuemuenze.heim1.tu-clausthal.de"
+      HOMEPAGE="http://neuemuenze.heim1.tu-clausthal.de/~sven/crwinfo"
+	   REQ=""
+     FRESHMEAT="crwinfo"
+         SHORT="crwinfo extracts information from Canon RAW files"
+cat << EOF
+crwinfo extracts exposure information and thumbnails from 
+Canon RAW files (tested so far only with the CRW files 
+from the Canon D60 camera. Owners of other camera models 
+are encouraged to try the program and give feedback).
+EOF

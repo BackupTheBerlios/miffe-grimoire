@@ -1,0 +1,22 @@
+       VERSION=( "1.151" )
+      CATEGORY="digital-camera graphic"
+     ATTRIBUTE="console utility  new"
+        SOURCE="sources/dcraw"
+           URL="http://sorcerer.highsphere.net"
+      HOMEPAGE="http://www.cybercom.net/~dcoffin/dcraw"
+	   REQ=""
+     FRESHMEAT="dcraw"
+         SHORT="dcraw decodes raw images from digital cameras"
+cat << EOF
+dcraw decodes any raw image from any digital camera. All digital 
+cameras made since 1997 produce JPEG images but there are some
+disadvantages. JPEG is a lossy format, a lot of information is
+thrown away. That's why midrange and high-end digital cameras 
+offer an alternative: Raw, unprocessed CCD data files, for which
+the camera manufacturer provides special decoding software and 
+there is no source code. However, dcraw is free and became a 
+standard tool within and outside the Open Source world.
+It's small (about 3000 lines), portable (standard C libraries 
+only), free, and when used skillfully, produces better quality 
+output than the tools provided by the camera vendor.
+EOF
