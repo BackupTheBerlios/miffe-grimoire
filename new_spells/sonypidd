@@ -51,7 +51,7 @@ cat << EOF > /etc/init.d/sonypid.sh
 #
 
 start() {
-	/usr/bin/sonypidd
+	/usr/bin/sonypidd >/dev/null 2>&1
 }
 
 stop() {
