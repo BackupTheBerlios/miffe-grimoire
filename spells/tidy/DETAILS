@@ -1,0 +1,27 @@
+       VERSION=( "20031101" )
+      CATEGORY="utility web"
+     ATTRIBUTE="console utility new"
+        SOURCE="src/tidy_src"
+	   URL="http://tidy.sourceforge.net"
+      HOMEPAGE="http://tidy.sourceforge.net"
+           REQ="automake"
+      ESTIMATE="441"
+     FRESHMEAT="tidy"
+   SOURCEFORGE="tidy"
+         SHORT="tidy automatically fixes HTML mistakes and sloppy editing"
+cat << EOF
+tidy is a utility for fixing HTML mistakes automatically and
+tidy up sloppy editing into nicely layed out markup. It also
+works great on the atrociously hard to read markup generated
+by specialized HTML editors and conversion tools, and can 
+help you identify where you need to pay further attention on
+making your pages more accessible to people with disabilities.
+
+Tidy is able to fix up a wide range of problems and to bring
+to your attention things that you need to work on yourself. 
+Each item found is listed with the line number and column so
+that you can see where the problem lies in your markup. Tidy
+won't generate a cleaned up version when there are problems
+that it can't be sure of how to handle. These are logged as
+"errors" rather than "warnings".
+EOF
