@@ -4,7 +4,7 @@
      ATTRIBUTE="x11"
         SOURCE="rxvt/rxvt-$VERSION"
            URL="$SOURCEFORGE_URL"
-      HOMEPAGE="http://rxvt.sourceforge.net/"
+      HOMEPAGE="http://sourceforge.net/projects/rxvt"
            REQ="x11"
      FRESHMEAT="rxvt"
    SOURCEFORGE="rxvt"
