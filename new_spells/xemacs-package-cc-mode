@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.42" "1.41" "1.40" "1.33" "1.32" )
+    SOURCE="xemacs/packages/cc-mode-$VERSION-pkg"
+     SHORT="$SPELL provides C, C++ and Java language support."

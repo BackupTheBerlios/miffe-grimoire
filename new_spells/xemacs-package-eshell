@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.06" "1.05" "1.04" )
+    SOURCE="xemacs/packages/eshell-$VERSION-pkg"
+     SHORT="$SPELL provides command shell implemented entirely in Emacs Lisp."

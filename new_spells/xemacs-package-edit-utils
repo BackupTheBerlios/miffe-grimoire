@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "2.12" "2.11" "2.10" "2.07" "2.02" "1.98" )
+    SOURCE="xemacs/packages/edit-utils-$VERSION-pkg"
+     SHORT="$SPELL provides miscellaneous editor extensions, you probably need this."

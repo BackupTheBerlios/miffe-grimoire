@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.42" "1.41" "1.40" "1.38" )
+    SOURCE="xemacs/packages/psgml-$VERSION-pkg"
+     SHORT="$SPELL provides validated HTML/SGML editing."

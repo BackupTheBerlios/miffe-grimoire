@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.32" "1.31" "1.29" )
+    SOURCE="xemacs/packages/efs-$VERSION-pkg"
+     SHORT="$SPELL allows to treat files on remote systems the same as local files."

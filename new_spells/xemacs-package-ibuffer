@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.09" "1.08" )
+    SOURCE="xemacs/packages/ibuffer-$VERSION-pkg"
+     SHORT="$SPELL provides advanced replacement for buffer-menu."

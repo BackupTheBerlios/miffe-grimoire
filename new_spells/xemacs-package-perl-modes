@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.05" "1.04" )
+    SOURCE="xemacs/packages/perl-modes-$VERSION-pkg"
+     SHORT="$SPELL provides Perl language support."

@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.11" "1.10" "1.09" )
+    SOURCE="xemacs/packages/frame-icon-$VERSION-pkg"
+     SHORT="$SPELL provides mode-specific icons for each frame under XEmacs."

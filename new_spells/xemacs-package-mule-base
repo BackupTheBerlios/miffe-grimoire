@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.46" "1.44" "1.43" "1.42" )
+    SOURCE="xemacs/packages/mule-base-$VERSION-pkg"
+     SHORT="$SPELL provides basic Mule support, required for building with Mule."

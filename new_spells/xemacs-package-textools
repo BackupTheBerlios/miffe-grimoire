@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.15" "1.14" )
+    SOURCE="xemacs/packages/textools-$VERSION-pkg"
+     SHORT="$SPELL provides miscellaneous TeX (BibTeX/RefTeX) support."

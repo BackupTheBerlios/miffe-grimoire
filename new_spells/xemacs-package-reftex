@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.34" "1.33" "1.32" "1.28" )
+    SOURCE="xemacs/packages/reftex-$VERSION-pkg"
+     SHORT="$SPELL provides support for LaTeX cross-references, citations."

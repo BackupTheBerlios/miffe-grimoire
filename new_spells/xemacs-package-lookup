@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.14" "1.13" )
+    SOURCE="xemacs/packages/lookup-$VERSION-pkg"
+     SHORT="$SPELL provides dictionary support."

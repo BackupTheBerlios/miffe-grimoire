@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.17" "1.16" )
+    SOURCE="xemacs/packages/debug-$VERSION-pkg"
+     SHORT="$SPELL provides GUD, gdb, and dbx debugging support."

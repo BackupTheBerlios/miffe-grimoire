@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.46" "1.45" "1.43" )
+    SOURCE="xemacs/packages/jde-$VERSION-pkg"
+     SHORT="$SPELL provides Java language and development support."

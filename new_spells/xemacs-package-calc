@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.24" "1.23" )
+    SOURCE="xemacs/packages/calc-$VERSION-pkg"
+     SHORT="$SPELL provides Emacs calculator."

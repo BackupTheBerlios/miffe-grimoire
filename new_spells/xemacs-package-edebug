@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.20" "1.19" "1.18" )
+    SOURCE="xemacs/packages/edebug-$VERSION-pkg"
+     SHORT="$SPELL provides an Emacs Lisp debugger."

@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.06" "1.03" "1.02" )
+    SOURCE="xemacs/packages/python-modes-$VERSION-pkg"
+     SHORT="$SPELL provides Python language support."

@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.14" "1.13" "1.12" )
+    SOURCE="xemacs/packages/fsf-compat-$VERSION-pkg"
+     SHORT="$SPELL provides GNU Emacs compatibility files."

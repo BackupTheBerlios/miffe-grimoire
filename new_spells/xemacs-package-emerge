@@ -1,0 +1,4 @@
+inherit  xemacs
+   VERSION=( "1.11" "1.10" "1.09" )
+    SOURCE="xemacs/packages/emerge-$VERSION-pkg"
+     SHORT="$SPELL provides interface for GNU patch to allow patching/merging of files."
