@@ -1,4 +1,4 @@
-       VERSION=( "1.161" "1.151" )
+       VERSION=( "1.219" "1.161" "1.151" )
       CATEGORY="digital-camera graphic"
      ATTRIBUTE="console utility  new"
 #        SOURCE="sources/dcraw"
@@ -8,7 +8,7 @@
 	URL[0]="http://www.cybercom.net"
 	URL[1]="http://www.cybercom.net"
       HOMEPAGE="http://www.cybercom.net/~dcoffin/dcraw"
-	   REQ=""
+	   REQ="jpeg"
       ESTIMATE="7"
      FRESHMEAT="dcraw"
           DESC="dcraw decodes raw images from digital cameras

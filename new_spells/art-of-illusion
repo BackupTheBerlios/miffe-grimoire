@@ -1,10 +1,10 @@
-   VERSION=( "1.8" )
+   VERSION=( "1.9" "1.8" )
   CATEGORY="graphic-editor"
  ATTRIBUTE="x11 new"
     SOURCE="aoi/aoi${VERSION:0:1}${VERSION:2:1}.zip"
        URL="$SOURCEFORGE_URL"
   HOMEPAGE="http://aoi.sourceforge.net"
-       REQ="j2sdk"
+       REQ="jdk"
   ESTIMATE="526"
       DESC="art-of-illusion is a 3D modelling, rendering and animation studio.
 It is written entirely in Java, and should be usable on any

@@ -4,7 +4,8 @@
         SOURCE="units/units-$VERSION"
            URL="$GNU_URL"
       HOMEPAGE="http://freshmeat.net/projects/units"
-           REQ=""
+           REQ="readline ncurses"
+      ESTIMATE="20"
      FRESHMEAT="units"
           DESC="GNU units converts between different systems of units.
 It can handle multiplicative scale changes as well as 
