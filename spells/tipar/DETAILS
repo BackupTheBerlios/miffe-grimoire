@@ -1,0 +1,8 @@
+  VERSION="1.18"
+   SOURCE="pub/unix/$SPELL"
+      URL="http://www.ticalc.org"
+ HOMEPAGE="http://lpg.ticalc.org/prj_tilp"
+    SHORT="tipar is a Ti linking library for parallel-ports"
+cat << EOF
+tipar is a Ti linking library for parallel-ports
+EOF

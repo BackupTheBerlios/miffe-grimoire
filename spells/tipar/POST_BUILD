@@ -1,0 +1,5 @@
+grep "char-major-61" /etc/modules.conf
+if [ $? == "1" ];
+then
+  echo "alias char-major-61 tipar" >> /etc/modules.conf
+fi

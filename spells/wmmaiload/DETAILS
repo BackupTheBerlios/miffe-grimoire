@@ -1,0 +1,11 @@
+ VERSION=( "0.9.3" )
+CATEGORY="dockapps"
+     URL="http://tnemeth.free.fr/projets/programmes/"
+  SOURCE="$SPELL-$VERSION"
+HOMEPAGE="http://tnemeth.free.fr/projets/dockapps.html"
+     REQ="x11 gtk+,v1.2"
+   SHORT="wmmailload is a dockapp that monitors mail in mboxfiles"
+cat << EOF
+This one monitors your incomming
+mails in 1 or more mbox files.
+EOF

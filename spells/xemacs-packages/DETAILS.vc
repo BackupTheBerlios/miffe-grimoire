@@ -1,0 +1,12 @@
+   VERSION=( "1.37" "1.35" )
+  CATEGORY="editor"
+ ATTRIBUTE="concurrent xemacs-packages"
+    SOURCE="xemacs/packages/vc-$VERSION-pkg"
+    URL[0]="ftp://ftp.cz.xemacs.org/MIRRORS/ftp.xemacs.org/pub"
+    URL[1]="ftp://ftp.xemacs.org"
+  HOMEPAGE="http://www.xemacs.org"
+       REQ=""
+     SHORT="Version Control for Free systems."
+cat << EOF
+Version Control for Free systems.
+EOF

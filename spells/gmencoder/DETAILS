@@ -1,0 +1,13 @@
+    VERSION=( "0.1.0" )
+        URL="$SOURCEFORGE_URL"
+     SOURCE="$SPELL/$SPELL-$VERSION"
+   HOMEPAGE="http://gmencoder.sourceforge.net/"
+        REQ="gtk+ MPlayer"
+      SHORT="gmencoder is a gnome-2 frontend for mplayer/mencoder"
+SOURCEFORGE="gmencoder"
+  FRESHMEAT="gmencoder"
+cat << EOF
+Gmencoder is a gnome-2 front-end to mplayer/mencoder. It support much of the
+output codecs as well as postprocesing, cropping, scale, subtitles ripping,
+1, 2 and 3 passes for encoding and a lot of more options are planned. 
+EOF

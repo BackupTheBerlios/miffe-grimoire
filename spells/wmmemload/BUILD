@@ -1,0 +1,7 @@
+(
+  ./configure --prefix=/usr $OPTS  &&
+  aclocal                    &&
+  make                       &&
+  prepare_install            &&
+  make install PREFIX=/usr
+) >$C_FIFO 2>&1

@@ -1,0 +1,21 @@
+   VERSION=( "6.0" )
+    IGNORE="1999"
+  CATEGORY="development"
+ ATTRIBUTE="x11 client"
+    SOURCE="insight-$VERSION"
+  HOMEPAGE="http://sources.redhat.com/insight/"
+       URL="ftp://sources.redhat.com/pub/gdb/releases"
+       REQ="tcl tk gdb"
+ FRESHMEAT="insight"
+     SHORT="insight is a tcl/tk gdb GUI"
+  EPROVIDE="gdb"
+cat << EOF
+Insight is a powerfull GUI debuger allowing you to easely debug 
+your application. it's a gdb frontend. It has easy watchpoint adding mechanism
+(right clik and select add, or select whole expression and right click then add)
+debugging can be done in source mode, assembler mod or a mix of both.
+the only problem you can find is that's impossible to run application with args...
+and source is'nt hightlighted
+this is the only working front end I found (ddd doesn't compile for me anymore)
+EOF
+

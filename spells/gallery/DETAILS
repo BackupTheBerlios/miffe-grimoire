@@ -1,0 +1,22 @@
+    VERSION=( "1.4-pl1" "1.4" )
+   CATEGORY="web graphic"
+  ATTRIBUTE="utility"
+     SOURCE="gallery/gallery-$VERSION"
+        URL="$SOURCEFORGE_URL"
+   HOMEPAGE="http://gallery.menalto.com"
+        REQ="httpd php"
+     OPT[0]="jhead:--with-jhead::Install jhead to examine EXIF headers."
+SOURCEFORGE="gallery"
+      SHORT="gallery is web-based photo gallery with authenticated users"
+cat << EOF
+Gallery is a web based software product that lets you 
+manage your photos on your own website. You must have 
+your own website with PHP support in order to install 
+and use it. With Gallery you can easily create and 
+maintain albums of photos via an intuitive interface. 
+Photo management includes automatic thumbnail creation, 
+image resizing, rotation, ordering, captioning, searching 
+and more. Albums can have read, write and caption 
+permissions per individual authenticated user for an 
+additional level of privacy. 
+EOF

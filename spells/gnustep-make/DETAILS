@@ -1,0 +1,13 @@
+ VERSION=( "1.7.2" )
+CATEGORY="gnustep"
+     URL="ftp://ftp.gnustep.org"
+  SOURCE="pub/gnustep/core/$SPELL-$VERSION"
+HOMEPAGE="http://gnustep.org/"
+     REQ="make"
+   SHORT="gnustep-make is the makefiles that is required for GNUstep"
+cat << EOF
+The GNUstep Makefile Package is centralized configuration mechanism and a
+set of powerful makefile rules that makes compilation of GNUstep source
+as easy as just listing the files to compile. Read the design document for
+a more detailed discussion of the design goals and implementation.
+EOF

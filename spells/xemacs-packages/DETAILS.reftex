@@ -1,0 +1,12 @@
+   VERSION=( "1.32" "1.28" )
+  CATEGORY="editor"
+ ATTRIBUTE="concurrent xemacs-packages"
+    SOURCE="xemacs/packages/reftex-$VERSION-pkg"
+    URL[0]="ftp://ftp.cz.xemacs.org/MIRRORS/ftp.xemacs.org/pub"
+    URL[1]="ftp://ftp.xemacs.org"
+  HOMEPAGE="http://www.xemacs.org"
+       REQ=""
+     SHORT="Support for LaTeX cross-references, citations."
+cat << EOF
+Support for LaTeX cross-references, citations.
+EOF

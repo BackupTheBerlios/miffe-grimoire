@@ -1,0 +1,12 @@
+   VERSION=( "1.14" "1.13" )
+  CATEGORY="editor"
+ ATTRIBUTE="concurrent xemacs-packages"
+    SOURCE="xemacs/packages/slider-$VERSION-pkg"
+    URL[0]="ftp://ftp.cz.xemacs.org/MIRRORS/ftp.xemacs.org/pub"
+    URL[1]="ftp://ftp.xemacs.org"
+  HOMEPAGE="http://www.xemacs.org"
+       REQ=""
+     SHORT="User interface tool."
+cat << EOF
+User interface tool.
+EOF

@@ -1,0 +1,11 @@
+  VERSION=( "0.5" )
+ATTRIBUTE="concurrent"
+ CATEGORY="audio"
+      URL="http://stukach.com/hosted/"
+   SOURCE="xmms-ahx-$VERSION"
+unset OPT
+      REQ="xmms"
+    SHORT="xmms-plugin,input-ahx plays AHX (previously known as THX) module format."
+cat << EOF
+xmms-plugin,input-ahx plays AHX (previously known as THX) module format.
+EOF

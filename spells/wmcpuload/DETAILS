@@ -1,0 +1,10 @@
+ VERSION=( "1.0.1" )
+CATEGORY="dockapps"
+     URL="http://www.sh.rim.or.jp/~ssato/src/"
+  SOURCE="$SPELL-$VERSION"
+HOMEPAGE="http://www.sh.rim.or.jp/~ssato/dockapp/index.shtml"
+     REQ="x11"
+   SHORT="wmcpuload is a dockapp for monitoring cpu usage"
+cat << EOF
+wmcpuload is a dockapp that monitors CPU usage.
+EOF

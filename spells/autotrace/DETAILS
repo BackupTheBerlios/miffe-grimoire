@@ -1,0 +1,11 @@
+    VERSION="0.31.1"
+     SOURCE="$SPELL/$SPELL-$VERSION"
+        URL="$SOURCEFORGE_URL"
+   HOMEPAGE="http://autotrace.sourceforge.net/"
+      SHORT="converts bitmap to vector graphics"
+        REQ="x11 libxml2 jpeg tiff"
+SOURCEFORGE="autotrace"
+cat << EOF
+The aim of the AutoTrace project is the development of a freely available application with a functionality similar to CorelTrace or Adobe Streamline. I hope that it will become better than all commercially available programs.  In some aspects it is already better.
+AutoTrace is free software. AutoTrace is distributed under the term of GNU GPL.
+EOF

@@ -1,0 +1,16 @@
+  VERSION=( "1.2.1" )
+ CATEGORY="email"
+      URL="http://www.bincimap.org"
+   SOURCE="dl/tarballs/bincimap-$VERSION"
+ HOMEPAGE="http://www.bincimap.org/"
+      REQ="checkpassword"
+   OPT[0]="openssl:--with-ssl:--without-ssl:For secure SSL connections"
+    SHORT="Binc IMAP is a GPL licensed IMAP4rev1 server for Maildir"
+FRESHMEAT="bincimap"
+cat << EOF
+Binc IMAP is a GPL licensed IMAP4rev1 server for Maildir, written in C++.
+It strives to be stable, fast, flexible, and RFC compliant.
+
+For those familiar with qmail-pop3d, this IMAP server will be the natural
+choice. It is invoked similarily and uses checkpassword to authenticate.
+EOF

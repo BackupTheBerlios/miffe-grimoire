@@ -1,0 +1,18 @@
+ VERSION=( "1.7.2" )
+CATEGORY="gnustep"
+     URL="ftp://ftp.gnustep.org"
+  SOURCE="pub/gnustep/core/$SPELL-$VERSION"
+HOMEPAGE="http://gnustep.org/"
+     REQ="gnustep-make gcc,objc zlib"
+  OPT[0]="libxml2:::For XML support"
+  OPT[1]="gmp:::For high presicion math"
+   SHORT="gnustep-base implement the non-graphical portion of the OpenStep standard."
+cat << EOF
+The GNUstep Base Library implements the FoundationKit portion of the OpenStep
+specification. It has as its heritage the libobjects library; a set of
+general-purpose, non-graphical Objective-C classes designed in the Smalltalk
+tradition, and was written by Andrew McCallum. The library has since been
+greatly enhanced by Andrew and many other contributing developers to be a
+fairly complete FoundationKit implementation; it still contains the extensive
+collection classes from the original libobjects library.
+EOF

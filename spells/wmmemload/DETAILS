@@ -1,0 +1,15 @@
+ VERSION=( "0.1.5" )
+CATEGORY="dockapps"
+     URL="http://www.markstaggs.net/wmmemload/"
+  SOURCE="$SPELL-$VERSION"
+HOMEPAGE="http://www.markstaggs.net/"
+     REQ="x11 automake"
+   SHORT="wmmemload is a dockapp monitors memory/swap usage"
+cat << EOF
+If you're wondering, wmmemload is a simple dockapp for WindowMaker on
+X Windows that displays memory and swap space usage. It is very
+heavily based on WMMemMon and WMCPULoad by Seiichi SATO. In fact
+99% of the code is take from his applications (which I have used for
+a while). I simply wanted numbers instead of a graphical display
+for my memory statistics. 
+EOF
