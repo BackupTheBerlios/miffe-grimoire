@@ -1,6 +1,6 @@
-      VERSION=( "1.2" )
+      VERSION=( "1.4" "1.2" )
       CATEGORY="utility"
-     ATTRIBUTE="console new"
+     ATTRIBUTE="console"
         SOURCE="software/radeon/radeontool-$VERSION"
            URL="http://fdd.com"
       HOMEPAGE="http://fdd.com/software/radeon"
