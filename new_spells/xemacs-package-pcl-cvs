@@ -1,5 +1,5 @@
 inherit  xemacs
-   VERSION=( "1.65" "1.64" )
+   VERSION=( "1.66" "1.65" "1.64" )
     SOURCE="xemacs/packages/pcl-cvs-$VERSION-pkg"
       DESC="$SPELL provides CVS frontend.
 "

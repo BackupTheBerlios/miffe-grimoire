@@ -1,5 +1,5 @@
 inherit  xemacs
-   VERSION=( "1.08" "1.06" "1.04")
+   VERSION=( "1.09" "1.08" "1.06" "1.04")
     SOURCE="xemacs/packages/clearcase-$VERSION-pkg"
       DESC="$SPELL provides new clearcase version control for XEmacs.
 "

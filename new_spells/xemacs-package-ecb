@@ -1,5 +1,5 @@
 inherit  xemacs
-   VERSION=( "1.18" "1.14" "1.13" "1.12" "1.08" )
+   VERSION=( "1.22" "1.18" "1.14" "1.13" "1.12" "1.08" )
     SOURCE="xemacs/packages/ecb-$VERSION-pkg"
       DESC="$SPELL provides Emacs source code browser.
 "

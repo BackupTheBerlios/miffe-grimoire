@@ -1,4 +1,4 @@
-   VERSION=( "2.4.10" "2.4.9" )
+   VERSION=( "2.4.11" "2.4.10" "2.4.9" )
   CATEGORY="debugger kernel"
  ATTRIBUTE="console kernel new"
   HOMEPAGE="http://www.gnu.org/directory/devel/Debugging/ksymoops.html"

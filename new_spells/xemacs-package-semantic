@@ -1,5 +1,5 @@
 inherit  xemacs
-   VERSION=( "1.18" "1.17" )
+   VERSION=( "1.19" "1.18" "1.17" )
     SOURCE="xemacs/packages/semantic-$VERSION-pkg"
       DESC="$SPELL provides semantic bovinator (Yacc/Lex for XEmacs). Includes Senator.
 "
