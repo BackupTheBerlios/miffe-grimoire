@@ -14,7 +14,7 @@
      OPT[7]="gallery-lang-es_ES:::to provide es_ES language pack"
      OPT[8]="gallery-lang-fi_FI:::to provide fi_FI language pack"
      OPT[9]="gallery-lang-fr_FR:::to provide fr_FR language pack"
-    OPT[10]="gallery-lang-he_IL:::to provide he_IL language pack"
+    OPT[10]="gallery-lang-he_IL.utf8:::to provide he_IL.utf8 language pack"
     OPT[11]="gallery-lang-hu_HU:::to provide hu_HU language pack"
     OPT[12]="gallery-lang-is_IS:::to provide is_IS language pack"
     OPT[13]="gallery-lang-it_IT:::to provide it_IT language pack"
