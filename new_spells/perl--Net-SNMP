@@ -1,5 +1,5 @@
 inherit  perl--modules
-   VERSION=( "5.0.0" )
+   VERSION=( "5.0.1" "5.0.0" )
   CATEGORY="$CATEGORY network"
   HOMEPAGE="$HOMEPAGE/search?dist=Net-SNMP"
     SOURCE="D/DT/DTOWN/Net-SNMP-$VERSION"

@@ -1,5 +1,5 @@
 inherit  perl--modules
-   VERSION=( "3.03" "3.01" )
+   VERSION=( "3.05" "3.03" "3.01" )
     SOURCE="G/GA/GAAS/MIME-Base64-$VERSION"
   HOMEPAGE="$HOMEPAGE/search?dist=MIME-Base64"
   ESTIMATE="29"

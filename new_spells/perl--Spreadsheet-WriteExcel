@@ -1,5 +1,5 @@
 inherit  perl--modules
-   VERSION=( "2.04" "2.03" )
+   VERSION=( "2.11" "2.04" "2.03" )
   CATEGORY="$CATEGORY spreadsheet"
   HOMEPAGE="$HOMEPAGE/search?dist=Spreadsheet-WriteExcel"
     SOURCE="J/JM/JMCNAMARA/Spreadsheet-WriteExcel-$VERSION"

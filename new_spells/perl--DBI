@@ -1,5 +1,5 @@
 inherit  perl--modules
-   VERSION=( "1.43" )
+   VERSION=( "1.45" "1.43" )
     IGNORE="^1\.201\|AdvancedTalk"
   HOMEPAGE="$HOMEPAGE/search?dist=DBI"
     SOURCE="T/TI/TIMB/DBI-$VERSION"

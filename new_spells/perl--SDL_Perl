@@ -1,5 +1,5 @@
 inherit  perl--modules
-   VERSION=( "2.1.0" )
+   VERSION=( "2.1.2" "2.1.0" )
     IGNORE="^1\.19\.1"
 # SDL_perl 1.19.1 is not compatibile with frozen-bubble 0.9.3
   CATEGORY="$CATEGORY graphic"
