@@ -5,7 +5,6 @@ CATEGORY="dockapps"
 HOMEPAGE="http://tnemeth.free.fr/projets/dockapps.html"
      REQ="x11"
     DESC="wmclockmon is a Digital clock dockapp
-wmclockmon is a Digital clock dockapp.
 At least, a nice digital clock with 3 different styles,
 and that uses locales to display week-day and month names.
 "

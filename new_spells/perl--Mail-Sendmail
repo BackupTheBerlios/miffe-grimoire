@@ -5,8 +5,7 @@ inherit  perl--modules
     SOURCE="M/MI/MIVKOVIC/Mail-Sendmail-$VERSION"
   ESTIMATE="10"
   EPROVIDE="Mail-Sendmail"
-      DESC="$SPELL is a simple module to send mail
-$SPELL is a simple module to send mail.
+      DESC="$SPELL is a simple module to send mail.
 
 Simple platform independent e-mail from your perl script. 
 Only requires Perl 5 and a network connection. 

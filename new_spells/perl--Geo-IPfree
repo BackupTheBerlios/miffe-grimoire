@@ -5,7 +5,6 @@ inherit  perl--modules
   ESTIMATE="13"
   EPROVIDE="Geo-IPfree"
       DESC="$SPELL provides module that looks up country of IP Address.
-$SPELL provides a Perl module to look up country of IP Address. 
 This module make this off-line and the DB of IPs is 
 free and small.
 "

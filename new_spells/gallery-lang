@@ -37,10 +37,7 @@
     OPT[30]="gallery-lang-zh_TW.utf8:::to provide zh_TW.utf8 language pack"
    ESTIMATE="5"
      ASSUME="off"
-       DESC="gallery-lang offers language packs other than English for gallery
-gallery-lang offers installation of language packs to gallery in 
-addition to the default language which is English.
-"
+       DESC="gallery-lang offers language packs other than English for gallery"
 
 pack_build()  {
   if [ -f /etc/httpd/httpd.conf ]; then 

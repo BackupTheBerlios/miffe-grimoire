@@ -3,6 +3,4 @@ inherit  perl--modules
     SOURCE="S/SB/SBURKE/HTML-Tagset-$VERSION"
   HOMEPAGE="$HOMEPAGE/search?dist=HTML-Tagset"
   ESTIMATE="10"
-      DESC="$SPELL provides data tables useful in parsing HTML
-$SPELL provides data tables useful in parsing HTML.
-"
+      DESC="$SPELL provides data tables useful in parsing HTML"

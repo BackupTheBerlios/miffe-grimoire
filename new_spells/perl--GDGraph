@@ -6,6 +6,4 @@ inherit  perl--modules
        REQ="perl gd"
   ESTIMATE="37"
   EPROVIDE="GDGraph"
-      DESC="$SPELL is a graph plotting module for perl.
-$SPELL is a graph plotting module for Perl 5 making use of GD.
-"
+      DESC="$SPELL is a graph plotting module for perl making use of GD."

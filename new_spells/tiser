@@ -2,9 +2,7 @@
    SOURCE="pub/unix/$SPELL"
       URL="http://www.ticalc.org"
  HOMEPAGE="http://lpg.ticalc.org/prj_tilp"
-     DESC="tiser is a Ti linking library for serial ports
-tiser is a Ti linking library for serial ports
-"
+     DESC="tiser is a Ti linking library for serial ports"
 
 function build() {
   make	  clean    &&

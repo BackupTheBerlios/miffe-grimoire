@@ -29,9 +29,7 @@
    OPT[22]="perl--XML-Parser:::for parsing XML documents"
   ESTIMATE="5"
     ASSUME="off"
-      DESC="$SPELL provides perl modules
-$SPELL provides perl modules
-"
+      DESC="$SPELL provides perl modules"
 
 perl_module_build()  {
   perl  Makefile.PL $1      &&

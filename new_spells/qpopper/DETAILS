@@ -13,7 +13,6 @@
    PROVIDE="pop3 pop3s"
   ESTIMATE="94"
       DESC="qpopper is the most widely-used POP3 server for UNIX, Linux, etc.
-qpopper is the most widely-used POP3 server for UNIX, Linux, etc.
 
 qpopper's goals are: security, stability, safety, features, and 
 performance.

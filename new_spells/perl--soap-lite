@@ -10,7 +10,5 @@ inherit  perl--modules
     OPT[4]="perl--uri:::for Uniform Resource Identifiers"
   ESTIMATE="97"
       DESC="$SPELL is a collection of Perl modules providing interface to the SOAP
-$SPELL is a collection of Perl modules which
-provides a simple and lightweight interface to the Simple
-Object Access Protocol (SOAP) both on client and server side.
+(Simple Object Access Protocol) both on client and server side.
 "

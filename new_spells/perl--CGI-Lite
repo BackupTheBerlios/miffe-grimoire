@@ -7,7 +7,6 @@ inherit  perl--modules
   EPROVIDE="CGI-Lite"
       DESC="$SPELL is a perl module to process and decode WWW forms and cookie
 s.
-$SPELL is a perl module to process and decode WWW forms and cookies.
 
 You can use this module to decode form and query information,
 including file uploads, as well as cookies in a very simple manner; 

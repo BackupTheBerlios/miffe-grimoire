@@ -2,8 +2,7 @@
      URL="http://people.debian.org/~dz/i8k"
   SOURCE="$SPELL-$VERSION"
 HOMEPAGE="http://people.debian.org/~dz/i8k/"
-    DESC="i8kutils is utilities for Dell Laptops
-i8kutils  provides utilities for Dell Laptops.
+    DESC="i8kutils  provides utilities for Dell Laptops.
 This package contains a kernel driver and user-space
 programs for accessing the SMM BIOS of Dell Inspiron 
 and Latitude laptops. The SMM BIOS is used on many

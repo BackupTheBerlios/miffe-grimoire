@@ -5,8 +5,7 @@ CATEGORY="dockapps"
 HOMEPAGE="http://dockapps.org/file.php/id/172/"
      REQ="gtk+,v1.2 xmms"
     DESC="WMxmms is a dockapp that controls xmms
-WMxmms is a xmms dockapp.
-binary will be /usr/bin/WMxmms not /usr/bin/wmxmms
+Binary will be /usr/bin/WMxmms not /usr/bin/wmxmms
 
 Usage:
 right-click       Hides/Shows xmms

@@ -8,9 +8,13 @@
 SOURCEFORGE="gfilerunner"
   FRESHMEAT="GFileRunner"
        DESC="GFileRunner is GNOME-based file manager
-GFileRunner is GNOME-based file manager aimed to be a nicer, faster, and more powerful replacement for the current popular file manager, Nautilus.
+aimed to be a nicer, faster, and more powerful replacement
+for the current popular file manager, Nautilus.
 
-Currently it does much of the things that Nautilus does, but faster. Some things are slower. Some things don't work. And some things aren't done.
+Currently it does much of the things that Nautilus does, 
+but faster. Some things are slower. Some things don't work. 
+And some things aren't done.
 
-It's not much yet, but it should be about half usable and definitely give people with lesser machines hope.
+It's not much yet, but it should be about half usable and 
+definitely give people with lesser machines hope.
 "

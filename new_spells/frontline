@@ -7,6 +7,7 @@
      OPT[1]="sodipodi:::for sodipodi plug-in"
 SOURCEFORGE="autotrace"
        DESC="frontline is a frontend for autotrace
+
 Frontline provides a gtk+/gnome based GUI frontend for
 autotrace (http://autotrace.sourceforge.net) in 4 ways.
 "

@@ -5,9 +5,7 @@
       URL="$SOURCEFORGE_URL"
  FRESHMEAT="nethack"
     OPT[0]="x11:ENABLE_X11::For X11 graphics"
-      DESC="nethack is a dungeon crawler game
-nethack is a dungeon crawler game, like the ancient rouge.
-"
+      DESC="nethack is a dungeon crawler game, like the ancient rouge."
 
 function build() {
 	cd  sys/unix    &&

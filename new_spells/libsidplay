@@ -4,6 +4,4 @@ CATEGORY="audio library"
   SOURCE="$SPELL-$VERSION"
 HOMEPAGE="http://www.geocities.com/SiliconValley/Lakes/5147/sidplay/linux.html"
      REQ=""
-    DESC="libsidplay is a library for playing C64 .sid files
-$SPELL is a library for playing C64 .sid music files.
-"
+    DESC="libsidplay is a library for playing C64 .sid files"

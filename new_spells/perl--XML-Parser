@@ -5,6 +5,4 @@ inherit  perl--modules
        REQ="expat perl"
   ESTIMATE="54"
   EPROVIDE="XML-Parser"
-      DESC="$SPELL provides perl module for parsing XML documents
-$SPELL provides perl module for parsing XML documents.
-"
+      DESC="$SPELL provides perl module for parsing XML documents"

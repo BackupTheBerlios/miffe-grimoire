@@ -4,6 +4,5 @@ inherit  perl--modules
   HOMEPAGE="$HOMEPAGE/search?dist=MIME-Base64"
   ESTIMATE="29"
       DESC="$SPELL provides perl module MIME Base64
-$SPELL provides perl module MIME Base64
 for encoding and decoding of base64 strings.
 "

@@ -4,6 +4,4 @@ CATEGORY="dockapps"
   SOURCE="projets/programmes/$SPELL-$VERSION"
 HOMEPAGE="http://tnemeth.free.fr/projets/dockapps.html"
      REQ="x11"
-    DESC="wmapmload monitors your apm battery status.
-wmapmload monitors your apm battery status.
-"
+    DESC="wmapmload monitors your apm battery status."

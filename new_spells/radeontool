@@ -7,6 +7,7 @@
            REQ="pciutils"
       ESTIMATE=""
           DESC="radeontool turns on/off features on ATI Radeon Mobility cards
+
 radeontool switches on/off the backlight and external video output
 on computers equiped with an ATI Radeon Mibility graphics card.
 "

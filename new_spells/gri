@@ -8,8 +8,8 @@
 	OPT="xemacs:::for writing gri command files"
    ESTIMATE="353"
   FRESHMEAT="gri"
-       DESC="gri is an extensible plotting language for science
-gri is a language for scientific graphics programming. 
+       DESC="gri is an extensible plotting language for scientific graphics programming.
+
 The word \"language\" is important: Gri is command-driven, 
 not point/click.
 

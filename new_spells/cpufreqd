@@ -8,6 +8,7 @@
   FRESHMEAT="cpufreqd"
 SOURCEFORGE="cpufreqd"
        DESC="cpufreqd adjusts the CPU frequency governor according to rules
+
 cpufreqd is a small daemon to adjust cpu speed and 
 voltage for kernels using any of the cpufreq drivers 
 available. The CpuFreq patch has been included in 

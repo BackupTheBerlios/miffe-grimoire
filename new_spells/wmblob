@@ -5,7 +5,6 @@ CATEGORY="dockapps"
 HOMEPAGE="http://www.dockapps.org/file.php/id/155/"
      REQ="x11"
     DESC="wmblob shows some blobs moving around.
-wmblob shows some blobs moving around.
 It does nothing useful, it's just a toy.
 "
 

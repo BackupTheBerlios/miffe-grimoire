@@ -2,9 +2,7 @@
    SOURCE="pub/unix/$SPELL"
       URL="http://www.ticalc.org"
  HOMEPAGE="http://lpg.ticalc.org/prj_tilp"
-     DESC="tipar is a Ti linking library for parallel-ports
-tipar is a Ti linking library for parallel-ports
-"
+     DESC="tipar is a Ti linking library for parallel-ports"
 
 function build() {
   make	  clean    &&

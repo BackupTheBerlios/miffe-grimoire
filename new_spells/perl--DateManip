@@ -6,7 +6,6 @@ inherit  perl--modules
   ESTIMATE="10"
   EPROVIDE="DateManip"
       DESC="$SPELL is a perl module for easily parsing and manipulating dates
-$SPELL
 
 Date::Manip:
 

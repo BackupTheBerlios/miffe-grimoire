@@ -7,7 +7,6 @@ inherit  perl--modules
   ESTIMATE="28"
   EPROVIDE="Spreadsheet-WriteExcel"
       DESC="$SPELL allows Perl to write excel binary files
-$SPELL allows Perl to write excel binary files.
 Spreadsheet::WriteExcel is a cross platform 
 Perl module that can be used to write numbers 
 and text in the native Excel binary file format. 

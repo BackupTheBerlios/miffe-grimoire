@@ -4,8 +4,8 @@
       URL="$SOURCEFORGE_URL"
       REQ="libtifiles"
  HOMEPAGE="http://lpg.ticalc.org/prj_tilp"
-     DESC="lib required for tilp
-libticalcs provides libraries required for tilp
+     DESC="libticalcs provides libraries required for tilp
+
 TiLP is a linking program for Texas Instruments' graphing calculators.
 TiLP works on several platforms (UNIX, Windows, Macintosh).
 It can handle any TI calculator (from TI73 to V200) with any link

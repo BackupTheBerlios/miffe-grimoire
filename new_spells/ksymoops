@@ -7,7 +7,7 @@
   ESTIMATE="20"
  FRESHMEAT="ksymoops"
       DESC="ksymoops - kernel oops and error message decoder
-ksymoops is the kernel oops and error message decoder.
+
 The Linux kernel produces error messages that contain 
 machine specific numbers which are meaningless for 
 debugging. 'ksymoops' reads machine specific files and 

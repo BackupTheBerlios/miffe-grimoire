@@ -13,9 +13,8 @@
      OPT[5]="hdf::--without-hdf:for HDF data file format library"
    ESTIMATE="2082"
   FRESHMEAT="opendx"
-       DESC="opendx is an application for data visualization
-opendx is an application for data visualization. If you 
-need visualization for anything from examining simple data 
+       DESC="opendx is an application for data visualization.
+If you need visualization for anything from examining simple data 
 sets to analyzing complex, time-dependent data from 
 disparate sources, OpenDX has what you need: features 
 and functions that let you easily gain meaningful 

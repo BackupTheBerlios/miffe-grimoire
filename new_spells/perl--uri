@@ -4,6 +4,5 @@ inherit  perl--modules
   HOMEPAGE="$HOMEPAGE/search?dist=URI"
   ESTIMATE="67"
       DESC="$SPELL provides perl module URI
-$SPELL provides perl module URI - Uniform
-Resource Identifiers (absolute and relative).
+- Uniform Resource Identifiers (absolute and relative).
 "

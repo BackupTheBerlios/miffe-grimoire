@@ -4,6 +4,4 @@ inherit  perl--modules
   HOMEPAGE="$HOMEPAGE/search?dist=Crypt-SSLeay"
        REQ="openssl perl"
   ESTIMATE="43"
-      DESC="$SPELL is an OpenSSL glue that provides LWP https support
-$SPELL is an OpenSSL glue that provides LWP https support.
-"
+      DESC="$SPELL is an OpenSSL glue that provides LWP https support"

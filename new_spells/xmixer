@@ -5,6 +5,4 @@ CATEGORY="audio"
 HOMEPAGE="http://mpx.freeshell.org/"
      REQ="x11"
      OPT="gtk+,v1.2:::For gtk+ support"
-    DESC="xmixer is a mixer program for Linux
-xmixer is a mixer program for Linux
-"
+    DESC="xmixer is a mixer program for Linux"

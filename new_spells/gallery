@@ -11,6 +11,7 @@
    ESTIMATE="5"
 SOURCEFORGE="gallery"
        DESC="gallery is web-based photo gallery with authenticated users
+
 Gallery is a web based software product that lets you 
 manage your photos on your own website. You must have 
 your own website with PHP support in order to install 

@@ -4,6 +4,4 @@ inherit  perl--modules
     SOURCE="V/VI/VIPUL/Net-XWhois-$VERSION"
   ESTIMATE="10"
   EPROVIDE="XWhois"
-      DESC="$SPELL provides Whois client interface for Perl5.
-$SPELL provides Whois client interface for Perl5.
-"
+      DESC="$SPELL provides Whois client interface for Perl5."

@@ -7,7 +7,6 @@
            REQ=""
       ESTIMATE="8"
           DESC="sonypid is a simple daemon handling events on Sony VAIO laptops
-sonypid daemon enables the jog dial on a Sony VAIO as a mouse wheel.
 
 You need a kernel with the sonypi module (and a Vaio laptop..) 
 to use this program.

@@ -7,9 +7,7 @@
         REQ="SDL"
   FRESHMEAT="fceultra"
 SOURCEFORGE="fceultra"
-       DESC="FCE Ultra is a portable NES/Famicom emulator
-FCE Ultra is a portable NES/Famicom emulator.
-"
+       DESC="FCE Ultra is a portable NES/Famicom emulator"
 
 function build() {
 	sed -i Makefile.unixsdl -e s/"-mcpu=i686 -O2"/"$CFLAGS"/ &&

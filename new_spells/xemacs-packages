@@ -32,6 +32,4 @@ inherit xemacs
            "
   ESTIMATE="5"
     ASSUME="off"
-      DESC="xemacs-packages provides all available spell-packages for xemacs
-xemacs-packages provides all available spell-packages for xemacs
-"
+      DESC="xemacs-packages provides all available spell-packages for xemacs"

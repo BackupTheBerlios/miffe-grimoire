@@ -4,6 +4,7 @@
 HOMEPAGE="http://www.ex-parrot.com/~chris/driftnet/"
      REQ="gtk+,v1.2 libpcap jpeg libungif"
     DESC="driftnet sniffs network traffic and picks out images from TCP streams
+
 Driftnet is inspired by EtherPEG (though, not owning an Apple Macintosh,
 I've never actually seen it in operation), Driftnet is a program which
 listens to network traffic and picks out images from TCP streams it observes.

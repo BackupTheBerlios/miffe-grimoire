@@ -4,6 +4,4 @@ CATEGORY="dockapps"
   SOURCE="$SPELL-$VERSION"
 HOMEPAGE="http://www.sh.rim.or.jp/~ssato/dockapp/index.shtml"
      REQ="x11"
-    DESC="wmmemmon is a dockapp that monitors memory/swap usages
-wmmemmon is a dockapp that monitors memory/swap usages
-"
+    DESC="wmmemmon is a dockapp that monitors memory/swap usages"

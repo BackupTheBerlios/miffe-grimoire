@@ -5,6 +5,4 @@
    HOMEPAGE="http://www.lrn.ru/~bga/gtknw2/"
         REQ="gtk+ ncpfs"
 SOURCEFORGE="gtknw2"
-       DESC="gtknw2 is a GTK client for ncpfs
-gtknw2 is a grapichal cligent for ncftp.
-"
+       DESC="gtknw2 is a GTK client for ncpfs"

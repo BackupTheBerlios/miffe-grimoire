@@ -7,8 +7,7 @@
            REQ="x11"
       ESTIMATE="8"
           DESC="wmifinfo is a WM applet showing network info
-wmifinfo is a Window Maker applet showing basic 
-IP network info for all available interfaces. 
+for all available interfaces. 
 It shows the IP address, netmask, gateway, and 
 MAC address. If used on a wireless (802.11) 
 network card, it also shows a signal strength indicator.

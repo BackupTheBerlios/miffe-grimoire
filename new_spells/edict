@@ -7,8 +7,7 @@
        REQ="perl"
   ESTIMATE="5"
  FRESHMEAT="edictionary"
-      DESC="edict is a English command line dictionary and thesaurus
-edict is a English command line dictionary and thesaurus
+      DESC="edict is an English command line dictionary and thesaurus.
 Edict can be used to view the meaning of English words. 
 It can also provide related details like etymology, 
 function, pronunciation etc. Adding support for other 

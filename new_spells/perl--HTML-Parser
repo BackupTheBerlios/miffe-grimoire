@@ -4,6 +4,4 @@ inherit  perl--modules
   HOMEPAGE="$HOMEPAGE/search?dist=HTML-Parser"
        REQ="perl perl--HTML-Tagset"
   ESTIMATE="40"
-      DESC="$SPELL provides modules that parse and extract information from HTML documents
-$SPELL provides modules that parse and extract information from HTML documents.
-"
+      DESC="$SPELL provides modules that parse and extract information from HTML documents"
