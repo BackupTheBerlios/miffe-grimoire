@@ -1,8 +1,12 @@
-       VERSION=( "1.151" )
+       VERSION=( "1.161" "1.151" )
       CATEGORY="digital-camera graphic"
      ATTRIBUTE="console utility  new"
-        SOURCE="sources/dcraw"
-           URL="http://sorcerer.highsphere.net"
+#        SOURCE="sources/dcraw"
+#           URL="http://sorcerer.highsphere.net"
+     SOURCE[0]="~dcoffin/dcraw/dcraw.c"
+     SOURCE[1]="~dcoffin/dcraw/dcraw.1"
+	URL[0]="http://www.cybercom.net"
+	URL[1]="http://www.cybercom.net"
       HOMEPAGE="http://www.cybercom.net/~dcoffin/dcraw"
 	   REQ=""
       ESTIMATE="7"

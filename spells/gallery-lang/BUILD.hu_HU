@@ -1,4 +1,3 @@
-(
   if [ -f /etc/httpd/httpd.conf ]; then 
         DOCROOT=`grep ^[:space:]*DocumentRoot /etc/httpd/httpd.conf | \
                 cut -d " " -f 2 -s | sed "s:\"::g"`
@@ -12,4 +11,3 @@
   chown -R root.root *		&&
   cd -
 
-) > $C_FIFO 2>&1

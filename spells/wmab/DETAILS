@@ -5,11 +5,7 @@
            URL="http://web.tiscali.it/kalem/wmab"
       HOMEPAGE="http://web.tiscali.it/kalem/dockapps.html"
            REQ="x11"
-       #OPT[0]=":::"
-       #OPT[1]=":::"
-       #OPT[2]=":::"
-       #OPT[3]=":::"
-      ESTIMATE=""
+      ESTIMATE="9"
          SHORT="wmab allows to graphically monitor battery status"
 cat << EOF
 WMab is a WindowMaker dockable application that allows ACPI laptop users 

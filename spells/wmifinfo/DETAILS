@@ -5,11 +5,7 @@
            URL="http://www.zevv.nl/wmifinfo"
       HOMEPAGE="http://www.zevv.nl/wmifinfo"
            REQ="x11"
-       #OPT[0]=":::"
-       #OPT[1]=":::"
-       #OPT[2]=":::"
-       #OPT[3]=":::"
-      ESTIMATE=""
+      ESTIMATE="8"
          SHORT="wmifinfo is a WM applet showing network info"
 cat << EOF
 wmifinfo is a Window Maker applet showing basic 
