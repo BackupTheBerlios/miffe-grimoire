@@ -15,13 +15,13 @@ manipulation of multidimensional data in a discipline-
 independent fashion. Although CDF has its own internal 
 self describing format, it consists of more than just a 
 data format. CDF is a scientific data management package 
-(known as the "CDF Library") which allows programmers
+(known as the \"CDF Library\") which allows programmers
  and application developers to manage and manipulate scalar, 
 vector, and multi-dimensional data arrays. The irony of 
-the term "FORMAT" is that the actual data format which 
+the term \"FORMAT\" is that the actual data format which 
 CDF utilizes is completely transparent to the user and 
 accessible through a consistent set of interface (known 
-as the "CDF Interface") routines. Therefore, programmers 
+as the \"CDF Interface\") routines. Therefore, programmers 
 are not burdened with performing low level I/Os to 
 physically format and unformat the data file. 
 "

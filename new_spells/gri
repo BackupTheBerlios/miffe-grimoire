@@ -11,7 +11,7 @@
       SHORT="gri is an extensible plotting language for science"
 LONG="
 gri is a language for scientific graphics programming. 
-The word "language" is important: Gri is command-driven, 
+The word \"language\" is important: Gri is command-driven, 
 not point/click.
 
 Some users consider Gri similar to LaTeX, since both 

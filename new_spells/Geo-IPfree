@@ -11,6 +11,7 @@ LONG="
 Geo-IPfree - Perl module to look up country of IP Address. 
 This module make this off-line and the DB of IPs is 
 free and small.
+"
 
 function build() {
 	perl  Makefile.PL         &&
