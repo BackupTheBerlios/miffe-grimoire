@@ -1,4 +1,4 @@
-    VERSION=( "1.4-pl1" "1.4" )
+    VERSION=( "1.4-pl2" "1.4-pl1" "1.4" )
    CATEGORY="web graphic"
   ATTRIBUTE="utility"
      SOURCE="gallery/gallery-$VERSION"
