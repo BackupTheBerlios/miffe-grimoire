@@ -1,0 +1,48 @@
+   VERSION=( "4.0.5" )
+  CATEGORY="email"
+ ATTRIBUTE="server new"
+    SOURCE="qpopper$VERSION"
+       URL="ftp://ftp.qualcomm.com/eudora/servers/unix/popper"
+  HOMEPAGE="http://www.eudora.com/qpopper"
+       REQ=""
+    OPT[0]="xinetd:--disable-standalone:--enable-standalone:for running server"
+    OPT[1]="drac:--with-drac=/usr::for DRAC support"
+    OPT[2]="gdbm:--enable-apop=/etc/pop.auth --enable-popuid=pop::to use APOP"
+    OPT[3]="openssl:--with-openssl=/usr/bin::for SSL/TLS support"
+    OPT[4]="Linux-PAM:--with-pam=pop3::to use PAM for authentication"
+   PROVIDE="pop3 pop3s"
+  ESTIMATE="94"
+     SHORT="qpopper is the most widely-used POP3 server for UNIX, Linux, etc."
+LONG="
+qpopper is the most widely-used POP3 server for UNIX, Linux, etc.
+
+qpopper's goals are: security, stability, safety, features, and 
+performance.
+
+The 3 and later code base has multiple levels of protection 
+against common security vulnerabilities, so even if there 
+is a bug at one level, the other levels can protect against 
+an exploit.  Stability means running without crashing or
+other problems.  All bug reports are reviewed and taken 
+seriously.  Safety means protecting the user's mail.  
+Qpopper takes extra precautions to guard against spool 
+corruption, even if there is a system crash or power 
+failure during an update.  Qpopper provides a large 
+number of features, such as bulletins, support for 
+wireless devices, APOP, integration with packages such 
+as Kerberos, drac, etc.  Qpopper strives for the maximum 
+possible performance consistent with safety.  You can 
+also tell Qpopper when it is running in an environment 
+where some precautions are not required, resulting 
+in extra performance (for example, if users do not 
+access mail using shell accounts).
+
+This server is fully compliant with RFC 1939 (which 
+defines the POP protocol) and RFC 2449 (which defines 
+the POP extension mechanism and the extended response 
+codes), and works with all known POP3 clients.
+
+Qpopper also supports Kerberos V4 and V5 if enabled.  
+You can obtain a Kerberos engine for your system from 
+the MIT Kerberos Distribution Page.
+"
