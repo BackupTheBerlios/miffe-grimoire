@@ -1,4 +1,4 @@
-   VERSION=( "1.64" )
+   VERSION=( "1.65" "1.64" )
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"
     SOURCE="xemacs/packages/pcl-cvs-$VERSION-pkg"

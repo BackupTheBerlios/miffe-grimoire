@@ -1,4 +1,4 @@
-   VERSION=( "1.02" )
+   VERSION=( "1.03" "1.02" )
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"
     SOURCE="xemacs/packages/python-modes-$VERSION-pkg"

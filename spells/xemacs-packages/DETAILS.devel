@@ -1,4 +1,4 @@
-   VERSION=( "1.58" "1.50" )
+   VERSION=( "1.60" "1.58" "1.50" )
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"
     SOURCE="xemacs/packages/xemacs-devel-$VERSION-pkg"

@@ -1,4 +1,4 @@
-   VERSION=( "1.19" "1.18" )
+   VERSION=( "1.20" "1.19" "1.18" )
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"
     SOURCE="xemacs/packages/edebug-$VERSION-pkg"

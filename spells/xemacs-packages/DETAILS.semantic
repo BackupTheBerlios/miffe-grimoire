@@ -1,4 +1,4 @@
-   VERSION=( "1.17" )
+   VERSION=( "1.18" "1.17" )
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"
     SOURCE="xemacs/packages/semantic-$VERSION-pkg"

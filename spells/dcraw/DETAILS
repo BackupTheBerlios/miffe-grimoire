@@ -5,6 +5,7 @@
            URL="http://sorcerer.highsphere.net"
       HOMEPAGE="http://www.cybercom.net/~dcoffin/dcraw"
 	   REQ=""
+      ESTIMATE="7"
      FRESHMEAT="dcraw"
          SHORT="dcraw decodes raw images from digital cameras"
 cat << EOF

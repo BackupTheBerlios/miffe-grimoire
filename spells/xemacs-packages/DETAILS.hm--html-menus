@@ -1,4 +1,4 @@
-   VERSION=( "1.21" "1.18" )
+   VERSION=( "1.23" "1.21" "1.18" )
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"
     SOURCE="xemacs/packages/hm--html-menus-$VERSION-pkg"

@@ -1,4 +1,4 @@
-   VERSION=( "1.40" "1.33" "1.32" )
+   VERSION=( "1.41" "1.40" "1.33" "1.32" )
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"
     SOURCE="xemacs/packages/cc-mode-$VERSION-pkg"

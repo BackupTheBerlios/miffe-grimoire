@@ -5,6 +5,7 @@
            URL="http://neuemuenze.heim1.tu-clausthal.de"
       HOMEPAGE="http://neuemuenze.heim1.tu-clausthal.de/~sven/crwinfo"
 	   REQ=""
+      ESTIMATE="6"
      FRESHMEAT="crwinfo"
          SHORT="crwinfo extracts information from Canon RAW files"
 cat << EOF

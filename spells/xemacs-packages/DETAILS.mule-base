@@ -1,4 +1,4 @@
-   VERSION=( "1.43" "1.42" )
+   VERSION=( "1.44" "1.43" "1.42" )
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"
     SOURCE="xemacs/packages/mule-base-$VERSION-pkg"
