@@ -1,5 +1,5 @@
 inherit  perl--modules
-   VERSION=( "3.36" )
+   VERSION=( "3.40" "3.36" )
     SOURCE="G/GA/GAAS/HTML-Parser-$VERSION"
   HOMEPAGE="$HOMEPAGE/search?dist=HTML-Parser"
        REQ="perl perl--HTML-Tagset"
