@@ -3,34 +3,34 @@ inherit xemacs
   CATEGORY="profile"
  ATTRIBUTE="profile"
      SHORT="xemacs-packages provides all available spell-packages for xemacs"
-       REQ="	xemacs-package-auctex		xemacs-package-base
-		xemacs-package-c-support	xemacs-package-calc
-		xemacs-package-cc-mode		xemacs-package-clearcase
-		xemacs-package-debug		xemacs-package-devel
-		xemacs-package-dictionary	xemacs-package-dired
-		xemacs-package-ecb		xemacs-package-edebug
-		xemacs-package-edit-utils	xemacs-package-efs
-		xemacs-package-eieio		xemacs-package-elib
-		xemacs-package-emerge		xemacs-package-eshell
-		xemacs-package-eterm		xemacs-package-fortran-modes
-		xemacs-package-frame-icon	xemacs-package-fsf-compat
-		xemacs-package-hm--html-menus	xemacs-package-ibuffer
-		xemacs-package-idlwave		xemacs-package-ispell
-		xemacs-package-jde		xemacs-package-locale
-		xemacs-package-lookup		xemacs-package-mail-lib
-		xemacs-package-mule-base	xemacs-package-mule-ucs
-		xemacs-package-net-utils	xemacs-package-os-utils
-		xemacs-package-pc		xemacs-package-pcl-cvs
-		xemacs-package-pcomplete	xemacs-package-perl-modes
-		xemacs-package-prog-modes	xemacs-package-ps-print
-		xemacs-package-psgml		xemacs-package-python-modes
-		xemacs-package-reftex		xemacs-package-semantic
-		xemacs-package-sgml		xemacs-package-sh-script
-		xemacs-package-slider		xemacs-package-texinfo
-		xemacs-package-text-modes	xemacs-package-textools
-		xemacs-package-time		xemacs-package-vc
-		xemacs-package-vc-cc
-	   "
+       REQ="    xemacs-package-auctex           xemacs-package-base
+                xemacs-package-c-support        xemacs-package-calc
+                xemacs-package-cc-mode          xemacs-package-clearcase
+                xemacs-package-debug            xemacs-package-devel
+                xemacs-package-dictionary       xemacs-package-dired
+                xemacs-package-ecb              xemacs-package-edebug
+                xemacs-package-edit-utils       xemacs-package-efs
+                xemacs-package-eieio            xemacs-package-elib
+                xemacs-package-emerge           xemacs-package-eshell
+                xemacs-package-eterm            xemacs-package-fortran-modes
+                xemacs-package-frame-icon       xemacs-package-fsf-compat
+                xemacs-package-hm--html-menus   xemacs-package-ibuffer
+                xemacs-package-idlwave          xemacs-package-ispell
+                xemacs-package-jde              xemacs-package-locale
+                xemacs-package-lookup           xemacs-package-mail-lib
+                xemacs-package-mule-base        xemacs-package-mule-ucs
+                xemacs-package-net-utils        xemacs-package-os-utils
+                xemacs-package-pc               xemacs-package-pcl-cvs
+                xemacs-package-pcomplete        xemacs-package-perl-modes
+                xemacs-package-prog-modes       xemacs-package-ps-print
+                xemacs-package-psgml            xemacs-package-python-modes
+                xemacs-package-reftex           xemacs-package-semantic
+                xemacs-package-sgml             xemacs-package-sh-script
+                xemacs-package-slider           xemacs-package-texinfo
+                xemacs-package-text-modes       xemacs-package-textools
+                xemacs-package-time             xemacs-package-vc
+                xemacs-package-vc-cc
+           "
   ESTIMATE="5"
     ASSUME="off"
       LONG="$SHORT"
