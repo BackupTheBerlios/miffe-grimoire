@@ -1,0 +1,14 @@
+if      [  -x  /usr/bin/mail  ]
+then    MAILER=/usr/bin/mail
+elif    [  -x  /usr/bin/mailx  ]
+then    MAILER=/usr/bin/mailx
+else    false
+fi                      &&
+[  -n  "$SORCERER"  ]   &&
+(
+  echo  "New Gallery installed."
+  echo  "IMPORTANT: Run the configuration wizard by typing"
+  echo  "               http://www.example.com/gallery/setup/index.php"
+  echo  "in your browser window to finish the update."
+)  |  $MAILER  -s  "Gallery reminder from sorcery."  $SORCERER
+

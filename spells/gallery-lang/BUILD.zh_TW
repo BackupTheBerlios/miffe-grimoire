@@ -9,5 +9,6 @@
   cd $DOCROOT/gallery/locale	&&
   unpack $SOURCE		&&
   chown -R root.root *		&&
+  chmod -R a+rX *          &&
   cd -
 

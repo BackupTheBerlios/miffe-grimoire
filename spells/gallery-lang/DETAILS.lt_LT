@@ -1,7 +1,7 @@
-   VERSION=( "1.4.1" )
+   VERSION=( "1.4.3-RC2" "1.4.2" "1.4.1" )
   CATEGORY="web graphic"
  ATTRIBUTE="concurrent gallery-lang new"
-    SOURCE="gallery/lt_LT-pack-$VERSION"
+    SOURCE="gallery/lt_LT-$VERSION"
        URL="$SOURCEFORGE_URL"
   HOMEPAGE="http://gallery.menalto.com"
        REQ="gallery"

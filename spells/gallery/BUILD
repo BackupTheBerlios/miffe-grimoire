@@ -29,8 +29,3 @@
 	chmod	0777  albums
   fi
   cd $OLD_DIR
-
-  echo	"IMPORTANT: Run the configuration wizard by typing"
-  echo	"		http://www.example.com/gallery/setup/index.php"
-  echo	"in your browser window."
-
