@@ -1,0 +1,24 @@
+inherit  perl--modules
+   VERSION=( "2.1.0" )
+    IGNORE="^1\.19\.1"
+# SDL_perl 1.19.1 is not compatibile with frozen-bubble 0.9.3
+  CATEGORY="$CATEGORY graphic"
+ ATTRIBUTE="perl-module library x11"
+  HOMEPAGE="$HOMEPAGE/search?dist=SDL_Perl"
+    SOURCE="D/DG/DGOEHRIG/SDL_Perl-$VERSION"
+       REQ="perl SDL SDL_mixer SDL_image"
+    OPT[0]="glut::-GL -GLU: for OpenGL support"
+    OPT[1]="libpng::-png:for png support"
+    OPT[2]="SDL_net::-SDL_net:for networking support"
+    OPT[3]="SDL_image::-SDL_image:for loading images"
+    OPT[4]="SDL_gfx::-SDL_gfx:for high quality graphics library"
+    OPT[5]="jpeg::-jpeg:for jpeg support"
+    OPT[6]="smpeg::-smpeg:to play mpeg movies and mp3 audio"
+    OPT[7]="SDL_mixer::-SDL_mixer:for sound support"
+    OPT[8]="SDL_ttf:::for freetype 2 font support"
+  ESTIMATE="109"
+  EPROVIDE="SDL_perl"
+     SHORT="$SPELL is the glue that binds perl to SDL"
+       LONG="
+$SPELL is a perl module that will allow Perl code to use SDL.
+"

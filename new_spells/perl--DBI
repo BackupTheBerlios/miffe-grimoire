@@ -1,0 +1,16 @@
+inherit  perl--modules
+   VERSION=( "1.43" )
+    IGNORE="^1\.201\|AdvancedTalk"
+  HOMEPAGE="$HOMEPAGE/search?dist=DBI"
+    SOURCE="T/TI/TIMB/DBI-$VERSION"
+  ESTIMATE="130"
+  EPROVIDE="DBI"
+     SHORT="$SPELL - The Perl Database Interface by Tim Bunce"
+       LONG="
+$SPELL - The Perl Database Interface by Tim Bunce.
+
+The DBI is a database interface module for Perl. 
+It defines a set of methods, variables and conventions that provide 
+a consistent database interface independent of the actual database 
+being used. 
+"

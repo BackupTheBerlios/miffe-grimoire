@@ -1,0 +1,12 @@
+inherit  perl--modules
+   VERSION=( "1.94" )
+  CATEGORY="$CATEGORY editor"
+  HOMEPAGE="$HOMEPAGE/search?dist=Parse-RecDescent"
+    SOURCE="D/DC/DCONWAY/Parse-RecDescent-$VERSION"
+  ESTIMATE="10"
+  EPROVIDE="Parse-RecDescent"
+     SHORT="$SPELL generates text parsers"
+       LONG="
+$SPELL incrementally generates top-down recursive-descent 
+text parsers from simple yacc-like grammar specifications.
+"

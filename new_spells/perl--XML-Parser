@@ -1,0 +1,9 @@
+inherit  perl--modules
+   VERSION=( "2.34" )
+    SOURCE="M/MS/MSERGEANT/XML-Parser-$VERSION"
+  HOMEPAGE="$HOMEPAGE/search?dist=XML::Parser"
+       REQ="expat perl"
+  ESTIMATE="54"
+  EPROVIDE="XML-Parser"
+     SHORT="$SPELL provides perl module for parsing XML documents"
+      LONG="$SHORT"

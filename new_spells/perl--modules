@@ -1,0 +1,67 @@
+   VERSION=( "1.0" )
+  CATEGORY="profile perl"
+ ATTRIBUTE="profile perl-module"
+  HOMEPAGE="http://search.cpan.org"
+       URL="http://www.cpan.org/authors/id"
+       REQ="perl"
+    OPT[0]="perl--CGI-Lite:::to process and decode WWW forms and cookies"
+    OPT[1]="perl--crypt-ssleay:::for LWP https support"
+    OPT[2]="perl--DateManip:::for easily parsing and manipulating dates"
+    OPT[3]="perl--DBI:::for Perl database interface by Tim Bunce"
+    OPT[4]="perl--GDGraph:::for a graph plotting module"
+    OPT[5]="perl--Geo-IPfree:::for look up of country IP addresses"
+    OPT[6]="perl--HTML-Parser:::for parsing and extracting information from HTML documents."
+    OPT[7]="perl--HTML-Tagset:::for data tables useful in parsing HTML"
+    OPT[8]="perl--HTML-Template:::for using HTML templates from CGI scripts"
+    OPT[9]="perl--io-socket-ssl:::for interface to SSL sockets"
+   OPT[10]="perl--libwww:::for aplication programming interface to WWW"
+   OPT[11]="perl--Mail-Sendmail:::for a simple module to send mail"
+   OPT[12]="perl--mime-base64:::for encoding and decoding of base64 strings"
+   OPT[13]="perl--Net-SNMP:::for an object oriented interface to the SNMP"
+   OPT[14]="perl--Net_SSLeay:::to allow scripts to call OpenSSL functions"
+   OPT[15]="perl--Net-XWhois:::for Whois client interface"
+   OPT[16]="perl--Parse-RecDescent:::to generate text parsers"
+   OPT[17]="perl--SDL_Perl:::to allow Perl code to use SDL"
+   OPT[18]="perl--soap-lite:::for interface to the SOAP"
+   OPT[19]="perl--Spreadsheet-WriteExcel:::to allow writing excel binary files"
+   OPT[20]="perl--Tk:::for a perl Tk extension"
+   OPT[21]="perl--uri:::for Uniform Resource Identifiers"
+   OPT[22]="perl--XML-Parser:::for parsing XML documents"
+     SHORT="$SPELL provides perl modules"
+  ESTIMATE="5"
+    ASSUME="off"
+      LONG="$SHORT"
+
+perl_module_build()  {
+  perl  Makefile.PL $1      &&
+  make  "OPTIMIZE=$CFLAGS"  &&
+  prepare_install           &&
+  make  install
+}
+
+SDL_Perl_build()  {
+  ./configure  $OPTS  &&
+  make                &&
+  prepare_install     &&
+  make  install
+}
+
+build()  {
+  case  $SPELL  in
+     perl--modules)		echo "$SPELL installed." 	;;
+     perl--HTML-Parser)	yes   |  perl_module_build 	;;
+     perl--libwww)	true  |  perl_module_build -n	;;
+     perl--crypt-ssleay|						\
+     perl--soap-lite)	true  |  perl_module_build	;;
+     perl--SDL_Perl)		SDL_Perl_build		;;
+     *)				perl_module_build		;;
+  esac
+}      
+
+case  $SPELL  in
+  perl--modules)		:  ;;
+	     *)		unset OPT ASSUME
+			CATEGORY="perl"
+			ATTRIBUTE="perl-module"
+			;;
+esac

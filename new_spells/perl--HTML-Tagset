@@ -1,0 +1,7 @@
+inherit  perl--modules
+   VERSION=( "3.03" )
+    SOURCE="S/SB/SBURKE/HTML-Tagset-$VERSION"
+  HOMEPAGE="$HOMEPAGE/search?dist=HTML-Tagset"
+  ESTIMATE="10"
+     SHORT="$SPELL provides data tables useful in parsing HTML"
+      LONG="$SHORT"

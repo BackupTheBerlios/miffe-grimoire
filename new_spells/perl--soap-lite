@@ -1,0 +1,17 @@
+inherit  perl--modules
+   VERSION=( "0.60a" )
+    SOURCE="/B/BY/BYRNE/SOAP/SOAP-Lite-$VERSION"
+  HOMEPAGE="$HOMEPAGE/search?dist=URI"
+       REQ="perl perl--XML-Parser"
+    OPT[0]="perl--crypt-ssleay:::for LWP https support"
+    OPT[1]="perl--io-socket-ssl:::for interface to SSL sockets"
+    OPT[2]="perl--libwww:::for aplication programming interface to WWW"
+    OPT[3]="perl--mime-base64:::for encoding and decoding of base64 strings"
+    OPT[4]="perl--uri:::for Uniform Resource Identifiers"
+  ESTIMATE="97"
+     SHORT="$SPELL is a collection of Perl modules providing interface to the SOAP"
+      LONG="
+$SPELL is a collection of Perl modules which
+provides a simple and lightweight interface to the Simple
+Object Access Protocol (SOAP) both on client and server side.
+"

@@ -1,0 +1,12 @@
+inherit  perl--modules
+   VERSION=( "1.43" )
+  CATEGORY="$CATEGORY graphic"
+  HOMEPAGE="$HOMEPAGE/search?dist=GDGraph"
+    SOURCE="M/MV/MVERB/GDGraph-$VERSION"
+       REQ="perl gd"
+  ESTIMATE="37"
+  EPROVIDE="GDGraph"
+     SHORT="$SPELL is a graph plotting module for perl."
+       LONG="
+$SPELL is a graph plotting module for Perl 5 making use of GD.
+"
