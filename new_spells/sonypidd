@@ -1,0 +1,68 @@
+      VERSION=( "20031123" )
+      CATEGORY="utility"
+     ATTRIBUTE="console new"
+        SOURCE="%7Edeforest/sonypidd"
+           URL="http://www.boulder.swri.edu"
+      HOMEPAGE="http://www.boulder.swri.edu/%7Edeforest/sonypidd"
+           REQ="perl aumix sox spicctrl sonypid"
+	   DIR="sonypid-$VERSION"
+      ESTIMATE=""
+         SHORT="sonypidd moitors sonypi events on Sony VAIO laptops"
+LONG="
+sonypidd monitors sonypi events and do things, on machines that have
+the Sony programmable I/O device. Requires the sonypid daemon as 
+input, and the spicctrl, aumix, and sox programs for output.
+
+There is a table of actions to take for each sonypi function-key event.  
+Only a few of the events (notably brightness and loudness) are used.
+ 
+There is currently no support for anything other than function-key
+events -- but it should be obvious where to add that functionality.
+
+The external commands may need customization for your system.
+"
+
+function build() {
+  sed  -i  "s:/usr/local:/usr:"   sonypidd
+  sed  -i  's:^$click.*:$click = "/usr/bin/play /usr/share/sounds/KDE_Click.wav";:'	sonypidd
+  sed  -i  's:, undef.*# 12:, ["hibernate"]\t\t   # 12:'	sonypidd
+
+  prepare_install                               &&
+  cp	sonypidd	/usr/bin                &&
+  chown root.root	/usr/bin/sonypidd	&&
+  chmod 755		/usr/bin/sonypidd	&&
+  write_sonypid_to_initd                     &&
+  chmod 755		/etc/init.d/sonypid.sh	&&
+  ln -s	../init.d/sonypid.sh /etc/rcS.d/S99sonypid
+
+}
+
+function pre_build() {
+	FN="$(  guess_filename  ${SOURCE}  $SOURCE_CACHE/$BSPELL/$VERSION  )"
+
+	cp	${FN}	${BUILD_DIR}
+}
+
+function write_sonypid_to_initd() {
+cat << EOF > /etc/init.d/sonypid.sh
+#!/bin/sh
+# This script starts/stops deamon that watches for sonypi events
+# on Sony VAIO laptops
+#
+
+start() {
+	/usr/bin/sonypidd
+}
+
+stop() {
+	pkill sonypidd
+}
+
+case "\$1" in 
+	start)		start	;;
+	stop)		stop	;;
+	restart)	stop; start	;;
+	*)		echo "Usage: $0 start|stop|restart"
+esac
+EOF
+}

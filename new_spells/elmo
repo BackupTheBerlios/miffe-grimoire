@@ -1,0 +1,13 @@
+    VERSION=( "0.8.3" )
+   CATEGORY="mail"
+        URL="$SOURCEFORGE_URL"
+     SOURCE="$SPELL/$SPELL-$VERSION"
+   HOMEPAGE="http://elmo.sourceforge.net/"
+        REQ="ncurses"
+      SHORT="Elmo is a text-based mail client"
+SOURCEFORGE="elmo"
+  FRESHMEAT="elmo"
+LONG="
+Elmo is mail user agent for the console. It supports POP3 and SMTP.
+It uses Maildir for mail storage, and supports MIME types.
+"

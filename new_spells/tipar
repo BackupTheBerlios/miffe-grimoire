@@ -1,0 +1,23 @@
+  VERSION="1.18"
+   SOURCE="pub/unix/$SPELL"
+      URL="http://www.ticalc.org"
+ HOMEPAGE="http://lpg.ticalc.org/prj_tilp"
+    SHORT="tipar is a Ti linking library for parallel-ports"
+LONG="
+tipar is a Ti linking library for parallel-ports
+"
+
+function build() {
+  make	  clean    &&
+  make             &&
+  prepare_install  &&
+  make    install
+}
+
+function post_build() {
+	grep "char-major-61" /etc/modules.conf
+	if [ $? == "1" ];
+	then
+	  echo "alias char-major-61 tipar" >> /etc/modules.conf
+	fi
+}

@@ -1,0 +1,20 @@
+    VERSION=( "0.97.5" )
+     IGNORE="2003"
+   CATEGORY="emulator"
+        URL="http://xodnizel.net/fceultra/downloads"
+     SOURCE="fceu-$VERSION.src"
+   HOMEPAGE="http://xodnizel.net/fceultra/"
+        REQ="SDL"
+  FRESHMEAT="fceultra"
+SOURCEFORGE="fceultra"
+      SHORT="FCE Ultra is a portable NES/Famicom emulator"
+LONG="
+FCE Ultra is a portable NES/Famicom emulator.
+"
+
+function build() {
+	sed -i Makefile.unixsdl -e s/"-mcpu=i686 -O2"/"$CFLAGS"/ &&
+	make -f Makefile.unixsdl                            &&
+	prepare_install                                     &&
+	install -m 775 fceu /usr/bin
+}

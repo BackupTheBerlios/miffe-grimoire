@@ -1,0 +1,35 @@
+       VERSION=( "2.6.4" )
+        IGNORE="\-dev"
+      CATEGORY="terminal-emulator"
+     ATTRIBUTE="x11"
+        SOURCE="rxvt/rxvt-$VERSION"
+           URL="$SOURCEFORGE_URL"
+      HOMEPAGE="http://sourceforge.net/projects/rxvt"
+           REQ="x11"
+     FRESHMEAT="rxvt"
+   SOURCEFORGE="rxvt"
+         SHORT="rxvt is a color vt102 terminal emulator"
+LONG="
+rxvt is an 8-bit clean, color xterm replacement that uses significantly 
+less memory than a conventional xterm, mostly since it doesn't support 
+toolkit configurability or Tek graphics, but also since features can be 
+removed at compile-time to reflect your needs.
+"
+
+function build() {
+      ./configure --build=$BUILD                \
+                  --prefix=/usr                 \
+                  --sysconfdir=/etc             \
+                  --localstatedir=/var          \
+                  --enable-shared               \
+		  --enable-utmp			\
+		  --enable-wtmp			\
+		  --enable-transparency		\
+		  --enable-xim			\
+                  $OPTS                         &&
+      make                                      &&
+      make clock				&&
+      prepare_install                           &&
+      make install				&&
+      chmod  u+s  /usr/bin/rxvt
+}

@@ -1,0 +1,25 @@
+      VERSION=( "0.9.1" )
+      CATEGORY="disk"
+     ATTRIBUTE="console"
+        SOURCE="lphdisk-$VERSION"
+           URL="http://www.procyon.com/~pda/lphdisk"
+      HOMEPAGE="http://www.procyon.com/~pda/lphdisk"
+           REQ=""
+     FRESHMEAT="lphdisk"
+         SHORT="lphdisk prepares a hibernation partition for APM Suspend-To-Disk"
+LONG="
+lphdisk is a Linux utility to format hibernation partitions for use with 
+the APM Suspend-To-Disk features on laptops with Phoenix NoteBIOS. While 
+one does not need this utility to use this notebook feature, if the memory 
+size ever changes, disk gets upgraded/repartitioned, the hibernation 
+partition may need to be recreated. Until now, this could only be 
+accomplished by booting off of a DOS floppy and using a buggy utility 
+called PHDISK.EXE provided either straight from Phoenix Technologies or 
+the hardware manufacturer/distributor.
+"
+
+function build() {
+  sed  -i  "s:/usr/local:/usr:"   Makefile     &&
+  prepare_install                              &&
+  make install
+}

@@ -1,0 +1,23 @@
+  VERSION="1.17"
+   SOURCE="pub/unix/$SPELL"
+      URL="http://www.ticalc.org"
+ HOMEPAGE="http://lpg.ticalc.org/prj_tilp"
+    SHORT="tiser is a Ti linking library for serial ports"
+LONG="
+$SHORT
+"
+
+function build() {
+  make	  clean    &&
+  make             &&
+  prepare_install  &&
+  make    install
+}
+
+function post_build() {
+	grep "char-major-62" /etc/modules.conf >/dev/null
+	if [ $? == "1" ];
+	then
+	  echo "alias char-major-62 tiser" >> /etc/modules.conf
+	fi
+}

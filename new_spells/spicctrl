@@ -1,0 +1,26 @@
+      VERSION=( "1.6" )
+      CATEGORY="monitor utility"
+     ATTRIBUTE="console"
+        SOURCE="spicctrl-$VERSION"
+           URL="http://popies.net/sonypi"
+      HOMEPAGE="http://popies.net/sonypi"
+           REQ=""
+      ESTIMATE="6"
+         SHORT="spicctrl sets up LCD brightness on Sony VAIO laptops"
+LONG="
+spicctrl is a small program that can use the Sony Programmable I/O Control 
+device (SPIC), which is part of Sony Vaio's, to do a few simple things. 
+Currently, it can only be used to control the brightness on the LCD 
+backlight, and print out some information about the battery.
+
+You need a kernel with the sonypi module (and a Vaio laptop..) 
+to use this program.
+"
+
+function build() {
+  sed  -i  "s:/usr/local:/usr:"   Makefile 
+
+  make						&&
+  prepare_install                               &&
+  make install
+}

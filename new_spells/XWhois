@@ -1,0 +1,18 @@
+   VERSION=( "0.90" )
+  CATEGORY="web"
+ ATTRIBUTE="perl-module"
+  HOMEPAGE="http://www.cpan.org"
+       URL="http://www.cpan.org/authors/id/V/VI/VIPUL"
+    SOURCE="Net-XWhois-$VERSION"
+       REQ="perl"
+  ESTIMATE="10"
+     SHORT="XWhois - Whois client interface for Perl5."
+LONG="
+$SHORT
+"
+
+function build() {
+	perl  Makefile.PL         &&
+	make  "OPTIMIZE=$CFLAGS"  &&
+	make  install
+}

@@ -1,0 +1,10 @@
+ VERSION=( "1.36.57" )
+CATEGORY="audio library"
+     URL="http://www.geocities.com/SiliconValley/Lakes/5147/sidplay/packages/"
+  SOURCE="$SPELL-$VERSION"
+HOMEPAGE="http://www.geocities.com/SiliconValley/Lakes/5147/sidplay/linux.html"
+     REQ=""
+   SHORT="libsidplay is a library for playing C64 .sid files"
+LONG="
+Library for playing C64 .sid music files.
+"

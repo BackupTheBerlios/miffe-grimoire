@@ -1,0 +1,13 @@
+ VERSION=( "0.1" )
+CATEGORY="file-system network"
+     URL="http://www.darkrock.co.uk"
+  SOURCE="files/$SPELL-$VERSION"
+HOMEPAGE="http://www.darkrock.co.uk/?content=projects/gtknw"
+     REQ="gtk+,v1.2 ncpfs"
+   SHORT="gtknw is a GTK v1.2 client to ncpfs."
+LONG="
+What is gtk netware client? it is a graphical client for Novell Netware.
+It's mainly a frontend to ncpfs tools. This client provides graphical
+login bringing up netware file systems exported for your server , along
+with the ability to bring up print services in the future.
+"

@@ -1,0 +1,15 @@
+ VERSION=( "0.1.4" )
+CATEGORY="dockapps"
+     URL="http://dockapps.org/download.php/id/252/"
+  SOURCE="WMxmms-$VERSION"
+HOMEPAGE="http://dockapps.org/file.php/id/172/"
+     REQ="gtk+,v1.2 xmms"
+   SHORT="WMxmms is a dockapp that controls xmms"
+LONG="
+A xmms dockapp.
+binary will be /usr/bin/WMxmms not /usr/bin/wmxmms
+
+Usage:
+right-click       Hides/Shows xmms
+middle-cick       Starts xmms
+"

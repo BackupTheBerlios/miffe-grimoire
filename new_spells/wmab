@@ -1,0 +1,23 @@
+      VERSION=( "0.3" )
+      CATEGORY="dockapps"
+     ATTRIBUTE="x11"
+        SOURCE="wmab-$VERSION"
+           URL="http://web.tiscali.it/kalem/wmab"
+      HOMEPAGE="http://web.tiscali.it/kalem/dockapps.html"
+           REQ="x11"
+      ESTIMATE="9"
+         SHORT="wmab allows to graphically monitor battery status"
+LONG="
+WMab is a WindowMaker dockable application that allows ACPI laptop users 
+to graphically monitor their power sources status. I.e. whether or not AC 
+or batteries are in use as well as how long it will take to drain or charge 
+the batteries.
+"
+
+function build() {
+  cd ${BUILD_DIR}/wmab
+
+  make						&&
+  prepare_install                               &&
+  make install
+}

@@ -1,0 +1,17 @@
+ VERSION=( "0.0.2" )
+CATEGORY="dockapps"
+     URL="http://www.dockapps.org/download.php/id/205/"
+  SOURCE="$SPELL-$VERSION"
+HOMEPAGE="http://www.dockapps.org/file.php/id/155/"
+     REQ="x11"
+   SHORT="wmblob shows some blobs moving around."
+LONG="
+wmblob shows some blobs moving around.
+It does nothing useful, it's just a toy.
+"
+
+function build() {
+  make            &&
+  prepare_install &&
+  make install PREFIX="/usr"
+}

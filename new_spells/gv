@@ -1,0 +1,26 @@
+       VERSION=( "3.5.8" )
+      CATEGORY="graphic-viewer"
+     ATTRIBUTE="x11"
+        SOURCE="pub/gv/unix/gv-$VERSION"
+           URL="ftp://ftpthep.physik.uni-mainz.de"
+      HOMEPAGE="http://wino.physik.uni-mainz.de/~plass/gv"
+           REQ="x11 Xaw3d"
+     FRESHMEAT="gv"
+         SHORT="gv allows to view and navigate through PostScript and PDF docs."
+LONG="
+gv allows to view and navigate through PostScript and PDF documents on an 
+X display by providing a user interface for the ghostscript interpreter.
+"
+
+function build() {
+  sed -i "s:/usr/local:/usr:" config.Unix
+  echo "#define CONVERT_INCLUDE_DIRECTIVES" >> config.Unix
+  cp doc/gv.man source/
+  xmkmf						&&
+  make Makefiles				&&
+  make						&&
+  prepare_install				&&
+  make install					&&
+  make install.man				&&
+  make install.doc
+}

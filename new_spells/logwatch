@@ -1,0 +1,29 @@
+       VERSION=( "5.0" "4.3.2" )
+      CATEGORY="log"
+     ATTRIBUTE="console"
+        SOURCE="pub/linux/logwatch-$VERSION"
+           URL="ftp://ftp.kaybee.org"
+      HOMEPAGE="http://www.logwatch.org"
+           REQ="perl textutils sh-utils grep mutt"
+     FRESHMEAT="logwatch"
+         SHORT="Logwatch is a customizable log analysis system."
+LONG="
+Logwatch is a customizable log analysis system. Logwatch parses through your
+system's logs for a given period of time and creates a report analyzing
+areas that you specify, in as much detail as you require. Logwatch is easy
+to use and will work right out of the package on most systems.
+"
+
+function build() {
+	sed -i "s:/bin/mail:/usr/bin/mail:" conf/logwatch.conf
+
+	prepare_install                         &&
+	mkdir /etc/log.d			&&
+	cp -r conf scripts /etc/log.d		&&
+	ln -sf /etc/log.d/scripts/logwatch.pl /usr/sbin/logwatch	&&
+	ln -sf /etc/log.d/conf/logwatch.conf /etc/log.d/logwatch.conf	&&
+	mkdir /usr/share/doc/logwatch-$VERSION				&&
+	cp HOWTO* README License project/CHANGES project/TODO		\
+		/usr/share/doc/logwatch-$VERSION 			&&
+	cp logwatch.8 /usr/share/man/man8
+}
