@@ -1,0 +1,47 @@
+   VERSION=( "5.3.1" )
+  CATEGORY="graphic library science"
+ ATTRIBUTE="new console x11"
+  HOMEPAGE="http://plplot.sourceforge.net"
+       URL="$SOURCEFORGE_URL"
+    SOURCE="plplot/plplot-${VERSION}"
+       REQ=( "x11 perl libpng jpeg libtool tcl tk gd" 
+             "numarray:::for Python interface to plplot" )
+  ESTIMATE="557"
+      DESC="plplot is a scientific plotting package.
+
+PLplot is relatively small, portable, freely distributable, 
+and is rich enough to satisfy most users.  It has a wide 
+range of plot types including line (linear, log), contour, 
+3D, fill, and almost 1000 characters (including Greek and
+mathematical) in its extended font set.  The package is 
+designed to make it easy to quickly get graphical output; 
+only a handful of function calls is typically required.  
+For more advanced use, virtually all aspects of plotting
+are configurable.
+
+The PLplot library is written in C, enabling it to run on 
+many platforms practically without modification.  Fortran 
+programs may use it transparently; stub routines are provided 
+to handle the C<->Fortran interface without any modification 
+of the user program.  C programs are required to include the 
+header file plplot.h; see the documentation for more details.  
+Programmes written in many other languages can also use the
+PLplot library.  The C++, Tcl, Python, Octave, and Yorick 
+(this front end is maintained independently, see yplot.sf.net) 
+front ends to PLplot are mature, the Java front end is almost 
+there (most examples work), and the Perl front end is still 
+quite incomplete.
+"
+
+build() {
+sed  -i 's:/Numeric:/numarray:'  configure
+./configure  --prefix=/usr				\
+             --sysconfdir=/etc          		\
+             FREETYPEINCDIR=/usr/include/freetype2	\
+	     --with-pthreads				\
+	     --with-x					\
+             --with-ltdlsystem				&&
+make					&&
+prepare_install				&&
+make  install
+}

@@ -1,0 +1,7 @@
+inherit  perl--modules
+   VERSION=( "0.44" )
+    SOURCE="I/IN/INGY/Inline-$VERSION"
+  HOMEPAGE="$HOMEPAGE/search?dist=Inline"
+       REQ=( "perl  perl--Digest-MD5  perl--Parse-RecDescent" )
+  ESTIMATE="49"
+      DESC="$SPELL allows to write Perl subroutines in other programming languages."

@@ -1,0 +1,7 @@
+inherit  perl--modules
+   VERSION=( "2.18" )
+    SOURCE="K/KG/KGB/PGPLOT-$VERSION"
+  HOMEPAGE="$HOMEPAGE/search?dist=PGPLOT"
+       REQ=( "perl pgplot perl--ExtUtils-F77" )
+  ESTIMATE="29"
+      DESC="$SPELL allows the PGPLOT graphics library to be called from Perl."

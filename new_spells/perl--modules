@@ -4,33 +4,20 @@
   HOMEPAGE="http://search.cpan.org"
        URL="http://www.cpan.org/authors/id"
        REQ=( "perl"
-          "perl--CGI-Lite:::to process and decode WWW forms and cookies"
-          "perl--crypt-ssleay:::for LWP https support"
-          "perl--DateManip:::for easily parsing and manipulating dates"
-          "perl--DBI:::for Perl database interface by Tim Bunce"
-          "perl--GDGraph:::for a graph plotting module"
-          "perl--Geo-IPfree:::for look up of country IP addresses"
-          "perl--HTML-Parser:::for parsing and extracting information from HTML documents."
-          "perl--HTML-Tagset:::for data tables useful in parsing HTML"
-          "perl--HTML-Template:::for using HTML templates from CGI scripts"
-          "perl--io-socket-ssl:::for interface to SSL sockets"
-          "perl--libwww:::for aplication programming interface to WWW"
-          "perl--Mail-Sendmail:::for a simple module to send mail"
-          "perl--mime-base64:::for encoding and decoding of base64 strings"
-          "perl--Net-SNMP:::for an object oriented interface to the SNMP"
-          "perl--Net_SSLeay:::to allow scripts to call OpenSSL functions"
-          "perl--Net-XWhois:::for Whois client interface"
-          "perl--Parse-RecDescent:::to generate text parsers"
-          "perl--SDL_Perl:::to allow Perl code to use SDL"
+          "perl--PDL:::for the Perl Data Language"
           "perl--soap-lite:::for interface to the SOAP"
-          "perl--Spreadsheet-WriteExcel:::to allow writing excel binary files"
-          "perl--Tk:::for a perl Tk extension"
-          "perl--uri:::for Uniform Resource Identifiers"
-          "perl--XML-Parser:::for parsing XML documents"
           )
   ESTIMATE="5"
     ASSUME="off"
-      DESC="$SPELL provides perl modules"
+      DESC="$SPELL provides selected Perl module clusters
+
+The selection of provided Perl modules is rather
+subjective and it aims to provide only major
+Perl modules with usually very complex dependencies.
+Currently, the provided modules are:
+PDL - the Perl Data Language
+SOAP interface
+"
 
 perl_module_build()  {
   perl  Makefile.PL $1      &&
@@ -49,9 +36,10 @@ SDL_Perl_build()  {
 build()  {
   case  $SPELL  in
      perl--modules)		echo "$SPELL installed." 	;;
-     perl--HTML-Parser)	yes   |  perl_module_build 	;;
+     perl--HTML-Parser|		\
+     perl--Inline)	yes   |  perl_module_build 	;;
      perl--libwww)	true  |  perl_module_build -n	;;
-     perl--crypt-ssleay|						\
+     perl--crypt-ssleay|	\
      perl--soap-lite)	true  |  perl_module_build	;;
      perl--SDL_Perl)		SDL_Perl_build		;;
      *)				perl_module_build		;;

@@ -1,0 +1,26 @@
+   VERSION=( "1.5" )
+  CATEGORY="library science"
+ ATTRIBUTE="new library"
+  HOMEPAGE="http://www.gnu.org/software/gsl"
+       URL="$GNU_URL"
+    SOURCE="gsl/gsl-$VERSION"
+       REQ=( ""
+             ":--check::to check the compiled libraries (large log)" )
+  ESTIMATE="71147"
+      DESC="$SPELL is a scientific numerical library for C and C++ programmers.
+
+The GNU Scientific Library (GSL) provides a wide range of 
+mathematical routines as random number generators, special 
+functions and least-squares fitting. There are over 1000 
+functions in total.
+"
+
+build() {
+./configure  --prefix=/usr	&&
+make 				&&
+if echo $OPTS | grep -q "\--check"; then
+	make check
+fi				&&
+prepare_install			&&
+make  install
+}

@@ -1,0 +1,34 @@
+inherit  perl--modules
+   VERSION=( "2.4.1" )
+  CATEGORY="$CATEGORY science"
+  HOMEPAGE="$HOMEPAGE/search?dist=PDL"
+    SOURCE="C/CS/CSOE/PDL-$VERSION"
+       REQ=( "perl  netpbm  perl--Inline  perl--Term-ReadLine-Gnu  
+              perl--Astro-FITS-Header  perl--Text-Balanced
+              perl--PGPLOT  fftw-v2  gsl  ncurses" )
+  ESTIMATE="1876"
+      DESC="$SPELL - The Perl Data Language.
+
+PDL is the Perl Data Language, a perl extension that is
+designed for scientific and bulk numeric data processing
+and display. It extends perl's syntax and includes fully
+vectorized, multidimensional array handling, plus several
+paths for device-independent graphics output.
+"
+
+build()  {
+  sed  -i 's:head -1:head -n 1:' Graphics/TriD/Makefile.PL
+  sed  -i 's:WITH_IO_BROWSER => 0:WITH_IO_BROWSER => 1:' perldl.conf
+  sed  -i 's:WITH_BADVAL => 0:WITH_BADVAL => 1:'      perldl.conf
+  sed  -i 's:BADVAL_USENAN => 0:BADVAL_USENAN => 1:'  perldl.conf
+  sed  -i "s:OPENGL_LIBS => undef:OPENGL_LIBS => \'-L/usr/X11R6/lib/ -lGLU -lGL -lXext -lX11\':"  perldl.conf
+  sed  -i "s:OPENGL_DEFINE => undef:OPENGL_DEFINE => \'-DGL_GLEXT_LEGACY\':"  perldl.conf
+  sed  -i "s:OPENGL_INC => undef:OPENGL_INC => \'-I/usr/include/GL/\':"  perldl.conf
+
+  perl  Makefile.PL         &&
+  make  "OPTIMIZE=$CFLAGS"  &&
+  ( make  test ; true )	    &&
+  prepare_install           &&
+  make  install             &&
+  make  doctest
+}

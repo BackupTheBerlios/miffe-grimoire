@@ -1,0 +1,6 @@
+inherit  perl--modules
+   VERSION=( "2.8.1" )
+    SOURCE="A/AA/AALLAN/Astro-FITS-Header-$VERSION"
+  HOMEPAGE="$HOMEPAGE/search?dist=Astro::FITS::Header"
+  ESTIMATE="32"
+      DESC="$SPELL provides object oriented interface to FITS HDUs"

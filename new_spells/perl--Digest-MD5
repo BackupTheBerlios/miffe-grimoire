@@ -1,0 +1,6 @@
+inherit  perl--modules
+   VERSION=( "2.33" )
+    SOURCE="G/GA/GAAS/Digest-MD5-$VERSION"
+  HOMEPAGE="$HOMEPAGE/search?dist=Digest::MD5"
+  ESTIMATE="20"
+      DESC="$SPELL provides Perl interface to MD5 algorithm"

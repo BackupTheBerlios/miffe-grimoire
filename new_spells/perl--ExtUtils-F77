@@ -1,0 +1,6 @@
+inherit  perl--modules
+   VERSION=( "1.14" )
+    SOURCE="K/KG/KGB/ExtUtils-F77-$VERSION"
+  HOMEPAGE="$HOMEPAGE/search?dist=ExtUtils::F77"
+  ESTIMATE="10"
+      DESC="$SPELL provides simple interface to F77 libs."

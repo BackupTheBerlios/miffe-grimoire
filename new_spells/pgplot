@@ -1,0 +1,77 @@
+   VERSION=( "5.2.2" )
+  CATEGORY="graphic library science"
+ ATTRIBUTE="new console x11"
+  HOMEPAGE="http://www.astro.caltech.edu/~tjp/pgplot/"
+       URL="ftp://ftp.astro.caltech.edu"
+    SOURCE="pub/pgplot/pgplot${VERSION:0:3}"
+       REQ=( "x11 perl libpng" )
+  ESTIMATE="397"
+      DESC="pgplot provides subroutine library for making simple scientific graphs.
+
+The PGPLOT Graphics Subroutine Library is a Fortran- or 
+C-callable, device-independent graphics package for making 
+simple scientific graphs. It is intended for making graphical 
+images of publication quality with minimum effort on the part 
+of the user. For most applications, the program can be 
+device-independent, and the output can be directed to the 
+appropriate device at run time.
+"
+
+build() {
+ sed  -i 's:#!/usr/local/bin/perl:#!/usr/bin/perl:'  makehtml
+ sed  -i 's:#!/usr/local/bin/perl:#!/usr/bin/perl:'  maketex
+
+ echo  "Creating the target directory: $BSPELL"
+ mkdir $BSPELL			
+ echo  "Adjusting drivers.list."
+ cp  drivers.list  $BSPELL/drivers.list
+
+# Select device drivers.
+# This is very crude. I should write a proper configuration script eventually
+
+ sed  -i 's:! GIDRIV 1 /GIF:  GIDRIV 1/GIF:'	$BSPELL/drivers.list
+ sed  -i 's:! GIDRIV 2 /VGIF:  GIDRIV 2/VGIF:'	$BSPELL/drivers.list
+# sed  -i 's:! HJDRIV 0 /HJ:  HJDRIV 0/HJ:'	$BSPELL/drivers.list
+ sed  -i 's:! LXDRIV 0 /LATEX:  LXDRIV 0/LATEX:'	$BSPELL/drivers.list
+ sed  -i 's:! PNDRIV 1 /PNG:  PNDRIV 1/PNG:'	$BSPELL/drivers.list
+ sed  -i 's:! PNDRIV 2 /TPNG:  PNDRIV 2/TPNG:'	$BSPELL/drivers.list
+ sed  -i 's:! PSDRIV 1 /PS:  PSDRIV 1/PS:'	$BSPELL/drivers.list
+ sed  -i 's:! PSDRIV 2 /VPS:  PSDRIV 2/VPS:'	$BSPELL/drivers.list
+ sed  -i 's:! PSDRIV 3 /CPS:  PSDRIV 3/CPS:'	$BSPELL/drivers.list
+ sed  -i 's:! PSDRIV 4 /VCPS:  PSDRIV 4/VCPS:'	$BSPELL/drivers.list
+ sed  -i 's:! WDDRIV 1 /WD:  WDDRIV 1/WD:'	$BSPELL/drivers.list
+ sed  -i 's:! WDDRIV 2 /VWD:  WDDRIV 2/VWD:'	$BSPELL/drivers.list
+ sed  -i 's:! XWDRIV 1 /XWINDOW:  XWDRIV 1/XWINDOW:'	$BSPELL/drivers.list
+ sed  -i 's:! XWDRIV 2 /XSERVE:  XWDRIV 2/XSERVE:'	$BSPELL/drivers.list
+ 
+# End of configuration.
+
+# Create the makefile.
+ cd  $BSPELL
+ ../makemake  ../  linux  g77_gcc
+
+ case "$VERSION" in
+	5.2.2)  sed  -i 's/^pndriv.o : /#pndriv.o : /'	makefile  ;;
+ esac
+
+ make                           &&
+ make clean			&&
+# Install the C binding
+ make cpg			&&
+# The installation procedure does not create a shared library for the C
+# binding. We will create one by hand:
+ ld  -shared -o libcpgplot.so --whole-archive libcpgplot.a	&&
+# Create documentation files in html and latex:
+ make pgplot.html		&&
+ make pgplot-routines.tex	&&
+ prepare_install                &&
+ install  grfont.dat libpgplot.a libpgplot.so			\
+          libcpgplot.a libcpgplot.so        /usr/lib		&&
+ install  cpgdemo pgdemo[1-9] pgdemo1[0-6]  			\
+	  pgxwin_server			    /usr/bin		&&
+ install  -m 644  cpgplot.h                 /usr/include	&&
+ (  [ ! -d /usr/doc/$BSPELL ]  &&  mkdir    /usr/doc/$BSPELL
+    install  -m 644  pgplot.html pgplot-routines.tex		\
+	  ../aaaread.me ../copyright.notice ../install.txt	\
+	  ../install-unix.txt               /usr/doc/$BSPELL    )
+}
