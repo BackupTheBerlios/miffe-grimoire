@@ -6,8 +6,7 @@
       HOMEPAGE="http://wino.physik.uni-mainz.de/~plass/gv"
            REQ="x11 Xaw3d"
      FRESHMEAT="gv"
-         SHORT="gv allows to view and navigate through PostScript and PDF docs."
-LONG="
+          DESC="gv allows to view and navigate through PostScript and PDF docs.
 gv allows to view and navigate through PostScript and PDF documents on an 
 X display by providing a user interface for the ghostscript interpreter.
 "

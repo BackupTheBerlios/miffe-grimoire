@@ -1,14 +1,13 @@
 inherit  perl--modules
-   VERSION=( "2.03" )
+   VERSION=( "2.04" "2.03" )
   CATEGORY="$CATEGORY spreadsheet"
   HOMEPAGE="$HOMEPAGE/search?dist=Spreadsheet-WriteExcel"
     SOURCE="J/JM/JMCNAMARA/Spreadsheet-WriteExcel-$VERSION"
        REQ="perl perl--Parse-RecDescent"
   ESTIMATE="28"
   EPROVIDE="Spreadsheet-WriteExcel"
-     SHORT="$SPELL allows Perl to write excel binary files"
-       LONG="
-$SHORT.
+      DESC="$SPELL allows Perl to write excel binary files
+$SPELL allows Perl to write excel binary files.
 Spreadsheet::WriteExcel is a cross platform 
 Perl module that can be used to write numbers 
 and text in the native Excel binary file format. 

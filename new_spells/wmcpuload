@@ -4,7 +4,6 @@ CATEGORY="dockapps"
   SOURCE="$SPELL-$VERSION"
 HOMEPAGE="http://www.sh.rim.or.jp/~ssato/dockapp/index.shtml"
      REQ="x11"
-   SHORT="wmcpuload is a dockapp for monitoring cpu usage"
-LONG="
+    DESC="wmcpuload is a dockapp for monitoring cpu usage
 wmcpuload is a dockapp that monitors CPU usage.
 "

@@ -5,8 +5,7 @@
    HOMEPAGE="http://hdf.ncsa.uiuc.edu/doc_resource/SZIP"
         URL="ftp://ftp.ncsa.uiuc.edu/HDF"
    ESTIMATE="2226"
-      SHORT="szip library provides lossless compression of scientific data"
-LONG="
+       DESC="szip library provides lossless compression of scientific data
 szip is an implementation of the extended-Rice lossless 
 compression algorithm. The Consultative Committee on 
 Space Data Systems (CCSDS) has adopted the extended-Rice 

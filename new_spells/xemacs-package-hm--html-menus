@@ -1,4 +1,6 @@
 inherit  xemacs
    VERSION=( "1.23" "1.21" "1.18" )
     SOURCE="xemacs/packages/hm--html-menus-$VERSION-pkg"
-     SHORT="$SPELL provides HTML editing support."
+      DESC="$SPELL provides HTML editing support.
+"
+

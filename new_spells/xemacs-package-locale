@@ -1,4 +1,6 @@
 inherit  xemacs
    VERSION=( "1.21" "1.20" )
     SOURCE="xemacs/packages/locale-$VERSION-pkg"
-     SHORT="$SPELL provides localized menubars and splash screens."
+      DESC="$SPELL provides localized menubars and splash screens.
+"
+

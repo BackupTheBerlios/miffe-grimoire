@@ -6,8 +6,7 @@ inherit  perl--modules
        REQ="perl openssl"
   ESTIMATE="10"
   EPROVIDE="Net_SSLeay"
-     SHORT="$SPELL allows scripts to call the functions in the OpenSSL library"
-       LONG="
+      DESC="$SPELL allows scripts to call the functions in the OpenSSL library
 $SPELL provides Net::SSLeay.pm - a perl module for calling 
 Secure Sockets Layer (SSL) functions of the 
 SSLeay library directly from your perl scripts.

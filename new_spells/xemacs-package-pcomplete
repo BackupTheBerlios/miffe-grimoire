@@ -1,4 +1,6 @@
 inherit  xemacs
    VERSION=( "1.03" "1.02" )
     SOURCE="xemacs/packages/pcomplete-$VERSION-pkg"
-     SHORT="$SPELL provides programmatic completion."
+      DESC="$SPELL provides programmatic completion.
+"
+

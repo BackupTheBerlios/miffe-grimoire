@@ -5,9 +5,8 @@ inherit  perl--modules
     SOURCE="A/AN/ANDK/CGI-Lite-$VERSION"
   ESTIMATE="13"
   EPROVIDE="CGI-Lite"
-     SHORT="$SPELL is a perl module to process and decode WWW forms and cookie
-s."
-       LONG="
+      DESC="$SPELL is a perl module to process and decode WWW forms and cookie
+s.
 $SPELL is a perl module to process and decode WWW forms and cookies.
 
 You can use this module to decode form and query information,

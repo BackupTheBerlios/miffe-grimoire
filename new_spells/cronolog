@@ -8,8 +8,7 @@
   HOMEPAGE="http://cronolog.org"
  FRESHMEAT="cronolog"
   ESTIMATE="41"
-     SHORT="cronolog is web log rotation program."
-LONG="
+      DESC="cronolog is web log rotation program.
 cronolog is web log rotation program. cronolog is a simple 
 filter program that reads log file entries from standard 
 input and writes each entry to the output file specified 

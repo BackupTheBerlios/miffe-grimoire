@@ -6,8 +6,7 @@
       HOMEPAGE="http://www.zevv.nl/wmifinfo"
            REQ="x11"
       ESTIMATE="8"
-         SHORT="wmifinfo is a WM applet showing network info"
-LONG="
+          DESC="wmifinfo is a WM applet showing network info
 wmifinfo is a Window Maker applet showing basic 
 IP network info for all available interfaces. 
 It shows the IP address, netmask, gateway, and 

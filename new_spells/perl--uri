@@ -3,8 +3,7 @@ inherit  perl--modules
     SOURCE="G/GA/GAAS/URI-$VERSION"
   HOMEPAGE="$HOMEPAGE/search?dist=URI"
   ESTIMATE="67"
-     SHORT="$SPELL provides perl module URI"
-      LONG="
+      DESC="$SPELL provides perl module URI
 $SPELL provides perl module URI - Uniform
 Resource Identifiers (absolute and relative).
 "

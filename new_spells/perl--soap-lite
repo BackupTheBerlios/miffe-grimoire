@@ -9,8 +9,7 @@ inherit  perl--modules
     OPT[3]="perl--mime-base64:::for encoding and decoding of base64 strings"
     OPT[4]="perl--uri:::for Uniform Resource Identifiers"
   ESTIMATE="97"
-     SHORT="$SPELL is a collection of Perl modules providing interface to the SOAP"
-      LONG="
+      DESC="$SPELL is a collection of Perl modules providing interface to the SOAP
 $SPELL is a collection of Perl modules which
 provides a simple and lightweight interface to the Simple
 Object Access Protocol (SOAP) both on client and server side.

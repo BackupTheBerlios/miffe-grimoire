@@ -1,4 +1,6 @@
 inherit  xemacs
    VERSION=( "1.38" "1.37" "1.35" )
     SOURCE="xemacs/packages/vc-$VERSION-pkg"
-     SHORT="$SPELL provides version control for free systems."
+      DESC="$SPELL provides version control for free systems.
+"
+

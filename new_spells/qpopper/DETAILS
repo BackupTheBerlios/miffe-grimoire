@@ -12,8 +12,7 @@
     OPT[4]="Linux-PAM:--with-pam=pop3::to use PAM for authentication"
    PROVIDE="pop3 pop3s"
   ESTIMATE="94"
-     SHORT="qpopper is the most widely-used POP3 server for UNIX, Linux, etc."
-LONG="
+      DESC="qpopper is the most widely-used POP3 server for UNIX, Linux, etc.
 qpopper is the most widely-used POP3 server for UNIX, Linux, etc.
 
 qpopper's goals are: security, stability, safety, features, and 

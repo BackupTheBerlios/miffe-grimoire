@@ -1,10 +1,9 @@
 inherit  perl--modules
-   VERSION=( "3.01" )
+   VERSION=( "3.03" "3.01" )
     SOURCE="G/GA/GAAS/MIME-Base64-$VERSION"
   HOMEPAGE="$HOMEPAGE/search?dist=MIME-Base64"
   ESTIMATE="29"
-     SHORT="$SPELL provides perl module MIME Base64"
-      LONG="
+      DESC="$SPELL provides perl module MIME Base64
 $SPELL provides perl module MIME Base64
 for encoding and decoding of base64 strings.
 "

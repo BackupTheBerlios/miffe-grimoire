@@ -5,8 +5,7 @@ inherit  perl--modules
     SOURCE="T/TI/TIMB/DBI-$VERSION"
   ESTIMATE="130"
   EPROVIDE="DBI"
-     SHORT="$SPELL - The Perl Database Interface by Tim Bunce"
-       LONG="
+      DESC="$SPELL - The Perl Database Interface by Tim Bunce
 $SPELL - The Perl Database Interface by Tim Bunce.
 
 The DBI is a database interface module for Perl. 

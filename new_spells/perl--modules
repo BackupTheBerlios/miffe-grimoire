@@ -27,10 +27,11 @@
    OPT[20]="perl--Tk:::for a perl Tk extension"
    OPT[21]="perl--uri:::for Uniform Resource Identifiers"
    OPT[22]="perl--XML-Parser:::for parsing XML documents"
-     SHORT="$SPELL provides perl modules"
   ESTIMATE="5"
     ASSUME="off"
-      LONG="$SHORT"
+      DESC="$SPELL provides perl modules
+$SPELL provides perl modules
+"
 
 perl_module_build()  {
   perl  Makefile.PL $1      &&

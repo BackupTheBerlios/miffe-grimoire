@@ -3,8 +3,7 @@ CATEGORY="db"
      URL="$SOURCEFORGE_URL"
   SOURCE="$SPELL/$SPELL-$VERSION"
 HOMEPAGE="http://www.sourceforge.net/projects/tdb/"
-   SHORT="TDB is a Trivial Database. It is very much like GDBM, and BSD's DB."
-LONG="
+    DESC="TDB is a Trivial Database. It is very much like GDBM, and BSD's DB.
 TDB is a Trivial Database. In concept, it is very much like GDBM,
 and BSD's DB except that it allows multiple simultaneous writers
 and uses locking internally to keep writers from trampling on

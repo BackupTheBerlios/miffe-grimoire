@@ -3,8 +3,8 @@
    SOURCE="tilp/$SPELL-$VERSION"
       URL="$SOURCEFORGE_URL"
  HOMEPAGE="http://lpg.ticalc.org/prj_tilp"
-    SHORT="libtifiles is a library for handling Ti files"
-LONG="
+     DESC="libtifiles is a library for handling Ti files
+libtifiles is a library for handling Ti files.
 TiLP is a linking program for Texas Instruments' graphing calculators.
 It can handle any TI calculator (from TI73 to V200) with any link cable.
 TiLP has all the functions of a linking program and even more.

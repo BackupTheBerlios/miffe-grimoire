@@ -7,8 +7,7 @@
         REQ="SDL"
   FRESHMEAT="fceultra"
 SOURCEFORGE="fceultra"
-      SHORT="FCE Ultra is a portable NES/Famicom emulator"
-LONG="
+       DESC="FCE Ultra is a portable NES/Famicom emulator
 FCE Ultra is a portable NES/Famicom emulator.
 "
 

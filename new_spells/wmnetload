@@ -4,8 +4,7 @@ CATEGORY="dockapps"
   SOURCE="$SPELL-$VERSION"
 HOMEPAGE="http://freshmeat.net/projects/wmnetload/"
      REQ="x11 libdockapp"
-   SHORT="wmnetload is a dockapp network interface monitor"
-LONG="
+    DESC="wmnetload is a dockapp network interface monitor
 wmnetload is a network interface monitor dockapp for Window Maker.
 It is designed to fit well with dockapps like wmcpuload and wmmemmon.
 It tracks whether the interface is functioning and displays current network

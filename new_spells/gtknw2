@@ -4,8 +4,7 @@
      SOURCE="~bga/gtknw2/gtknw2-0.2.tar.bz2"
    HOMEPAGE="http://www.lrn.ru/~bga/gtknw2/"
         REQ="gtk+ ncpfs"
-      SHORT="gtknw2 is a GTK client for ncpfs"
 SOURCEFORGE="gtknw2"
-LONG="
+       DESC="gtknw2 is a GTK client for ncpfs
 gtknw2 is a grapichal cligent for ncftp.
 "

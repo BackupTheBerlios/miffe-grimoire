@@ -1,4 +1,6 @@
 inherit  xemacs
    VERSION=( "1.15" "1.14" "1.13" )
     SOURCE="xemacs/packages/dired-$VERSION-pkg"
-     SHORT="$SPELL manages file systems from XEmacs."
+      DESC="$SPELL manages file systems from XEmacs.
+"
+

@@ -1,4 +1,6 @@
 inherit  xemacs
    VERSION=( "1.22" "1.21" )
     SOURCE="xemacs/packages/vc-cc-$VERSION-pkg"
-     SHORT="$SPELL provides version control for ClearCase (UnFree) systems."
+      DESC="$SPELL provides version control for ClearCase (UnFree) systems.
+"
+

@@ -1,4 +1,6 @@
 inherit  xemacs
    VERSION=( "1.11" "1.10" )
     SOURCE="xemacs/packages/elib-$VERSION-pkg"
-     SHORT="$SPELL provides general purpose Emacs Lisp utility library."
+      DESC="$SPELL provides general purpose Emacs Lisp utility library.
+"
+

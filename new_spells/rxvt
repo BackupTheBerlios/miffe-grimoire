@@ -8,8 +8,7 @@
            REQ="x11"
      FRESHMEAT="rxvt"
    SOURCEFORGE="rxvt"
-         SHORT="rxvt is a color vt102 terminal emulator"
-LONG="
+          DESC="rxvt is a color vt102 terminal emulator
 rxvt is an 8-bit clean, color xterm replacement that uses significantly 
 less memory than a conventional xterm, mostly since it doesn't support 
 toolkit configurability or Tek graphics, but also since features can be 

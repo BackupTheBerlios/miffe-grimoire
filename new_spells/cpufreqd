@@ -1,4 +1,4 @@
-    VERSION=( "1.1.2" "1.1.1" "1.1" )
+    VERSION=( "1.2.0" "1.1.2" "1.1.1" "1.1" )
    CATEGORY="utility"
   ATTRIBUTE="console new"
      SOURCE="cpufreqd/cpufreqd-$VERSION"
@@ -7,8 +7,7 @@
    ESTIMATE="51"
   FRESHMEAT="cpufreqd"
 SOURCEFORGE="cpufreqd"
-      SHORT="cpufreqd adjusts the CPU frequency governor according to rules"
-LONG="
+       DESC="cpufreqd adjusts the CPU frequency governor according to rules
 cpufreqd is a small daemon to adjust cpu speed and 
 voltage for kernels using any of the cpufreq drivers 
 available. The CpuFreq patch has been included in 

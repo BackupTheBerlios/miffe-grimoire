@@ -10,8 +10,7 @@
     OPT[2]="httpd:--enable-cgi --with-cgi-bin=/usr/share/httpd/cgi-bin::and build CGI programs to permit web access to apcupsd data"
   ESTIMATE="238"
  FRESHMEAT="apcupsd"
-     SHORT="apcupsd manages and controls most of APC's UPS models"
-      LONG="
+      DESC="apcupsd manages and controls most of APC's UPS models
 apcupsd can be used for power mangement and controlling 
 most of APC's UPS models on Unix and Windows machines. 
 Apcupsd works with most of APC's Smart-UPS models as well 

@@ -1,4 +1,6 @@
 inherit  xemacs
    VERSION=( "1.11" "1.10" "1.09" "1.08" )
     SOURCE="xemacs/packages/sgml-$VERSION-pkg"
-     SHORT="$SPELL provides SGML/Linuxdoc-SGML editing."
+      DESC="$SPELL provides SGML/Linuxdoc-SGML editing.
+"
+

@@ -18,7 +18,6 @@ inherit  perl--modules
     OPT[8]="SDL_ttf:::for freetype 2 font support"
   ESTIMATE="109"
   EPROVIDE="SDL_perl"
-     SHORT="$SPELL is the glue that binds perl to SDL"
-       LONG="
+      DESC="$SPELL is the glue that binds perl to SDL
 $SPELL is a perl module that will allow Perl code to use SDL.
 "

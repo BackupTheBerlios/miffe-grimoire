@@ -1,4 +1,6 @@
 inherit  xemacs
    VERSION=( "1.18" "1.17" )
     SOURCE="xemacs/packages/sh-script-$VERSION-pkg"
-     SHORT="$SPELL provides support for editing shell scripts."
+      DESC="$SPELL provides support for editing shell scripts.
+"
+

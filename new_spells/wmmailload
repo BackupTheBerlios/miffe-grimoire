@@ -4,8 +4,7 @@ CATEGORY="dockapps"
   SOURCE="$SPELL-$VERSION"
 HOMEPAGE="http://tnemeth.free.fr/projets/dockapps.html"
      REQ="x11 gtk+,v1.2"
-   SHORT="wmmailload is a dockapp that monitors mail in mboxfiles"
-LONG="
+    DESC="wmmailload is a dockapp that monitors mail in mboxfiles
 wmmailload monitors your incomming
 mails in 1 or more mbox files.
 "

@@ -1,4 +1,6 @@
 inherit  xemacs
    VERSION=( "1.11" "1.10" "1.09" "1.08" )
     SOURCE="xemacs/packages/ps-print-$VERSION-pkg"
-     SHORT="$SPELL provides printing functions and utilities."
+      DESC="$SPELL provides printing functions and utilities.
+"
+

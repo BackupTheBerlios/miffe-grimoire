@@ -5,8 +5,7 @@ inherit  perl--modules
     SOURCE="D/DC/DCONWAY/Parse-RecDescent-$VERSION"
   ESTIMATE="10"
   EPROVIDE="Parse-RecDescent"
-     SHORT="$SPELL generates text parsers"
-       LONG="
+      DESC="$SPELL generates text parsers
 $SPELL incrementally generates top-down recursive-descent 
 text parsers from simple yacc-like grammar specifications.
 "

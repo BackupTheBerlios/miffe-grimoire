@@ -7,8 +7,7 @@
 	   REQ=""
       ESTIMATE="6"
      FRESHMEAT="crwinfo"
-         SHORT="crwinfo extracts information from Canon RAW files"
-          LONG="
+          DESC="crwinfo extracts information from Canon RAW files
 crwinfo extracts exposure information and thumbnails from 
 Canon RAW files (tested so far only with the CRW files 
 from the Canon D60 camera. Owners of other camera models 

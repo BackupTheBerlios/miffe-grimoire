@@ -6,8 +6,7 @@
       HOMEPAGE="http://popies.net/sonypi"
            REQ=""
       ESTIMATE="6"
-         SHORT="spicctrl sets up LCD brightness on Sony VAIO laptops"
-LONG="
+          DESC="spicctrl sets up LCD brightness on Sony VAIO laptops
 spicctrl is a small program that can use the Sony Programmable I/O Control 
 device (SPIC), which is part of Sony Vaio's, to do a few simple things. 
 Currently, it can only be used to control the brightness on the LCD 

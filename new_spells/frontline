@@ -3,11 +3,10 @@
         URL="$SOURCEFORGE_URL"
    HOMEPAGE="http://autotrace.sourceforge.net/frontline/"
         REQ="autotrace libart_lgpl freetype gnome-libs"
-      SHORT="frontline is a frontend for autotrace"
      OPT[0]="gimp:::for gimp plug-in"
      OPT[1]="sodipodi:::for sodipodi plug-in"
 SOURCEFORGE="autotrace"
-LONG="
+       DESC="frontline is a frontend for autotrace
 Frontline provides a gtk+/gnome based GUI frontend for
 autotrace (http://autotrace.sourceforge.net) in 4 ways.
 "

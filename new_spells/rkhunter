@@ -8,8 +8,7 @@
      OPT[0]="nmap:::for network exploration/security auditing"
    ESTIMATE="5"
   FRESHMEAT="rkhunter"
-      SHORT="rkhunter scans for rootkits, backdoors and local exploits"
-LONG="
+       DESC="rkhunter scans for rootkits, backdoors and local exploits
 rkhunter is rootkit scanning tool to ensure that you are 
 for about 99.9% clean of nasty tools. This tool scans for 
 rootkits, backdoors and local exploits by running tests like:

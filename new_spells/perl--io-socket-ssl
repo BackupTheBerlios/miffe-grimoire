@@ -3,8 +3,7 @@ inherit  perl--modules
     SOURCE="B/BE/BEHROOZI/IO-Socket-SSL-$VERSION"
   HOMEPAGE="$HOMEPAGE/search?dist=IO-Socket-SSL"
   ESTIMATE="10"
-     SHORT="$SPELL provides perl module IO::Socket::SSL"
-      LONG="
+      DESC="$SPELL provides perl module IO::Socket::SSL
 $SPELL provides perl module IO::Socket::SSL
 which is a class implementing an object oriented interface to
 SSL sockets. The class is a descendent of IO::Socket::INET.

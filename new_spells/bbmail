@@ -5,8 +5,7 @@
            URL="http://bbtools.windsofstorm.net/sources"
       HOMEPAGE="http://bbtools.windsofstorm.net"
      FRESHMEAT="bbmail"
-         SHORT="Bbmail is a mail-checker with a Blackbox look and feel."
-LONG="
+          DESC="Bbmail is a mail-checker with a Blackbox look and feel.
 Bbmail is a mail-checker with a Blackbox look and feel. Although it was 
 designed for Blackbox it should also work with any other Window Manager. 
 It is highly configurable and can be placed in the Blackbox Slit.

@@ -6,8 +6,7 @@
        REQ="binutils"
   ESTIMATE="20"
  FRESHMEAT="ksymoops"
-     SHORT="ksymoops - kernel oops and error message decoder"
-LONG="
+      DESC="ksymoops - kernel oops and error message decoder
 ksymoops is the kernel oops and error message decoder.
 The Linux kernel produces error messages that contain 
 machine specific numbers which are meaningless for 

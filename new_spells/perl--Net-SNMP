@@ -5,8 +5,7 @@ inherit  perl--modules
     SOURCE="D/DT/DTOWN/Net-SNMP-$VERSION"
   ESTIMATE="10"
   EPROVIDE="Net-SNMP"
-     SHORT="$SPELL is a perl module for Simple Network Management Protocol"
-       LONG="
+      DESC="$SPELL is a perl module for Simple Network Management Protocol
 $SPELL provides a perl module for Simple Network Management 
 Protocol.
 

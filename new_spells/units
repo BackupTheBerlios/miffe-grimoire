@@ -6,8 +6,7 @@
       HOMEPAGE="http://freshmeat.net/projects/units"
            REQ=""
      FRESHMEAT="units"
-         SHORT="GNU units converts between different systems of units."
-LONG="
+          DESC="GNU units converts between different systems of units.
 GNU units converts between different systems of units. It can handle 
 multiplicative scale changes as well as nonlinear conversions, such as 
 Fahrenheit to Celsius. Over 2000 units definitions are included in a 

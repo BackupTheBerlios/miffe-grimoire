@@ -6,8 +6,7 @@
        REQ=""
   ESTIMATE="17"
  FRESHMEAT="liblzf"
-     SHORT="liblzf is a very small and fast data compression library"
-LONG="
+      DESC="liblzf is a very small and fast data compression library
 liblzf is a very small data compression library. It 
 consists of only two .c and two .h files and is very 
 easy to incorporate into your own programs. The 

@@ -9,8 +9,7 @@ HOMEPAGE="http://xmp.sourceforge.net/"
   OPT[2]="esound:--enable-esd:--disable-esd:For output through esd"
   OPT[3]="xmms:--enable-xmms:--disable-xmms:For a xmms plugin"
   OPT[4]="x11:--enable-x:--disable-x:For a X11 player"
-   SHORT="xmp is a player that plays most module tracker files"
-LONG="
+    DESC="xmp is a player that plays most module tracker files
 xmp is a free module player for Linux (using ALSA and OSS). On PC class
 machines with GUS or AWE cards xmp takes advantage of the OSS sequencer
 to play modules with virtually no system load. Using software mixing,

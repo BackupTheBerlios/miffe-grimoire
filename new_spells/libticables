@@ -5,8 +5,8 @@
    OPT[0]="tiser:::linking via serial port"
    OPT[1]="tipar:::linking via parport"
  HOMEPAGE="http://lpg.ticalc.org/prj_tilp"
-    SHORT="libticables is a library for Ti linking cables"
-LONG="
+     DESC="libticables is a library for Ti linking cables
+libticables is a library for Ti linking cables.
 TiLP is a linking program for Texas Instruments' graphing calculators.
 It can handle any TI calculator (from TI73 to V200) with any link cable.
 TiLP has all the functions of a linking program and even more.

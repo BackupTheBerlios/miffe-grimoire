@@ -7,7 +7,6 @@
      SOURCE="dxsamples-$VERSION"
 	REQ="opendx"
    ESTIMATE="252"
-      SHORT="opendx-samples contains samples for opendx"
-LONG="
-$SHORT
+       DESC="opendx-samples contains samples for opendx
+opendx-samples contains samples for opendx
 "

@@ -37,8 +37,7 @@
     OPT[30]="gallery-lang-zh_TW.utf8:::to provide zh_TW.utf8 language pack"
    ESTIMATE="5"
      ASSUME="off"
-      SHORT="gallery-lang offers language packs other than English for gallery"
-       LONG="
+       DESC="gallery-lang offers language packs other than English for gallery
 gallery-lang offers installation of language packs to gallery in 
 addition to the default language which is English.
 "
@@ -71,7 +70,6 @@ case  $SPELL  in
 		 CATEGORY="web graphic"
 		 ATTRIBUTE="gallery-lang"
                  SOURCE="gallery/${SPELL:13}-$VERSION"
-		 SHORT="${SPELL:13} language pack for gallery"
-		 LONG="$SHORT"
+		 DESC="${SPELL:13} language pack for gallery"
 		 ;;
 esac

@@ -4,8 +4,7 @@ CATEGORY="dockapps"
   SOURCE="$SPELL-$VERSION"
 HOMEPAGE="http://www.dockapps.org/file.php/id/155/"
      REQ="x11"
-   SHORT="wmblob shows some blobs moving around."
-LONG="
+    DESC="wmblob shows some blobs moving around.
 wmblob shows some blobs moving around.
 It does nothing useful, it's just a toy.
 "

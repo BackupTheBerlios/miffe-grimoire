@@ -6,8 +6,7 @@
         URL="ftp://nssdcftp.gsfc.nasa.gov/standards/cdf/dist"
 	REQ="ncurses"
    ESTIMATE="88"
-      SHORT="cdf is a library for CDF data format"
-LONG="
+       DESC="cdf is a library for CDF data format
 cdf is a library for the Common Data Format (CDF) created
 by National Space Science Data Center (NSSDC). CDF is 
 self-describing data abstraction for the storage and 

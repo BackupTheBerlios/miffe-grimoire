@@ -3,8 +3,8 @@ CATEGORY="audio library"
      URL="$SOURCEFORGE_URL"
   SOURCE="sidplay2/sidplay-libs-$VERSION"
 HOMEPAGE="http://sidplay2.sourceforge.net/"
-   SHORT="libsidplay2 is a library for playing C64 .sid files"
-LONG="
+    DESC="libsidplay2 is a library for playing C64 .sid files
+
 Sidplay 2 is the second in the Sidplay series originally developed by
 Michael Schwendt. This version is written by Simon White and is cycle
 accurate for improved sound reproduction. Sidplay 2 is capable of

@@ -4,7 +4,6 @@ CATEGORY="dockapps library"
   SOURCE="$SPELL-$VERSION"
 HOMEPAGE="http://www.minet.uni-jena.de/~topical/sveng/wmail/"
      REQ="x11"
-   SHORT="easies the creation of dockapps"
-LONG="
-Easies the creation of dockapps.
+    DESC="$SPELL easies the creation of dockapps
+$SPELL easies the creation of dockapps.
 "

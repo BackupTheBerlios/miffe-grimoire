@@ -7,8 +7,7 @@
 	REQ="x11 netpbm"
    ESTIMATE="38"
   FRESHMEAT="clara"
-      SHORT="clara is an OCR program for large-scale digitalization projects"
-LONG="
+       DESC="clara is an OCR program for large-scale digitalization projects
 clara OCR is a free (GPL) OCR for systems that support 
 the C library and the X windows system (e.g. most 
 flavours of Unix). The development platform of Clara 

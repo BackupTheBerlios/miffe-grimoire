@@ -1,4 +1,4 @@
-    VERSION=( "1.4.4" "1.4.4-RC1" "1.4.3-pl2" "1.4.3" "1.4.2" )
+    VERSION=( "1.4.4-pl1" "1.4.4" "1.4.4-RC1" "1.4.3-pl2" "1.4.3" "1.4.2" )
    CATEGORY="web graphic"
   ATTRIBUTE="concurrent utility"
      SOURCE="gallery/gallery-$VERSION"
@@ -10,8 +10,7 @@
      OPT[2]="netpbm:::as image manipulation program"
    ESTIMATE="5"
 SOURCEFORGE="gallery"
-      SHORT="gallery is web-based photo gallery with authenticated users"
-LONG="
+       DESC="gallery is web-based photo gallery with authenticated users
 Gallery is a web based software product that lets you 
 manage your photos on your own website. You must have 
 your own website with PHP support in order to install 

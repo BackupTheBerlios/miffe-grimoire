@@ -5,8 +5,7 @@ inherit  perl--modules
     SOURCE="S/SB/SBECK/DateManip-$VERSION"
   ESTIMATE="10"
   EPROVIDE="DateManip"
-     SHORT="$SPELL is a perl module for easily parsing and manipulating dates"
-       LONG="
+      DESC="$SPELL is a perl module for easily parsing and manipulating dates
 $SPELL
 
 Date::Manip:

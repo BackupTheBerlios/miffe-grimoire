@@ -6,8 +6,7 @@
    HOMEPAGE="http://www.sentex.net/~mwandel/jhead"
    ESTIMATE="5"
   FRESHMEAT="jhead"
-      SHORT="jhead is a command line driven Exif header parser and manipulator"
-LONG="
+       DESC="jhead is a command line driven Exif header parser and manipulator
 Jhead is a command line driven utility for extracting digital 
 camera settings from the Exif format files used by many digital 
 cameras. It handles the various confusing ways these can be 

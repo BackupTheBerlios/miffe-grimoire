@@ -7,8 +7,7 @@
            REQ="perl aumix sox spicctrl sonypid"
 	   DIR="sonypid-$VERSION"
       ESTIMATE=""
-         SHORT="sonypidd moitors sonypi events on Sony VAIO laptops"
-LONG="
+          DESC="sonypidd moitors sonypi events on Sony VAIO laptops
 sonypidd monitors sonypi events and do things, on machines that have
 the Sony programmable I/O device. Requires the sonypid daemon as 
 input, and the spicctrl, aumix, and sox programs for output.

@@ -1,4 +1,6 @@
 inherit  xemacs
    VERSION=( "1.04" "1.03" "1.02" )
     SOURCE="xemacs/packages/fortran-modes-$VERSION-pkg"
-     SHORT="$SPELL provides Fortran language support."
+      DESC="$SPELL provides Fortran language support.
+"
+

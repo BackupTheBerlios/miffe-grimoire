@@ -1,4 +1,6 @@
 inherit  xemacs
    VERSION=( "1.05" "1.04" )
     SOURCE="xemacs/packages/eieio-$VERSION-pkg"
-     SHORT="$SPELL provides Enhanced Implementation of Emacs Interpreted Objects."
+      DESC="$SPELL provides Enhanced Implementation of Emacs Interpreted Objects.
+"
+

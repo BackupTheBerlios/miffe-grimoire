@@ -6,10 +6,9 @@
       HOMEPAGE="http://wino.physik.uni-mainz.de/~plass/gv/Xaw3d.html"
            REQ="x11"
      FRESHMEAT="Xaw3d"
-         SHORT="Xaw3d widget library."
-LONG="
-Xaw3D is a drop-in replacement of athena widgets (libXaw) which gives a more 
-3D look to X11.
+          DESC="Xaw3d widget library.
+Xaw3D is a drop-in replacement of athena widgets 
+(libXaw) which gives a more 3D look to X11.
 "
 
 function build() {

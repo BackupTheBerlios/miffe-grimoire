@@ -11,8 +11,7 @@
 	   REQ=""
       ESTIMATE="7"
      FRESHMEAT="dcraw"
-         SHORT="dcraw decodes raw images from digital cameras"
-LONG="
+          DESC="dcraw decodes raw images from digital cameras
 dcraw decodes any raw image from any digital camera. All digital 
 cameras made since 1997 produce JPEG images but there are some
 disadvantages. JPEG is a lossy format, a lot of information is

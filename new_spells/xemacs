@@ -16,8 +16,7 @@
     OPT[7]="xemacs-package-mule-base:--with-mule::Support non-Latin-1 (including Asian) languages."
  FRESHMEAT="xemacs"
   ESTIMATE="742"
-     SHORT="XEmacs is a highly customizable text editor."
-      LONG="
+      DESC="XEmacs is a highly customizable text editor.
 XEmacs is a highly customizable open source text editor and application 
 development system. It is protected under the GNU Public License and 
 related to other versions of Emacs, in particular GNU Emacs. Its emphasis 
@@ -58,6 +57,5 @@ case  $SPELL  in
 		    IGNORE="\-pkg"
 		    ATTRIBUTE="xemacs-package"
 		    ESTIMATE="5"
-		    LONG="$SHORT"
 		    ;;
 esac

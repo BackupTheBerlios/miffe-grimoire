@@ -2,8 +2,7 @@
    SOURCE="pub/unix/$SPELL"
       URL="http://www.ticalc.org"
  HOMEPAGE="http://lpg.ticalc.org/prj_tilp"
-    SHORT="tipar is a Ti linking library for parallel-ports"
-LONG="
+     DESC="tipar is a Ti linking library for parallel-ports
 tipar is a Ti linking library for parallel-ports
 "
 
