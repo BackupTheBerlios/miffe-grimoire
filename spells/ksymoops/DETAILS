@@ -1,0 +1,18 @@
+   VERSION=( "2.4.9" )
+  CATEGORY="debugger kernel"
+ ATTRIBUTE="console kernel new"
+  HOMEPAGE="http://www.gnu.org/directory/devel/Debugging/ksymoops.html"
+       URL="http://www.kernel.org/pub/linux/utils/kernel/ksymoops/v2.4"
+       REQ="binutils"
+  ESTIMATE="20"
+ FRESHMEAT="ksymoops"
+     SHORT="ksymoops - kernel oops and error message decoder"
+cat << EOF
+ksymoops is the kernel oops and error message decoder.
+The Linux kernel produces error messages that contain 
+machine specific numbers which are meaningless for 
+debugging. 'ksymoops' reads machine specific files and 
+the error log and does its best to converts the code 
+to instructions and map addresses to kernel symbols.
+
+EOF
