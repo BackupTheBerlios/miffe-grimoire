@@ -1,0 +1,43 @@
+   VERSION=( "1.8" )
+  CATEGORY="graphic-editor"
+ ATTRIBUTE="x11 new"
+    SOURCE="aoi/aoi${VERSION:0:1}${VERSION:2:1}.zip"
+       URL="$SOURCEFORGE_URL"
+  HOMEPAGE="http://aoi.sourceforge.net"
+       REQ="j2sdk"
+  ESTIMATE="526"
+      DESC="art-of-illusion is a 3D modelling, rendering and animation studio.
+It is written entirely in Java, and should be usable on any
+Java Virtual Machine which is compatible with J2SE 1.4 or later.
+
+Art of Illusion is stable and powerful enough to be used for
+serious, high-end animation work. Some of the highlights
+include subdivision surface modelling tools, skeleton based
+animation, and a graphical language for designing procedural
+textures and materials.
+"
+
+START_SCRIPT=/usr/bin/aoi
+MEMORY=$( head -1 /proc/meminfo   |		 			  \
+	  awk '{mem = $2/1024*0.75 ; split(mem, mm, "."); print(mm[1]) }' )m 	 
+
+create_start_script() {
+  echo "#!/bin/sh"		 > $START_SCRIPT
+  echo "java -Xmx${MEMORY} -jar ${INSTDIR}/${DIRNAME}/ArtOfIllusion.jar"  \
+				>> $START_SCRIPT
+  chmod 755 $START_SCRIPT
+  chown root.root $START_SCRIPT	
+}
+
+build() {
+	prepare_install				&&
+	DIRNAME=$( ls )				&&
+	INSTDIR=/usr/share			&&
+	if [ ! -d /usr/doc/$SPELL ]; then
+		mkdir /usr/doc/$SPELL
+	fi
+	cp -r * $INSTDIR			&&
+	chown -R root.root $INSTDIR/$DIRNAME	&&
+	cp $DIRNAME/HISTORY $DIRNAME/LICENSE $DIRNAME/README /usr/doc/$SPELL &&
+	create_start_script
+}
