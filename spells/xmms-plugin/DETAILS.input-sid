@@ -4,8 +4,6 @@ ATTRIBUTE="concurrent"
       URL="http://www.tnsp.org/xs-files/"
    SOURCE="xmms-sid-$VERSION"
  HOMEPAGE="http://www.tnsp.org/xmms-sid.php"
-unset OPT
-      OPT="xmms,songpos:::to be able to select subtune"
       REQ="libsidplay"
     SHORT="xmms-plugin,input-c64 plays C64 sid files"
 stream << EOF
