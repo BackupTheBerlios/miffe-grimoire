@@ -4,7 +4,6 @@
         SOURCE="spicctrl-$VERSION"
            URL="http://popies.net/sonypi"
       HOMEPAGE="http://popies.net/sonypi"
-           REQ=""
       ESTIMATE="6"
           DESC="spicctrl sets up LCD brightness on Sony VAIO laptops
 

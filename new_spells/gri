@@ -4,8 +4,9 @@
      SOURCE="gri/gri-$VERSION"
    HOMEPAGE="http://gri.sourceforge.net"
         URL="$SOURCEFORGE_URL"
-	REQ="teTeX texinfo ImageMagick ghostscript netcdf"
-	OPT="xemacs:::for writing gri command files"
+	REQ=( "teTeX texinfo ImageMagick ghostscript netcdf"
+	   "xemacs:::for writing gri command files"
+	   )
    ESTIMATE="353"
   FRESHMEAT="gri"
        DESC="gri is an extensible plotting language for scientific graphics programming.

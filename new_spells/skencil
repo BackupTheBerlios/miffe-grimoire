@@ -4,9 +4,10 @@
         SOURCE="sketch/skencil-$VERSION"
 	   URL="$SOURCEFORGE_URL"
       HOMEPAGE="http://sketch.sourceforge.net"
-           REQ="tcl tk Imaging qt-x11-free"
-	OPT[0]="PyXML:::Install the SVG import filter."
-	OPT[1]="gettext:--with-nls::Enable national language support."
+           REQ=( "tcl tk Imaging qt-x11-free"
+	      "PyXML:::Install the SVG import filter."
+	      "gettext:--with-nls::Enable national language support."
+	      )
       ESTIMATE="205"
      FRESHMEAT="skencil"
    SOURCEFORGE="sketch"

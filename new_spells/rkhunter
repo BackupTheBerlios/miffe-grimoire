@@ -4,8 +4,9 @@
      SOURCE="rkhunter-$VERSION"
    HOMEPAGE="http://www.rootkit.nl"
         URL="http://downloads.rootkit.nl"
-	REQ="bash wget perl lsof"
-     OPT[0]="nmap:::for network exploration/security auditing"
+	REQ=( "bash wget perl lsof"
+           "nmap:::for network exploration/security auditing"
+	   )
    ESTIMATE="5"
   FRESHMEAT="rkhunter"
        DESC="rkhunter scans for rootkits, backdoors and local exploits

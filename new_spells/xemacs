@@ -5,15 +5,16 @@
     SOURCE="xemacs-21.4/xemacs-$VERSION"
        URL="ftp://ftp.xemacs.org"
   HOMEPAGE="http://www.xemacs.org"
-       REQ="imlib zlib xemacs-package-efs xemacs-package-base"
-    OPT[0]="gtk+-v1.2:--with-gtk::Use GTK on the X Window System."
-    OPT[1]="x11:--with-x11:--without-x11:Support the X Window System."
-    OPT[2]="ncurses:--with-ncurses::Use the ncurses library for tty support."
-    OPT[3]="gpm:--with-gpm::Support the GPM mouse library for ttys."
-    OPT[4]="libpng::--without-png:Support PNG images. Strongly recommended."
-    OPT[5]="jpeg::--without-jpeg:Support JPEG images."
-    OPT[6]="tiff::--without-tiff:Support TIFF images."
-    OPT[7]="xemacs-package-mule-base:--with-mule::Support non-Latin-1 (including Asian) languages."
+       REQ=( "imlib zlib xemacs-package-efs xemacs-package-base"
+          "gtk+-v1.2:--with-gtk::Use GTK on the X Window System."
+          "x11:--with-x11:--without-x11:Support the X Window System."
+          "ncurses:--with-ncurses::Use the ncurses library for tty support."
+          "gpm:--with-gpm::Support the GPM mouse library for ttys."
+          "libpng::--without-png:Support PNG images. Strongly recommended."
+          "jpeg::--without-jpeg:Support JPEG images."
+          "tiff::--without-tiff:Support TIFF images."
+          "xemacs-package-mule-base:--with-mule::Support non-Latin-1 (including Asian) languages."
+	  )
  FRESHMEAT="xemacs"
   ESTIMATE="742"
       DESC="XEmacs is a highly customizable text editor
@@ -52,8 +53,8 @@ build()  {
 
 case  $SPELL  in
  	   xemacs)  :  ;;
-  xemacs-packages)  unset  REQ  OPT  IGNORE		;;
-                *)  unset  REQ  OPT
+  xemacs-packages)  unset  REQ  IGNORE		;;
+                *)  unset  REQ
 		    IGNORE="\-pkg"
 		    ATTRIBUTE="xemacs-package"
 		    ESTIMATE="5"

@@ -5,7 +5,6 @@
    HOMEPAGE="http://www.unidata.ucar.edu/packages/netcdf"
         URL="ftp://ftp.unidata.ucar.edu/pub/netcdf
              ftp://www.gfd-dennou.org/arch/netcdf/unidata-mirror"
-	REQ=""
    ESTIMATE="610"
   FRESHMEAT="netcdf"
        DESC="netcdf is a library for NetCDF data format

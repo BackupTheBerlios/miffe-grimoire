@@ -4,7 +4,6 @@
         SOURCE="sonypid-$VERSION"
            URL="http://popies.net/sonypi"
       HOMEPAGE="http://popies.net/sonypi"
-           REQ=""
       ESTIMATE="8"
           DESC="sonypid is a simple daemon handling events on Sony VAIO laptops
 

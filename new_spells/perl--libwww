@@ -2,7 +2,9 @@ inherit  perl--modules
    VERSION=( "5.800" )
     SOURCE="G/GA/GAAS/libwww-perl-$VERSION"
   HOMEPAGE="$HOMEPAGE/search?dist=libwww-perl"
-    OPT[0]="perl--HTML-Parser:::for modules that parse and extract information from HTML documents."
+       REQ=( "" 
+	  "perl--HTML-Parser:::for modules that parse and extract information from HTML documents."
+	  )
   ESTIMATE="108"
       DESC="$SPELL provides perl modules libwww-perl.
 The libwww-perl collection is a set of Perl modules which provides a

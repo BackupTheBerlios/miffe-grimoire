@@ -5,9 +5,10 @@
     SOURCE="files/awstats-$VERSION"
        URL="http://awstats.sourceforge.net"
   HOMEPAGE="http://awstats.sourceforge.net"
-       REQ="perl httpd"
-    OPT[0]="Geo-IPfree:::for a IP-Country database Perl plugin"
-    OPT[1]="XWhois:::to show whois info on host using a Perl plugin"
+       REQ=("perl httpd"
+          "perl--Geo-IPfree:::for a IP-Country database Perl plugin"
+          "perl--Net-XWhois:::to show whois info on host using a Perl plugin"
+	  )
  FRESHMEAT="awstats"
   ESTIMATE="5"
       DESC="awstats generates advanced web, ftp or mail server statistics, graphically.
