@@ -1,0 +1,8 @@
+inherit  perl-modules
+   VERSION=( "0.51" )
+    SOURCE="C/CH/CHAMAS/Crypt-SSLeay-$VERSION"
+  HOMEPAGE="$HOMEPAGE/search?dist=Crypt-SSLeay"
+       REQ="openssl perl"
+  ESTIMATE="43"
+     SHORT="$SPELL is an OpenSSL glue that provides LWP https support"
+      LONG="$SHORT"

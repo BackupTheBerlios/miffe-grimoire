@@ -1,0 +1,11 @@
+inherit  perl-modules
+   VERSION=( "0.2" )
+  HOMEPAGE="$HOMEPAGE/search?dist=Geo-IPfree"
+    SOURCE="G/GM/GMPASSOS/Geo-IPfree-$VERSION"
+  ESTIMATE="13"
+     SHORT="$SPELL provides module that looks up country of IP Address."
+       LONG="
+$SPELL provides a Perl module to look up country of IP Address. 
+This module make this off-line and the DB of IPs is 
+free and small.
+"
