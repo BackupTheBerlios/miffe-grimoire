@@ -2,7 +2,6 @@
   CATEGORY="profile"
  ATTRIBUTE="concurrent profile"
   HOMEPAGE="?"
-     SHORT="Installes some usefull packages for xemacs"
        REQ="xemacs-packages,base xemacs-packages,efs xemacs-packages,devel xemacs-packages,c-support xemacs-packages,cc-mode xemacs-packages,debug xemacs-packages,dired xemacs-packages,edit-utils xemacs-packages,fsf-compat xemacs-packages,mail-lib xemacs-packages,net-utils xemacs-packages,os-utils xemacs-packages,prog-modes xemacs-packages,text-modes xemacs-packages,time"
     ASSUME="off"
 cat << EOF
