@@ -1,13 +1,13 @@
-    VERSION=( "096src" )
+    VERSION=( "0.97.5" )
      IGNORE="2003"
    CATEGORY="emulator"
-        URL="http://fceultra.sourceforge.net/dev"
-     SOURCE="fceu$VERSION"
-   HOMEPAGE="http://fceultra.sourceforge.net/"
+        URL="http://xodnizel.net/fceultra/downloads"
+     SOURCE="fceu-$VERSION.src"
+   HOMEPAGE="http://xodnizel.net/fceultra/"
         REQ="SDL"
   FRESHMEAT="fceultra"
 SOURCEFORGE="fceultra"
       SHORT="FCE Ultra is a portable NES/Famicom emulator"
 cat << EOF
-FCE Ultra is a portable NES/Famicom emulator based on Bero's original FCE  source code. I have rewritten large portions of it, resulting in a much stabler, very compatible emulator.
+FCE Ultra is a portable NES/Famicom emulator.
 EOF
