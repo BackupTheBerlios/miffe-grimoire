@@ -14,7 +14,7 @@
    ESTIMATE="2082"
   FRESHMEAT="opendx"
       SHORT="opendx is an application for data visualization"
-stream << EOF
+LONG="
 opendx is an application for data visualization. If you 
 need visualization for anything from examining simple data 
 sets to analyzing complex, time-dependent data from 
@@ -23,4 +23,22 @@ and functions that let you easily gain meaningful
 insight into your data. OpenDX is a uniquely powerful, 
 full-featured software package for the visualization of 
 scientific, engineering and analytical data.
-EOF
+"
+
+function build() {
+	JNI=""
+	if [ -z $BRANCH ]; then 
+		echo $OPTS | grep -q "without-javadx"	||
+		JNI="--with-jni-path=$( dirname $( augur install j2sdk | grep jni.h ) ):$( dirname $( augur install j2sdk | grep jni_md.h ) )"
+	fi 
+
+	./configure  --build=$BUILD		\
+		     --prefix=/usr		\
+		     --sysconfdir=/etc		\
+		     --localstatedir=/var	\
+		     $JNI			\
+		     $OPTS			&&
+	make					&&
+	prepare_install				&&
+	make  install		
+}

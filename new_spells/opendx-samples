@@ -1,0 +1,13 @@
+    VERSION=( "4.3.2" )
+   CATEGORY="graphic data science"
+  ATTRIBUTE="new x11 concurrent"
+   HOMEPAGE="http://www.opendx.org"
+    	URL="http://opendx.npaci.edu/source"
+  FRESHMEAT="opendx"
+     SOURCE="dxsamples-$VERSION"
+	REQ="opendx"
+   ESTIMATE="252"
+      SHORT="opendx-samples contains samples for opendx"
+LONG="
+$SHORT
+"
