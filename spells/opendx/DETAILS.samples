@@ -1,0 +1,10 @@
+      unset OPT
+    VERSION=( "4.3.2" )
+     SOURCE="dxsamples-$VERSION"
+	REQ="opendx"
+   ESTIMATE="252"
+  FRESHMEAT="opendx"
+      SHORT="opendx samples"
+cat << EOF
+opendx samples.
+EOF

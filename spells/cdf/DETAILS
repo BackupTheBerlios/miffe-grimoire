@@ -1,0 +1,27 @@
+    VERSION=( "2.7" )
+   CATEGORY="data science library"
+  ATTRIBUTE="new library"
+     SOURCE="cdf${VERSION:0:1}${VERSION:2:1}/unix/cdf${VERSION:0:1}${VERSION:2:1}-dist-all"
+   HOMEPAGE="http://www.unidata.ucar.edu/packages/netcdf"
+        URL="ftp://nssdcftp.gsfc.nasa.gov/standards/cdf/dist"
+	REQ="ncurses"
+   ESTIMATE="88"
+      SHORT="cdf is a library for CDF data format"
+cat << EOF
+cdf is a library for the Common Data Format (CDF) created
+by National Space Science Data Center (NSSDC). CDF is 
+self-describing data abstraction for the storage and 
+manipulation of multidimensional data in a discipline-
+independent fashion. Although CDF has its own internal 
+self describing format, it consists of more than just a 
+data format. CDF is a scientific data management package 
+(known as the "CDF Library") which allows programmers
+ and application developers to manage and manipulate scalar, 
+vector, and multi-dimensional data arrays. The irony of 
+the term "FORMAT" is that the actual data format which 
+CDF utilizes is completely transparent to the user and 
+accessible through a consistent set of interface (known 
+as the "CDF Interface") routines. Therefore, programmers 
+are not burdened with performing low level I/Os to 
+physically format and unformat the data file. 
+EOF

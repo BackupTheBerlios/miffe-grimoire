@@ -1,0 +1,26 @@
+    VERSION=( "4.3.2" )
+   CATEGORY="graphic data science"
+  ATTRIBUTE="new x11 concurrent"
+     SOURCE="dx-$VERSION"
+   HOMEPAGE="http://www.opendx.org"
+    	URL="http://opendx.npaci.edu/source"
+	REQ="lesstif autoconf tiff"
+     OPT[0]="MesaLib:::for 3D functionality if you don not have OpenGL"
+     OPT[1]="ImageMagick:::for more export formats"
+     OPT[2]="j2sdk::--without-javadx:for java-enabled DX"
+     OPT[3]="cdf::--without-cdf:for CDF data file format library"
+     OPT[4]="netcdf::--without-netcdf:for netCDF data file format library"
+     OPT[5]="hdf::--without-hdf:for HDF data file format library"
+   ESTIMATE="2082"
+  FRESHMEAT="opendx"
+      SHORT="opendx is an application for data visualization"
+cat << EOF
+opendx is an application for data visualization. If you 
+need visualization for anything from examining simple data 
+sets to analyzing complex, time-dependent data from 
+disparate sources, OpenDX has what you need: features 
+and functions that let you easily gain meaningful 
+insight into your data. OpenDX is a uniquely powerful, 
+full-featured software package for the visualization of 
+scientific, engineering and analytical data.
+EOF
