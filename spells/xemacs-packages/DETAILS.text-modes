@@ -1,4 +1,4 @@
-   VERSION=( "1.73" "1.71" "1.66" "1.61" "1.58" )
+   VERSION=( "1.77" "1.73" "1.71" "1.66" "1.61" "1.58" )
     IGNORE="\-pkg"
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"

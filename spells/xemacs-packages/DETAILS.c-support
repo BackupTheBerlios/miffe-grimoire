@@ -1,4 +1,4 @@
-   VERSION=( "1.19" "1.18" "1.17" "1.16" )
+   VERSION=( "1.20" "1.19" "1.18" "1.17" "1.16" )
     IGNORE="\-pkg"
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"
