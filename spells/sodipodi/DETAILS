@@ -1,0 +1,17 @@
+    VERSION="0.32"
+     IGNORE="clipart"
+     SOURCE="$SPELL/$SPELL-$VERSION"
+        URL="$SOURCEFORGE_URL"
+   HOMEPAGE="http://sodipodi.sourceforge.net/"
+     OPT[0]="autotrace:::for converting bitmaps to vectors"
+     #OPT[1]="libgnomeprint:--with-gnome-print:--without-gnome-print:for printing support"
+      SHORT="sodipodi is a vector-based drawing program"
+        REQ="gtk+ libart_lgpl libxml2 popt"
+  FRESHMEAT="sodipodi"
+SOURCEFORGE="sodipodi"
+stream << EOF
+Sodipodi is a vector-based drawing program,
+like CorelDraw® or Adobe Illustrator® from
+the proprietary software world, and Sketch
+or Kontour from the free software world.
+EOF

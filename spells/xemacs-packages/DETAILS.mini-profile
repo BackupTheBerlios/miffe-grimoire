@@ -1,0 +1,13 @@
+   VERSION=( "1.0" )
+    IGNORE="\-pkg"
+  CATEGORY="profile"
+ ATTRIBUTE="concurrent profile"
+  HOMEPAGE="?"
+       REQ="xemacs-packages,base xemacs-packages,efs xemacs-packages,devel xemacs-packages,c-support xemacs-packages,cc-mode xemacs-packages,debug xemacs-packages,dired xemacs-packages,edit-utils xemacs-packages,fsf-compat xemacs-packages,mail-lib xemacs-packages,net-utils xemacs-packages,os-utils xemacs-packages,prog-modes xemacs-packages,text-modes xemacs-packages,time"
+    ASSUME="off"
+stream << EOF
+xemacs-packages contains a good minimal set of packages for 
+XEmacs-latin1: xemacs-packages,devel xemacs,c-support xemacs,cc-mode xemacs,debug 
+xemacs-packages,dired xemacs,edit-utils xemacs,fsf-compat xemacs,mail-lib xemacs,net-utils 
+xemacs-packages,os-utils xemacs,prog-modes xemacs,text-modes xemacs,time. 
+EOF

@@ -1,0 +1,12 @@
+   VERSION=( "1.4.2" "1.4.1" )
+  CATEGORY="web graphic"
+ ATTRIBUTE="concurrent gallery-lang new"
+    SOURCE="gallery/cs_CZ.cp1250-pack-$VERSION"
+       URL="$SOURCEFORGE_URL"
+  HOMEPAGE="http://gallery.menalto.com"
+       REQ="gallery"
+       OPT=
+     SHORT="cs_CZ.cp1250 language pack for gallery"
+stream << EOF
+cs_CZ.cp1250 language pack for gallery.
+EOF

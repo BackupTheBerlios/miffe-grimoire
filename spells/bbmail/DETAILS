@@ -1,0 +1,13 @@
+       VERSION=( "0.8.3" "0.8.2" )
+      CATEGORY="window-manager"
+     ATTRIBUTE="x11"
+        SOURCE="bbmail-$VERSION"
+           URL="http://bbtools.windsofstorm.net/sources"
+      HOMEPAGE="http://bbtools.windsofstorm.net"
+     FRESHMEAT="bbmail"
+         SHORT="Bbmail is a mail-checker with a Blackbox look and feel."
+stream << EOF
+Bbmail is a mail-checker with a Blackbox look and feel. Although it was 
+designed for Blackbox it should also work with any other Window Manager. 
+It is highly configurable and can be placed in the Blackbox Slit.
+EOF

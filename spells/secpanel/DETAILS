@@ -1,0 +1,11 @@
+ VERSION=( "0.41" )
+CATEGORY="utility encryption"
+     URL="http://www.pingx.net"
+  SOURCE="$SPELL/$SPELL-$VERSION"
+HOMEPAGE="http://www.pingx.net/secpanel/"
+     REQ="tcl tk openssh"
+   SHORT="secpanel is a frontend to ssh and scp"
+stream << EOF
+SecPanel serves as a graphical user interface for managing
+and running SSH (Secure Shell) and SCP (Secure Copy) connections.
+EOF

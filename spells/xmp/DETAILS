@@ -1,0 +1,75 @@
+ VERSION=( "2.0.5pre3" )
+CATEGORY="audio"
+     URL="$SOURCEFORGE_URL"
+  SOURCE="$SPELL/$SPELL-$VERSION"
+HOMEPAGE="http://xmp.sourceforge.net/"
+  #OPT[0]="alsa,lib:--enable-alsa:--disable-alsa:For output through alsa"
+  OPT[0]="arts:--enable-arts:--disable-arts:For output through arts"
+  OPT[1]="nas:--enable-nas:--disable-nas:For output through nas"
+  OPT[2]="esound:--enable-esd:--disable-esd:For output through esd"
+  OPT[3]="xmms:--enable-xmms:--disable-xmms:For a xmms plugin"
+  OPT[4]="x11:--enable-x:--disable-x:For a X11 player"
+   SHORT="xmp is a player that plays most module tracker files"
+stream << EOF
+xmp is a free module player for Linux (using ALSA and OSS). On PC class
+machines with GUS or AWE cards xmp takes advantage of the OSS sequencer
+to play modules with virtually no system load. Using software mixing,
+xmp plays at sampling rates up to 48 kHz in mono or stereo,
+8 or 16 bitssigned or unsignedlittle or big endian samples
+with 32 bit linear interpolation.
+
+Supported Formats:
+XM (Fast Tracker II)
+MOD (Noise/Fast/Protracker)
+MOD (Startrekker/Audio Sculpure)
+M15 (Soundtracker)
+IT (Impulse Tracker)
+S3M (Scream Tracker 3)
+STM (Scream Tracker 2)
+STX (STMIK 0.2)
+MTM (Multitracker)
+MTN (Soundtracker 2.6/Ice Tracker)
+IMF (Imago Orpheus)
+PTM (Protracker)
+MDL (Digitrakker)
+ULT (Ultra Tracker)
+LIQ (Liquid Tracker)
+MMD (OctaMED)
+PTM (Poly Tracker)
+DIGI (DIGI Booster)
+EMOD (Quadra Composer)
+OKT (Oktalyzer)
+SFX (SoundFX 1.3)
+FAR (Farandole Composer)
+STIM (Slamtilt)
+FC-M (FC-M Packer)
+KSM (Kefrens Sound Machine)
+IMS (Images Music System)
+WN (Wanton Packer)
+PM (Power Music)
+KRIS (ChipTracker)
+UNIC (Unic Tracker)
+P60A (The Player 6.0a)
+PRU1 (ProRunner 1.0)
+PRU2 (ProRunner 2.0)
+PM01 (Promizer 0.1)
+PM10 (Promizer 1.0c)
+PM18 (Promizer 1.8a)
+PM20 (Promizer 2.0)
+PM40 (Promizer 4.0)
+AC1D (AC1D Packer)
+PP10 (Pha Packer)
+XANN (XANN Packer)
+ZEN (Zen Packer)
+NP (NoisePacker)
+DI (Digital Illusions)
+MP (Module Protector)
+669 (Composer 669)
+FNK (Funktracker)
+AMD (Amusic Adlib Tracker)
+RAD (Reality Adlib Tracker)
+HSC (HSC-Tracker)
+CRB (Heatseeker)
+ALM (Aley Keptr)
+[52 known formats] 
+EOF

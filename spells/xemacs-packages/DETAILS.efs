@@ -1,0 +1,12 @@
+   VERSION=( "1.32" "1.31" "1.29" )
+    IGNORE="\-pkg"
+  CATEGORY="editor"
+ ATTRIBUTE="concurrent xemacs-packages"
+    SOURCE="xemacs/packages/efs-$VERSION-pkg"
+       URL="ftp://ftp.xemacs.org"
+  HOMEPAGE="http://www.xemacs.org"
+       REQ=""
+     SHORT="Treat files on remote systems the same as local files."
+stream << EOF
+Treat files on remote systems the same as local files.
+EOF

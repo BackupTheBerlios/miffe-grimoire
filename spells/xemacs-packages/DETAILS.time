@@ -1,0 +1,12 @@
+   VERSION=( "1.14" "1.13" )
+    IGNORE="\-pkg"
+  CATEGORY="editor"
+ ATTRIBUTE="concurrent xemacs-packages"
+    SOURCE="xemacs/packages/time-$VERSION-pkg"
+       URL="ftp://ftp.xemacs.org"
+  HOMEPAGE="http://www.xemacs.org"
+       REQ=""
+     SHORT="Display time & date on the modeline."
+stream << EOF
+Display time & date on the modeline.
+EOF

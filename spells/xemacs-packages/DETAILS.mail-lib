@@ -1,0 +1,12 @@
+   VERSION=( "1.65" "1.64" "1.63" "1.62" "1.59" "1.56" )
+    IGNORE="\-pkg"
+  CATEGORY="editor"
+ ATTRIBUTE="concurrent xemacs-packages"
+    SOURCE="xemacs/packages/mail-lib-$VERSION-pkg"
+       URL="ftp://ftp.xemacs.org"
+  HOMEPAGE="http://www.xemacs.org"
+       REQ=""
+     SHORT="Fundamental lisp files for providing email support."
+stream << EOF
+Fundamental lisp files for providing email support.
+EOF

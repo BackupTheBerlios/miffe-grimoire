@@ -1,0 +1,23 @@
+    VERSION=( "1.0.5" )
+   CATEGORY="security"
+  ATTRIBUTE="new console utility"
+     SOURCE="rkhunter-$VERSION"
+   HOMEPAGE="http://www.rootkit.nl"
+        URL="http://downloads.rootkit.nl"
+	REQ="bash wget perl lsof"
+     OPT[0]="nmap:::for network exploration/security auditing"
+   ESTIMATE="5"
+  FRESHMEAT="rkhunter"
+      SHORT="rkhunter scans for rootkits, backdoors and local exploits"
+stream << EOF
+rkhunter is rootkit scanning tool to ensure that you are 
+for about 99.9% clean of nasty tools. This tool scans for 
+rootkits, backdoors and local exploits by running tests like:
+
+- MD5 hash compare
+- Look for default files used by rootkits
+- Wrong file permissions for binaries
+- Look for suspected strings in LKM and KLD modules
+- Look for hidden files
+- Optional scan within plaintext and binary files
+EOF

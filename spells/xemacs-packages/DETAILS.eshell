@@ -1,0 +1,12 @@
+   VERSION=( "1.06" "1.05" "1.04" )
+    IGNORE="\-pkg"
+  CATEGORY="editor"
+ ATTRIBUTE="concurrent xemacs-packages"
+    SOURCE="xemacs/packages/eshell-$VERSION-pkg"
+       URL="ftp://ftp.xemacs.org"
+  HOMEPAGE="http://www.xemacs.org"
+       REQ=""
+     SHORT="Command shell implemented entirely in Emacs Lisp."
+stream << EOF
+Command shell implemented entirely in Emacs Lisp.
+EOF

@@ -1,0 +1,13 @@
+       VERSION=( "1.5" )
+      CATEGORY="graphic"
+     ATTRIBUTE="library x11"
+        SOURCE="contrib/widgets/Xaw3d/R6.3/Xaw3d-$VERSION"
+           URL="ftp://ftp.x.org"
+      HOMEPAGE="http://wino.physik.uni-mainz.de/~plass/gv/Xaw3d.html"
+           REQ="x11"
+     FRESHMEAT="Xaw3d"
+         SHORT="Xaw3d widget library."
+stream << EOF
+Xaw3D is a drop-in replacement of athena widgets (libXaw) which gives a more 
+3D look to X11.
+EOF

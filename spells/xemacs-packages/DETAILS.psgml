@@ -1,0 +1,12 @@
+   VERSION=( "1.42" "1.41" "1.40" "1.38" )
+    IGNORE="\-pkg"
+  CATEGORY="editor"
+ ATTRIBUTE="concurrent xemacs-packages"
+    SOURCE="xemacs/packages/psgml-$VERSION-pkg"
+       URL="ftp://ftp.xemacs.org"
+  HOMEPAGE="http://www.xemacs.org"
+       REQ=""
+     SHORT="Validated HTML/SGML editing."
+stream << EOF
+Validated HTML/SGML editing.
+EOF

@@ -1,0 +1,12 @@
+   VERSION=( "1.12" "1.11" )
+    IGNORE="\-pkg"
+  CATEGORY="editor"
+ ATTRIBUTE="concurrent xemacs-packages"
+    SOURCE="xemacs/packages/dictionary-$VERSION-pkg"
+       URL="ftp://ftp.xemacs.org"
+  HOMEPAGE="http://www.xemacs.org"
+       REQ=""
+     SHORT="Interface to RFC2229 dictionary servers."
+stream << EOF
+Interface to RFC2229 dictionary servers.
+EOF

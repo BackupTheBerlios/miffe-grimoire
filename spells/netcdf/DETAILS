@@ -1,0 +1,20 @@
+    VERSION=( "3.5.1" )
+   CATEGORY="data science library"
+  ATTRIBUTE="new library"
+     SOURCE="netcdf-$VERSION.tar.Z"
+   HOMEPAGE="http://www.unidata.ucar.edu/packages/netcdf"
+        URL="ftp://ftp.unidata.ucar.edu/pub/netcdf
+             ftp://www.gfd-dennou.org/arch/netcdf/unidata-mirror"
+	REQ=""
+   ESTIMATE="610"
+  FRESHMEAT="netcdf"
+      SHORT="netcdf is a library for NetCDF data format"
+stream << EOF
+netcdf (network Common Data Form) is an interface for 
+array-oriented data access and a library that provides 
+an implementation of the interface. The netCDF library 
+also defines a machine-independent format for representing 
+scientific data. Together, the interface, library, and 
+format support the creation, access, and sharing of 
+scientific data.
+EOF

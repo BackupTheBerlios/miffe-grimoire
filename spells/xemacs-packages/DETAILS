@@ -1,0 +1,9 @@
+   VERSION=( "1.0" )
+  CATEGORY="profile"
+ ATTRIBUTE="concurrent profile"
+  HOMEPAGE="?"
+     SHORT="Installes all available spell-packages for xemacs"
+       REQ="xemacs-packages,auctex xemacs-packages,base xemacs-packages,c-support xemacs-packages,calc xemacs-packages,cc-mode xemacs-packages,clearcase xemacs-packages,debug xemacs-packages,devel xemacs-packages,dictionary xemacs-packages,dired xemacs-packages,ecb xemacs-packages,edebug xemacs-packages,edit-utils xemacs-packages,efs xemacs-packages,eieio xemacs-packages,elib xemacs-packages,emerge xemacs-packages,eshell xemacs-packages,eterm xemacs-packages,fortran-modes xemacs-packages,frame-icon xemacs-packages,fsf-compat xemacs-packages,hm--html-menus xemacs-packages,ibuffer xemacs-packages,idlwave xemacs-packages,ispell xemacs-packages,jde xemacs-packages,locale xemacs-packages,lookup xemacs-packages,mail-lib xemacs-packages,mule-base xemacs-packages,mule-ucs xemacs-packages,net-utils xemacs-packages,os-utils xemacs-packages,pc xemacs-packages,pcl-cvs xemacs-packages,pcomplete xemacs-packages,perl-modes xemacs-packages,prog-modes xemacs-packages,ps-print xemacs-packages,psgml xemacs-packages,python-modes xemacs-packages,reftex xemacs-packages,semantic xemacs-packages,sgml xemacs-packages,sh-script xemacs-packages,slider xemacs-packages,texinfo xemacs-packages,text-modes xemacs-packages,textools xemacs-packages,time xemacs-packages,vc xemacs-packages,vc-cc"
+    ASSUME="off"
+stream << EOF
+EOF

@@ -1,0 +1,10 @@
+ VERSION=( "0.3.3" )
+CATEGORY="dockapps"
+     URL="http://tnemeth.free.fr"
+  SOURCE="projets/programmes/$SPELL-$VERSION"
+HOMEPAGE="http://tnemeth.free.fr/projets/dockapps.html"
+     REQ="x11"
+   SHORT="This dockapp monitors your apm battery status."
+stream << EOF
+This dockapp monitors your apm battery status.
+EOF

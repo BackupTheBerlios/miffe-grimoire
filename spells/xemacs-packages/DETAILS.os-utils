@@ -1,0 +1,12 @@
+   VERSION=( "1.35" "1.34" "1.32" "1.31" "1.30" )
+    IGNORE="\-pkg"
+  CATEGORY="editor"
+ ATTRIBUTE="concurrent xemacs-packages"
+    SOURCE="xemacs/packages/os-utils-$VERSION-pkg"
+       URL="ftp://ftp.xemacs.org"
+  HOMEPAGE="http://www.xemacs.org"
+       REQ=""
+     SHORT="Miscellaneous O/S utilities."
+stream << EOF
+Miscellaneous O/S utilities.
+EOF

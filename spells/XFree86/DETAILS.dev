@@ -1,0 +1,32 @@
+   VERSION=( "4.3.99.7" "4.3.99.2" )
+  CATEGORY="x11"
+ ATTRIBUTE="concurrent core x11"
+ SOURCE[0]="develsnaps/XFree86-$VERSION.tar.bz2"
+ SOURCE[1]="fontconfig-2.2.0.tar.gz"
+ SOURCE[2]="ati.2.tar.bz2"
+ SOURCE[3]="gatos/drm-kernel-1.100.0-9.tar.gz"
+    URL[0]="$XFREE86_URL"
+    URL[1]="http://fontconfig.org/release"
+    URL[2]="http://miffe-grimoire.berlios.de"
+    URL[3]="$SOURCEFORGE_URL"    
+  HOMEPAGE="http://gatos.sourceforge.net"
+    OPT[0]="Linux-PAM:::"
+    OPT[1]="XFree86,fonts:::to install fonts"
+  EPROVIDE="fontconfig Xft2 x11 xfree86 XFree86"
+       REQ="bison expat freetype libpng ncurses perl"
+     AVOID="OpenSP db gdbm linuxdoc-tools teTeX"
+ FRESHMEAT="xfree86"
+     SHORT="Modified XFree86 spell to include gatos drivers"    
+stream << EOF
+XFree86 is a freely redistributable open-source 
+implementation of the X Window System that runs on UNIX(R).
+XFree86 is the underlying software that is between the hardware
+and graphical user interface (aka gui) that people see and use.
+If you are using KDE, GNOME, Enlightenment, Blackbox, AfterStep,
+twm or fvwm then you are already using and running XFree86 as 
+these run as our clients.
+
+This version has been modified to include the gatos drivers for
+multimedia features of many ATI cards, including the DRM drivers,
+allowing Direct Rendering support.
+EOF

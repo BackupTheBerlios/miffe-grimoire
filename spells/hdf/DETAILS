@@ -1,0 +1,12 @@
+    VERSION=( "5-1.6.2" )
+   CATEGORY="data science library"
+  ATTRIBUTE="new library"
+     SOURCE="HDF5/current/src/hdf$VERSION"
+   HOMEPAGE="http://hdf.ncsa.uiuc.edu"
+        URL="ftp://ftp.ncsa.uiuc.edu/HDF"
+	REQ="zlib szip"
+   ESTIMATE="2834"
+      SHORT="hdf is a library for HDF data format"
+stream << EOF
+hdf is a library for the Hierarchical Data Format (HDF).
+EOF

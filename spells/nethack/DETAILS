@@ -1,0 +1,11 @@
+   VERSION=( "342" )
+  CATEGORY="game"
+    SOURCE="nethack/nethack-$VERSION"
+  HOMEPAGE="http://nethack.org"
+      URL="$SOURCEFORGE_URL"
+ FRESHMEAT="nethack"
+     SHORT="nethack is a dungeon crawler game"
+    OPT[0]="x11:ENABLE_X11::For X11 graphics"
+stream << EOF
+nethack is a dungeon crawler, like the ancient rouge,
+EOF

@@ -1,0 +1,12 @@
+   VERSION=( "1.96" "1.94" "1.91" "1.89" "1.79" "1.72" )
+    IGNORE="\-pkg"
+  CATEGORY="editor"
+ ATTRIBUTE="concurrent xemacs-packages"
+    SOURCE="xemacs/packages/prog-modes-$VERSION-pkg"
+       URL="ftp://ftp.xemacs.org"
+  HOMEPAGE="http://www.xemacs.org"
+       REQ=""
+     SHORT="Support for various programming languages."
+stream << EOF
+Support for various programming languages.
+EOF

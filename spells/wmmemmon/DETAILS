@@ -1,0 +1,10 @@
+ VERSION=( "1.0.0" )
+CATEGORY="dockapps"
+     URL="http://www.sh.rim.or.jp/~ssato/src/"
+  SOURCE="$SPELL-$VERSION"
+HOMEPAGE="http://www.sh.rim.or.jp/~ssato/dockapp/index.shtml"
+     REQ="x11"
+   SHORT="wmmemmon is a dockapp that monitors memory/swap usages"
+stream << EOF
+wmmemmon is a dockapp that monitors memory/swap usages
+EOF

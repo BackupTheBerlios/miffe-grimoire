@@ -1,0 +1,12 @@
+  VERSION=( "0.9.7" )
+ CATEGORY="file-manager"
+      URL="http://www.binary.is"
+   SOURCE="download/jaffm-$VERSION.tar.gz"
+ HOMEPAGE="http://jaffm.binary.is/"
+ ESTIMATE="18"
+      REQ="wxGTK"
+    SHORT="jaffm is Just A Fucking File Manager"
+FRESHMEAT="jaffm"
+stream << EOF
+jaffm is a file-manager that looks like the Mac OS X finder.
+EOF

@@ -1,0 +1,13 @@
+ VERSION=( "0.3.6" )
+CATEGORY="development"
+     URL="http://zoinks.mikelockwood.com"
+  SOURCE="download/$SPELL-$VERSION"
+HOMEPAGE="http://zoinks.mikelockwood.com/"
+ESTIMATE="564"
+  OPT[0]="gettext::--disable-nls:For GNU native language support"
+  #OPT[1]="imlib:--enable-imlib:--disable-imlib:For image and html thumbnail preview"
+FRESHMEAT="zoinks"
+   SHORT="Zoinks is a programmer's text editor and IDE"
+stream << EOF
+Zoinks is a programmer's text editor and IDE
+EOF

@@ -1,0 +1,16 @@
+      VERSION=( "0.07" "0.06" )
+      CATEGORY="dockapps"
+     ATTRIBUTE="x11"
+        SOURCE="wmifinfo-$VERSION"
+           URL="http://www.zevv.nl/wmifinfo"
+      HOMEPAGE="http://www.zevv.nl/wmifinfo"
+           REQ="x11"
+      ESTIMATE="8"
+         SHORT="wmifinfo is a WM applet showing network info"
+stream << EOF
+wmifinfo is a Window Maker applet showing basic 
+IP network info for all available interfaces. 
+It shows the IP address, netmask, gateway, and 
+MAC address. If used on a wireless (802.11) 
+network card, it also shows a signal strength indicator.
+EOF

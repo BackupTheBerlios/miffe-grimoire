@@ -1,0 +1,10 @@
+  VERSION="4.4.3"
+   IGNORE="devel"
+   SOURCE="tilp/$SPELL-$VERSION"
+      URL="$SOURCEFORGE_URL"
+      REQ="libtifiles"
+ HOMEPAGE="http://lpg.ticalc.org/prj_tilp"
+    SHORT="lib required for tilp"
+stream << EOF
+TiLP is a linking program for Texas Instruments' graphing calculators. TiLP works on several platforms (UNIX, Windows, Macintosh). It can handle any TI calculator (from TI73 to V200) with any link cable. TiLP has all the functions of a linking program and even more.
+EOF

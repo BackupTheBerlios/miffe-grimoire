@@ -1,0 +1,14 @@
+  if [ -f /etc/httpd/httpd.conf ]; then 
+        DOCROOT=`grep ^[:space:]*DocumentRoot /etc/httpd/httpd.conf | \
+                cut -d " " -f 2 -s | sed "s:\"::g"`
+  else
+        DOCROOT=/usr/share
+  fi
+
+  prepare_install		&&
+  cd $DOCROOT/gallery/locale	&&
+  unpack $SOURCE		&&
+  chown -R root.root *		&&
+  chmod -R a+rX *          &&
+  cd -
+
