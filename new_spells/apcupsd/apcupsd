@@ -1,0 +1,54 @@
+#!/bin/bash
+# Begin /etc/init.d/apcupsd
+#
+# S20 in /etc/rc{2,3,4,5}.d and K99 /etc/rc{0,1,6}.d
+#
+APCPID=/var/run/apcupsd.pid
+LOCK=/var/lock/subsys/apcupsd
+DISTVER="Sorcerer"
+
+return="  Done."
+
+case "$1" in
+        start)
+                # House keeping if this were a restart from powerfail
+                rm -f /etc/apcupsd/powerfail
+                rm -f /etc/nologin
+                # Start apcupsd
+                echo -n "Starting apcupsd power management ..."
+                /sbin/apcupsd  ||  return="  Failed."
+		touch ${LOCK}
+		echo -e "$return"
+                ;;
+
+        stop)
+                echo -n "Stopping apcupsd power management..."
+		if [ -f ${APCPID} ]; then
+			THEPID=$( cat ${APCPID} )
+			kill ${THEPID}  ||  return="  Failed."
+			rm -f ${APCPID}
+		else
+			return="  Failed."
+		fi
+		rm -f ${LOCK}
+		echo -e "$return"
+                ;;
+
+        restart)
+                $0 stop
+                $0 start
+                ;;
+
+        status)
+                /sbin/apcaccess status
+                ;;
+
+        *)
+                echo "Usage: $0 {start|stop|restart|status}"
+                exit 1
+        ;;
+
+esac
+
+exit 0
+
