@@ -1,0 +1,24 @@
+       VERSION=( "0.2.0" )
+      CATEGORY="utility"
+     ATTRIBUTE="new x11"
+      HOMEPAGE="http://dindinx.net/hotbabe"
+        SOURCE="downloads/hot-babe-$VERSION"
+           URL="$HOMEPAGE"
+           REQ="x11 gtk+ gdk-pixbuf"
+      ESTIMATE="8"
+          DESC="hot-babe is a graphical utility which displays system activity
+in a very special way. When the CPU is idle, it displays a 
+dressed girl, and when the activity goes up, as the 
+temperature increases, the girl begins to undress, 
+to finish totally naked when the system activity reaches 
+100%. Of course, if you can be shocked by nudity, don't 
+use it!
+"
+
+function build() {
+ sed  -i "s:/usr/local:/usr:"	Makefile
+ sed  -i "s:/share/doc:/doc:"	Makefile
+ make                                      &&
+ prepare_install                           &&
+ make install
+}
