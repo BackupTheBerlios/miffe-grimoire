@@ -1,0 +1,32 @@
+  VERSION=( "0.18-1" )
+ CATEGORY="graphic-editor graphic"
+ATTRIBUTE="x11"
+   SOURCE="$SPELL/$SPELL-$VERSION"
+ HOMEPAGE="http://cinepaint.sourceforge.net"
+      URL="$SOURCEFORGE_URL"
+      REQ="gtk+ tiff jpeg libpng "
+ ESTIMATE="2515"
+FRESHMEAT="cinepaint"
+    SHORT="cinepaint (former Film Gimp) is a motion picture editing tool."
+cat << EOF
+CinePaint is a free open source painting and image retouching 
+program designed to work best with 35mm film and other high 
+resolution high dynamic range images. It is the most popular 
+open source tool in the motion picture industry -- used in 
+2 Fast 2 Furious, Scooby-Doo, Harry Potter, Stuart Little and 
+other feature films. CinePaint is used for painting of 
+background mattes and for frame-by-frame retouching of movies. 
+It is being extended to do film restoration.
+
+Animation renderers and 35mm film scanners are capable of 
+creating greater color bit-depth than can be displayed on 
+monitors (8-bit per channel) or can be manipulated in most 
+programs. The 32-bit per channel color capacity of CinePaint 
+appeals most to cinematographers and professional still 
+photographers. However, CinePaint is a general-purpose tool 
+useful for working on images for motion pictures, print, 
+and the Web. CinePaint supports many file formats, 
+conventional formats such as JPEG, PNG, TIFF, and TGA 
+images -- and more exotic motion picture digital 
+intermediate formats such as Cineon and OpenEXR.
+EOF
