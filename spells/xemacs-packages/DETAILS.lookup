@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Dictionary support."
-cat << EOF
+stream << EOF
 Dictionary support.
 EOF

@@ -8,7 +8,7 @@
    ESTIMATE="5"
 SOURCEFORGE="logcheck"
       SHORT="logcheck checks system log files for unusual activity"
-cat << EOF
+stream << EOF
 Logcheck is software package that is designed to 
 automatically run and check system log files for 
 security violations and unusual activity. Logcheck 

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Terminal emulation."
-cat << EOF
+stream << EOF
 Terminal emulation.
 EOF

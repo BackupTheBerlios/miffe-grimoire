@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Fundamental lisp files for providing email support."
-cat << EOF
+stream << EOF
 Fundamental lisp files for providing email support.
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Treat files on remote systems the same as local files."
-cat << EOF
+stream << EOF
 Treat files on remote systems the same as local files.
 EOF

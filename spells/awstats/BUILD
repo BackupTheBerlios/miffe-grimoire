@@ -7,11 +7,11 @@ sed -i "s:/usr/local/awstats:/usr/awstats:g"  wwwroot/cgi-bin/awstats.pl
 chown  -R root.root *
 chmod  -R 644 *
 chmod  -R a+X *
-find  -name *.pl  |  xargs chmod a+x
+find  -name *.pl  |  xargs chmod a+x 
 
-prepare_install
-
-[ ! -d /usr/awstats ]   &&  mkdir  /usr/awstats
+prepare_install 
+					
+[ ! -d /usr/awstats ]	&&  mkdir  /usr/awstats
 cp  -r tools wwwroot /usr/awstats
 
 echo  "$BSPELL installed"

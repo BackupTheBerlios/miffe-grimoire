@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Advanced replacement for buffer-menu."
-cat << EOF
+stream << EOF
 Advanced replacement for buffer-menu.
 EOF

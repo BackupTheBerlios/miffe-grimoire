@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Enhanced Implementation of Emacs Interpreted Objects."
-cat << EOF
+stream << EOF
 Enhanced Implementation of Emacs Interpreted Objects.
 EOF

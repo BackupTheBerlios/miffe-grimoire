@@ -7,7 +7,7 @@
            REQ="x11"
      FRESHMEAT="Xaw3d"
          SHORT="Xaw3d widget library."
-cat << EOF
+stream << EOF
 Xaw3D is a drop-in replacement of athena widgets (libXaw) which gives a more 
 3D look to X11.
 EOF

@@ -5,6 +5,6 @@ CATEGORY="audio library"
 HOMEPAGE="http://www.geocities.com/SiliconValley/Lakes/5147/sidplay/linux.html"
      REQ=""
    SHORT="libsidplay is a library for playing C64 .sid files"
-cat << EOF
+stream << EOF
 Library for playing C64 .sid music files.
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Emacs source code browser."
-cat << EOF
+stream << EOF
 Emacs source code browser.
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Miscellaneous networking utilities."
-cat << EOF
+stream << EOF
 Miscellaneous networking utilities.
 EOF

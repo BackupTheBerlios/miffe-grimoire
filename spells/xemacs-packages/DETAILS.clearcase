@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="New Clearcase Version Control for XEmacs (UNIX, Windows)."
-cat << EOF
+stream << EOF
 New Clearcase Version Control for XEmacs (UNIX, Windows).
 EOF

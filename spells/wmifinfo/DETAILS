@@ -7,7 +7,7 @@
            REQ="x11"
       ESTIMATE="8"
          SHORT="wmifinfo is a WM applet showing network info"
-cat << EOF
+stream << EOF
 wmifinfo is a Window Maker applet showing basic 
 IP network info for all available interfaces. 
 It shows the IP address, netmask, gateway, and 

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="GNU Emacs compatibility files."
-cat << EOF
+stream << EOF
 GNU Emacs compatibility files.
 EOF

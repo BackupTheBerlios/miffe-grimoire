@@ -3,5 +3,5 @@
       URL="http://www.ticalc.org"
  HOMEPAGE="http://lpg.ticalc.org/prj_tilp"
     SHORT="tiser is a Ti linking library for serial ports"
-cat << EOF
+stream << EOF
 EOF

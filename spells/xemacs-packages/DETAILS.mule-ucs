@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Extended coding systems (including Unicode) for XEmacs."
-cat << EOF
+stream << EOF
 Extended coding systems (including Unicode) for XEmacs.
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Miscellaneous TeX (BibTeX/RefTeX) support."
-cat << EOF
+stream << EOF
 Miscellaneous TeX (BibTeX/RefTeX) support.
 EOF

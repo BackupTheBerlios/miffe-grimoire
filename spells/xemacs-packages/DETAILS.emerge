@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Interface for GNU patch to allow patching/merging of files."
-cat << EOF
+stream << EOF
 Interface for GNU patch to allow patching/merging of files.
 EOF

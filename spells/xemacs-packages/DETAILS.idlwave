@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Editing and shell mode for the Interactive Data Language (IDL)."
-cat << EOF
+stream << EOF
 Editing and shell mode for the Interactive Data Language (IDL).
 EOF

@@ -7,6 +7,6 @@
        REQ="gallery"
        OPT=
      SHORT="ko_KR language pack for gallery"
-cat << EOF
+stream << EOF
 ko_KR language pack for gallery.
 EOF

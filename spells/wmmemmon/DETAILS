@@ -5,6 +5,6 @@ CATEGORY="dockapps"
 HOMEPAGE="http://www.sh.rim.or.jp/~ssato/dockapp/index.shtml"
      REQ="x11"
    SHORT="wmmemmon is a dockapp that monitors memory/swap usages"
-cat << EOF
+stream << EOF
 wmmemmon is a dockapp that monitors memory/swap usages
 EOF

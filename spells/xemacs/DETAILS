@@ -17,7 +17,7 @@
  FRESHMEAT="xemacs"
   ESTIMATE="614"
      SHORT="XEmacs is a highly customizable text editor."
-cat << EOF
+stream << EOF
 XEmacs is a highly customizable open source text editor and application 
 development system. It is protected under the GNU Public License and 
 related to other versions of Emacs, in particular GNU Emacs. Its emphasis 

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Manage file systems."
-cat << EOF
+stream << EOF
 Manage file systems.
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Spell-checking with GNU ispell."
-cat << EOF
+stream << EOF
 Spell-checking with GNU ispell.
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Miscellaneous support for editing text files."
-cat << EOF
+stream << EOF
 Miscellaneous support for editing text files.
 EOF

@@ -7,6 +7,6 @@
 	REQ="zlib szip"
    ESTIMATE="2834"
       SHORT="hdf is a library for HDF data format"
-cat << EOF
+stream << EOF
 hdf is a library for the Hierarchical Data Format (HDF).
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Basic TeX/LaTeX support."
-cat << EOF
+stream << EOF
 Basic TeX/LaTeX support.
 EOF

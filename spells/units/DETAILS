@@ -7,7 +7,7 @@
            REQ=""
      FRESHMEAT="units"
          SHORT="GNU units converts between different systems of units."
-cat << EOF
+stream << EOF
 GNU units converts between different systems of units. It can handle 
 multiplicative scale changes as well as nonlinear conversions, such as 
 Fahrenheit to Celsius. Over 2000 units definitions are included in a 

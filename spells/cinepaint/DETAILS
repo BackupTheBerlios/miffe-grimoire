@@ -8,7 +8,7 @@ ATTRIBUTE="x11"
  ESTIMATE="2515"
 FRESHMEAT="cinepaint"
     SHORT="cinepaint (former Film Gimp) is a motion picture editing tool."
-cat << EOF
+stream << EOF
 CinePaint is a free open source painting and image retouching 
 program designed to work best with 35mm film and other high 
 resolution high dynamic range images. It is the most popular 

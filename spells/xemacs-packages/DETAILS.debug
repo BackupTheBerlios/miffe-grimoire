@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="GUD, gdb, and dbx debugging support."
-cat << EOF
+stream << EOF
 GUD, gdb, and dbx debugging support.
 EOF

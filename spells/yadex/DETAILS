@@ -5,7 +5,7 @@ CATEGORY="game"
 HOMEPAGE="http://www.teaser.fr/~amajorel/yadex/"
      REQ="x11"
    SHORT="Yadex is a Doom level (wad) editor"
-cat << EOF
+stream << EOF
 Yadex is a Doom level (wad) editor for Unix systems running X, including
 Linux. It supports Doom alpha, Doom beta, Doom, Ultimate Doom,
 Final Doom, Doom II, Heretic and also, in a more or less limited way,

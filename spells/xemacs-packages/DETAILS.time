@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Display time & date on the modeline."
-cat << EOF
+stream << EOF
 Display time & date on the modeline.
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Support for editing shell scripts."
-cat << EOF
+stream << EOF
 Support for editing shell scripts.
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="User interface tool."
-cat << EOF
+stream << EOF
 User interface tool.
 EOF

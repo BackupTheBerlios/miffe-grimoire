@@ -6,6 +6,6 @@ HOMEPAGE="http://mpx.freeshell.org/"
      REQ="x11"
      OPT="gtk+,v1.2:::For gtk+ support"
    SHORT="Soundcard mixer program for Linux"
-cat << EOF
+stream << EOF
 Soundcard mixer program for Linux
 EOF

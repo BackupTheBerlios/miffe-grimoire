@@ -9,7 +9,7 @@
         REQ="gtk+ libart_lgpl libxml2 popt"
   FRESHMEAT="sodipodi"
 SOURCEFORGE="sodipodi"
-cat << EOF
+stream << EOF
 Sodipodi is a vector-based drawing program,
 like CorelDraw® or Adobe Illustrator® from
 the proprietary software world, and Sketch

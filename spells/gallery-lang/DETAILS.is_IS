@@ -7,6 +7,6 @@
        REQ="gallery"
        OPT=
      SHORT="is_IS language pack for gallery"
-cat << EOF
+stream << EOF
 is_IS language pack for gallery.
 EOF

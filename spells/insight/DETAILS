@@ -9,7 +9,7 @@
  FRESHMEAT="insight"
      SHORT="insight is a tcl/tk gdb GUI"
   EPROVIDE="gdb"
-cat << EOF
+stream << EOF
 Insight is a powerfull GUI debuger allowing you to easely debug 
 your application. it's a gdb frontend. It has easy watchpoint adding mechanism
 (right clik and select add, or select whole expression and right click then add)

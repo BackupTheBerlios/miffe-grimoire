@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="PC style interface emulation."
-cat << EOF
+stream << EOF
 PC style interface emulation.
 EOF

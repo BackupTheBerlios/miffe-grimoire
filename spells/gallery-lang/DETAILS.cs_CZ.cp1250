@@ -7,6 +7,6 @@
        REQ="gallery"
        OPT=
      SHORT="cs_CZ.cp1250 language pack for gallery"
-cat << EOF
+stream << EOF
 cs_CZ.cp1250 language pack for gallery.
 EOF

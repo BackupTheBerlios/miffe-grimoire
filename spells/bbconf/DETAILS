@@ -8,7 +8,7 @@
      FRESHMEAT="bbconf"
    SOURCEFORGE="bbconf"
          SHORT="bbconf is a GUI configurator for the Blackbox window manager."
-cat << EOF
+stream << EOF
 bbconf is a GUI configurator for the Blackbox window manager. It's written 
 in C++ and Qt, and uses plugins for extensibility. bbconf is distributed 
 with 4 plugins, and replaces the previously separate Blackbox/bbkeys 

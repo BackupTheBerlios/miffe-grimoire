@@ -5,7 +5,7 @@ CATEGORY="dockapps"
 HOMEPAGE="http://dockapps.org/file.php/id/172/"
      REQ="gtk+,v1.2 xmms"
    SHORT="WMxmms is a dockapp that controls xmms"
-cat << EOF
+stream << EOF
 A xmms dockapp.
 binary will be /usr/bin/WMxmms not /usr/bin/wmxmms
 

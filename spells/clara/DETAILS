@@ -1,0 +1,22 @@
+    VERSION=( "20031214" )
+   CATEGORY="graphic"
+  ATTRIBUTE="new x11"
+     SOURCE="sources/clara-$VERSION"
+   HOMEPAGE="http://www.claraocr.org"
+        URL="http://www.claraocr.org"
+	REQ="x11 netpbm"
+   ESTIMATE="38"
+  FRESHMEAT="clara"
+      SHORT="clara is an OCR program for large-scale digitalization projects"
+stream << EOF
+clara OCR is a free (GPL) OCR for systems that support 
+the C library and the X windows system (e.g. most 
+flavours of Unix). The development platform of Clara 
+OCR is 32-bit Intel running GNU/Linux.
+
+Clara OCR is intended for large scale digitalization 
+projects. It features a powerful GUI and a web interface 
+for cooperative digitalization of books. Clara OCR 
+development started in 1999 and we're approaching 
+production quality. 
+EOF

@@ -9,7 +9,7 @@
    ESTIMATE="353"
   FRESHMEAT="gri"
       SHORT="gri is an extensible plotting language for science"
-cat << EOF
+stream << EOF
 gri is a language for scientific graphics programming. 
 The word "language" is important: Gri is command-driven, 
 not point/click.

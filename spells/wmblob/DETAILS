@@ -5,7 +5,7 @@ CATEGORY="dockapps"
 HOMEPAGE="http://www.dockapps.org/file.php/id/155/"
      REQ="x11"
    SHORT="wmblob shows some blobs moving around."
-cat << EOF
+stream << EOF
 wmblob shows some blobs moving around.
 It does nothing useful, it's just a toy.
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Basic Mule support, required for building with Mule."
-cat << EOF
+stream << EOF
 Basic Mule support, required for building with Mule.
 EOF

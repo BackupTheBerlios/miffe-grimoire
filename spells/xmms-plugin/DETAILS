@@ -5,7 +5,7 @@ ATTRIBUTE="concurrent"
    OPT[1]="xmms-plugin,input-ahx:::For a plugin that plays ahx/thx files"
    OPT[2]="xmms-plugin,input-sid:::For a plugin that plays sid files"
     SHORT="xmms-plugin Installs plugins for xmms"
-cat << EOF
+stream << EOF
 Included plugins for xmms:
 
  nsf - Plays nintendo sound files

@@ -8,6 +8,6 @@
   FRESHMEAT="fceultra"
 SOURCEFORGE="fceultra"
       SHORT="FCE Ultra is a portable NES/Famicom emulator"
-cat << EOF
+stream << EOF
 FCE Ultra is a portable NES/Famicom emulator.
 EOF

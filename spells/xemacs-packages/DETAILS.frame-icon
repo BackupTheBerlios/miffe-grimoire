@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Set up mode-specific icons for each frame under XEmacs."
-cat << EOF
+stream << EOF
 Set up mode-specific icons for each frame under XEmacs.
 EOF

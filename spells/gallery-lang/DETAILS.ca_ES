@@ -7,6 +7,6 @@
        REQ="gallery"
        OPT=
      SHORT="ca_ES language pack for gallery"
-cat << EOF
+stream << EOF
 ca_ES language pack for gallery.
 EOF

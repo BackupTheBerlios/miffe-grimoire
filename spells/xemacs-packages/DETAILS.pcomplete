@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Provides programmatic completion."
-cat << EOF
+stream << EOF
 Provides programmatic completion.
 EOF

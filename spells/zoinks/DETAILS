@@ -8,6 +8,6 @@ ESTIMATE="564"
   #OPT[1]="imlib:--enable-imlib:--disable-imlib:For image and html thumbnail preview"
 FRESHMEAT="zoinks"
    SHORT="Zoinks is a programmer's text editor and IDE"
-cat << EOF
+stream << EOF
 Zoinks is a programmer's text editor and IDE
 EOF

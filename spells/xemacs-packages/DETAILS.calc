@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Emacs calculator."
-cat << EOF
+stream << EOF
 Emacs calculator.
 EOF

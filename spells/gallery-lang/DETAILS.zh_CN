@@ -7,6 +7,6 @@
        REQ="gallery"
        OPT=
      SHORT="zh_CN language pack for gallery"
-cat << EOF
+stream << EOF
 zh_CN language pack for gallery.
 EOF

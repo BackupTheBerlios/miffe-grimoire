@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="XEmacs Lisp developer support."
-cat << EOF
+stream << EOF
 XEmacs Lisp developer support.
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="An Emacs Lisp debugger."
-cat << EOF
+stream << EOF
 An Emacs Lisp debugger.
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="XEmacs TeXinfo support."
-cat << EOF
+stream << EOF
 XEmacs TeXinfo support.
 EOF

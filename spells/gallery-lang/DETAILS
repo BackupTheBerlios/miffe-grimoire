@@ -36,7 +36,7 @@
     OPT[31]="gallery-lang,zh_TW.utf8:::to provide zh_TW.utf8 language pack"
      ASSUME="off"
       SHORT="gallery-lang offers language packs other than English for gallery"
-cat << EOF
+stream << EOF
 gallery-lang offers installation of language packs to gallery in 
 addition to the default language which is English.
 EOF

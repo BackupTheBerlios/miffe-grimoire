@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Validated HTML/SGML editing."
-cat << EOF
+stream << EOF
 Validated HTML/SGML editing.
 EOF

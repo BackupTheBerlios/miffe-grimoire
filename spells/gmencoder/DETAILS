@@ -6,7 +6,7 @@
       SHORT="gmencoder is a gnome-2 frontend for mplayer/mencoder"
 SOURCEFORGE="gmencoder"
   FRESHMEAT="gmencoder"
-cat << EOF
+stream << EOF
 Gmencoder is a gnome-2 front-end to mplayer/mencoder. It support much of the
 output codecs as well as postprocesing, cropping, scale, subtitles ripping,
 1, 2 and 3 passes for encoding and a lot of more options are planned. 

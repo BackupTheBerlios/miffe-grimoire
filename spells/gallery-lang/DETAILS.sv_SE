@@ -7,6 +7,6 @@
        REQ="gallery"
        OPT=
      SHORT="sv_SE language pack for gallery"
-cat << EOF
+stream << EOF
 sv_SE language pack for gallery.
 EOF

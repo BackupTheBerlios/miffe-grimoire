@@ -5,7 +5,7 @@ CATEGORY="dockapps"
 HOMEPAGE="http://tnemeth.free.fr/projets/dockapps.html"
      REQ="x11"
    SHORT="Digital clock dockapp"
-cat << EOF
+stream << EOF
 At least, a nice digital clock with 3 different styles,
 and that uses locales to display week-day and month names.
 EOF

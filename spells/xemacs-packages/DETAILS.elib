@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="General Purpose Emacs Lisp Utility Library."
-cat << EOF
+stream << EOF
 General Purpose Emacs Lisp Utility Library.
 EOF

@@ -7,7 +7,7 @@
       SHORT="Elmo is a text-based mail client"
 SOURCEFORGE="elmo"
   FRESHMEAT="elmo"
-cat << EOF
+stream << EOF
 Elmo is mail user agent for the console. It supports POP3 and SMTP.
 It uses Maildir for mail storage, and supports MIME types.
 EOF

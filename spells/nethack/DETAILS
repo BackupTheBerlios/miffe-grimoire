@@ -6,6 +6,6 @@
  FRESHMEAT="nethack"
      SHORT="nethack is a dungeon crawler game"
     OPT[0]="x11:ENABLE_X11::For X11 graphics"
-cat << EOF
+stream << EOF
 nethack is a dungeon crawler, like the ancient rouge,
 EOF

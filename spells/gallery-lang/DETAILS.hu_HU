@@ -7,6 +7,6 @@
        REQ="gallery"
        OPT=
      SHORT="hu_HU language pack for gallery"
-cat << EOF
+stream << EOF
 hu_HU language pack for gallery.
 EOF

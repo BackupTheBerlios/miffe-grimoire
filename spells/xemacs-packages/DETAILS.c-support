@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Basic single-file add-ons for editing C code."
-cat << EOF
+stream << EOF
 Basic single-file add-ons for editing C code.
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="C, C++ and Java language support."
-cat << EOF
+stream << EOF
 C, C++ and Java language support.
 EOF

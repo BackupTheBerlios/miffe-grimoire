@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Perl language support."
-cat << EOF
+stream << EOF
 Perl language support.
 EOF

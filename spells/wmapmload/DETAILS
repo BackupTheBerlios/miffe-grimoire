@@ -5,6 +5,6 @@ CATEGORY="dockapps"
 HOMEPAGE="http://tnemeth.free.fr/projets/dockapps.html"
      REQ="x11"
    SHORT="This dockapp monitors your apm battery status."
-cat << EOF
+stream << EOF
 This dockapp monitors your apm battery status.
 EOF

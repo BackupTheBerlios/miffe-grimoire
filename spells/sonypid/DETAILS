@@ -2,19 +2,14 @@
       CATEGORY="utility"
      ATTRIBUTE="console new"
         SOURCE="sonypid-$VERSION"
-           URL="http://spop.free.fr/sonypi"
-      HOMEPAGE="http://spop.free.fr/sonypi"
+           URL="http://popies.net/sonypi"
+      HOMEPAGE="http://popies.net/sonypi"
            REQ=""
-       #OPT[0]=":::"
-       #OPT[1]=":::"
-       #OPT[2]=":::"
-       #OPT[3]=":::"
       ESTIMATE="8"
          SHORT="sonypid is a simple daemon handling events on Sony VAIO laptops"
-cat << EOF
+stream << EOF
 sonypid daemon enables the jog dial on a Sony VAIO as a mouse wheel.
 
 You need a kernel with the sonypi module (and a Vaio laptop..) 
 to use this program.
-
 EOF

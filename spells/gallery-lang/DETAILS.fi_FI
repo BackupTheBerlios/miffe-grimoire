@@ -7,6 +7,6 @@
        REQ="gallery"
        OPT=
      SHORT="fi_FI language pack for gallery"
-cat << EOF
+stream << EOF
 fi_FI language pack for gallery.
 EOF

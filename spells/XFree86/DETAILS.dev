@@ -17,7 +17,7 @@
      AVOID="OpenSP db gdbm linuxdoc-tools teTeX"
  FRESHMEAT="xfree86"
      SHORT="Modified XFree86 spell to include gatos drivers"    
-cat << EOF
+stream << EOF
 XFree86 is a freely redistributable open-source 
 implementation of the X Window System that runs on UNIX(R).
 XFree86 is the underlying software that is between the hardware

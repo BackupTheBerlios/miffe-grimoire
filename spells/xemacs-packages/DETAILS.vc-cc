@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Version Control for ClearCase (UnFree) systems."
-cat << EOF
+stream << EOF
 Version Control for ClearCase (UnFree) systems.
 EOF

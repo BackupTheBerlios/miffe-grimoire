@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Support for various programming languages."
-cat << EOF
+stream << EOF
 Support for various programming languages.
 EOF

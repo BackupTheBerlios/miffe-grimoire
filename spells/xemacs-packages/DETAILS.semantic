@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Semantic bovinator (Yacc/Lex for XEmacs). Includes Senator."
-cat << EOF
+stream << EOF
 Semantic bovinator (Yacc/Lex for XEmacs). Includes Senator.
 EOF

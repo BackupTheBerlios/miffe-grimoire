@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Java language and development support."
-cat << EOF
+stream << EOF
 Java language and development support.
 EOF

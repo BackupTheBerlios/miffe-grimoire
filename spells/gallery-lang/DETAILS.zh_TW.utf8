@@ -7,6 +7,6 @@
        REQ="gallery"
        OPT=
      SHORT="zh_TW.utf8 language pack for gallery"
-cat << EOF
+stream << EOF
 zh_TW.utf8 language pack for gallery.
 EOF

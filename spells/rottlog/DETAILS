@@ -7,7 +7,7 @@
            REQ=""
      FRESHMEAT="rottlog"
          SHORT="Rot[t]Log archives/rotates system logs."
-cat << EOF
+stream << EOF
 Rot[t]Log is a powerful BASH script to archive/rotate system logs. It 
 have almost all features of RedHat's logrotate, adding many other.
 It's very easy to use and understand. 

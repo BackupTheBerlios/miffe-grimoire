@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Miscellaneous editor extensions, you probably need this."
-cat << EOF
+stream << EOF
 Miscellaneous editor extensions, you probably need this.
 EOF

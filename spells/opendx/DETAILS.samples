@@ -5,6 +5,6 @@
    ESTIMATE="252"
   FRESHMEAT="opendx"
       SHORT="opendx samples"
-cat << EOF
+stream << EOF
 opendx samples.
 EOF

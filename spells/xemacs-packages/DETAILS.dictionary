@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Interface to RFC2229 dictionary servers."
-cat << EOF
+stream << EOF
 Interface to RFC2229 dictionary servers.
 EOF

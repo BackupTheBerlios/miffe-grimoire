@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Python language support."
-cat << EOF
+stream << EOF
 Python language support.
 EOF

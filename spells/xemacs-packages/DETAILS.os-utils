@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Miscellaneous O/S utilities."
-cat << EOF
+stream << EOF
 Miscellaneous O/S utilities.
 EOF

@@ -7,6 +7,6 @@
        REQ="gallery"
        OPT=
      SHORT="da_DK language pack for gallery"
-cat << EOF
+stream << EOF
 da_DK language pack for gallery.
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Fortran language support."
-cat << EOF
+stream << EOF
 Fortran language support.
 EOF

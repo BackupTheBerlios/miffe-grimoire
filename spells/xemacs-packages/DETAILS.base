@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Fundamental XEmacs support."
-cat << EOF
+stream << EOF
 Fundamental XEmacs support.
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="HTML editing support."
-cat << EOF
+stream << EOF
 HTML editing support.
 EOF

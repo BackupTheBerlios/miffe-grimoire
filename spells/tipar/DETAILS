@@ -3,6 +3,6 @@
       URL="http://www.ticalc.org"
  HOMEPAGE="http://lpg.ticalc.org/prj_tilp"
     SHORT="tipar is a Ti linking library for parallel-ports"
-cat << EOF
+stream << EOF
 tipar is a Ti linking library for parallel-ports
 EOF

@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Support for LaTeX cross-references, citations."
-cat << EOF
+stream << EOF
 Support for LaTeX cross-references, citations.
 EOF

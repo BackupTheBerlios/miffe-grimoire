@@ -7,7 +7,7 @@
            REQ=""
      FRESHMEAT="lphdisk"
          SHORT="lphdisk prepares a hibernation partition for APM Suspend-To-Disk"
-cat << EOF
+stream << EOF
 lphdisk is a Linux utility to format hibernation partitions for use with 
 the APM Suspend-To-Disk features on laptops with Phoenix NoteBIOS. While 
 one does not need this utility to use this notebook feature, if the memory 

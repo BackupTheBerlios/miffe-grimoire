@@ -6,7 +6,7 @@
       REQ="Python imlib2 swig"
     SHORT="fluxspace is a window manager and workspace enhancer and integrator"
 FRESHMEAT="fluxspace"
-cat << EOF
+stream << EOF
 Fluxspace provides a framework and modules for adding event-driven behavior
 to Fluxbox as an external component. A variety of features and
 enhancements can be introduced more easily without modifying

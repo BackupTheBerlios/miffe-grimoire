@@ -7,6 +7,6 @@
        REQ="gallery"
        OPT=
      SHORT="ja_JP language pack for gallery"
-cat << EOF
+stream << EOF
 ja_JP language pack for gallery.
 EOF

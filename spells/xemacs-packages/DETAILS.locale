@@ -7,6 +7,6 @@
   HOMEPAGE="http://www.xemacs.org"
        REQ=""
      SHORT="Localized menubars and splash screens."
-cat << EOF
+stream << EOF
 Localized menubars and splash screens.
 EOF

@@ -9,7 +9,7 @@
    ESTIMATE="610"
   FRESHMEAT="netcdf"
       SHORT="netcdf is a library for NetCDF data format"
-cat << EOF
+stream << EOF
 netcdf (network Common Data Form) is an interface for 
 array-oriented data access and a library that provides 
 an implementation of the interface. The netCDF library 
