@@ -1,0 +1,24 @@
+   VERSION=( "1.04" )
+  CATEGORY="disk utility"
+ ATTRIBUTE="console"
+    SOURCE="downloads/laptop-mode-tools_$VERSION"
+       URL="http://www.xs4all.nl/~bsamwel/laptop_mode/tools"
+  HOMEPAGE="http://www.xs4all.nl/~bsamwel/laptop_mode/tools"
+       REQ="acpid"
+  ESTIMATE="5"
+      DESC="$SPELL provides tools for the kernel laptop mode.
+
+Laptop mode (also known as laptopmode, laptop-mode and 
+laptop_mode, for search engine purposes :) ) is a kernel 
+mode that allows you to extend the battery life of your 
+laptop. It does this by intelligently grouping write activity 
+on your disks, so that only reads of uncached data result in a 
+disk spinup. It causes a significant improvement in battery 
+life (for usage patterns that allow it)."
+
+build(){
+ sed -i "s:/usr/local:/usr:" install.sh
+
+ prepare_install	&&
+ ./install.sh
+}

@@ -1,0 +1,29 @@
+   VERSION=( "0.4" )
+  CATEGORY="monitor utility"
+ ATTRIBUTE="console"
+    SOURCE="i855crt/i855crt-$VERSION"
+       URL="$SOURCEFORGE_URL"
+  HOMEPAGE="http://i855crt.sourceforge.net"
+       REQ="x11"
+  ESTIMATE="6"
+      DESC="$SPELL enables CRT output on Intel 855GM/GME based laptop.
+"
+
+build(){
+ cat << EOF >> i855crt.conf
+
+# 1400x1050 @ 60Hz (VESA GTF) hsync: 65.5kHz
+ModeLine "1400x1050@60" 122.0 1400 1488 1640 1880   1050 1052 1064 1082 +hsync +vsync
+
+# 1400x1050 @ 75Hz (VESA GTF) hsync: 82.2kHz
+ModeLine "1400x1050@75" 155.8 1400 1464 1784 1912   1050 1052 1064 1090 +hsync +vsync
+
+EOF
+
+ rm -f i855crt
+
+ make			&&
+ prepare_install	&&
+ install -g root  	i855crt		/usr/bin	&&
+ install -g root -m 644	i855crt.conf 	/etc
+}

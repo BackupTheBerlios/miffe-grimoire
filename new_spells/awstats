@@ -1,5 +1,5 @@
-   VERSION=( "6.3" "6.2" )
-      SAFE=( "6.3" )
+   VERSION=( "6.4" "6.3" "6.2" )
+      SAFE=( "6.4" )
   CATEGORY="log web"
  ATTRIBUTE="utility new"
     SOURCE="files/awstats-$VERSION"

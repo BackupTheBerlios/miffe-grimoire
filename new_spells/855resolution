@@ -1,0 +1,19 @@
+   VERSION=( "0.3" )
+  CATEGORY="monitor utility"
+ ATTRIBUTE="console"
+    SOURCE="855resolution-$VERSION"
+       URL="http://perso.wanadoo.fr/apoirier"
+  HOMEPAGE="http://perso.wanadoo.fr/apoirier"
+  ESTIMATE="10"
+      DESC="$SPELL changes the resolution of a VBIOS mode for the Intel 855 card
+
+
+$SPELL changes the resolution of an available VBIOS mode for the
+Intel 855 graphic chipset. It has been created in orger to obtain
+the 1400x1050 resolution on laptops with this graphic chipset."
+
+build(){
+ make			&&
+ prepare_install	&&
+ make install
+}

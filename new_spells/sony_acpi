@@ -1,0 +1,21 @@
+      VERSION=( "0.1" )
+      CATEGORY="kernel"
+     ATTRIBUTE="driver linux-26-module"
+        SOURCE="sony_acpi"
+           URL="http://popies.net/sonypi"
+      HOMEPAGE="http://popies.net/sonypi"
+      ESTIMATE="13"
+          DESC="sony_acpi is a mini-driver for Sony VAIO laptops.
+
+The sony_acpi drives the ACPI SNC device present in the
+ACPI BIOS fo the Sony VAIO laptops. It gives access to
+some extra laptop functionalities.
+"
+
+function build() {
+  mv  sony_acpi.txt README
+  make				&&
+  prepare_install               &&
+  cp  sony_acpi.ko /lib/modules/$( uname -r )/kernel/drivers	&&
+  depmod
+}
