@@ -1,4 +1,4 @@
 inherit  xemacs
-   VERSION=( "1.36" "1.35" "1.33" )
+   VERSION=( "1.38" "1.36" "1.35" "1.33" )
     SOURCE="xemacs/packages/auctex-$VERSION-pkg"
      SHORT="$SPELL provides basic TeX/LaTeX support."

@@ -1,4 +1,4 @@
 inherit xemacs
-   VERSION=( "1.86" "1.84" "1.82" "1.81" "1.78" "1.75" )
+   VERSION=( "1.87" "1.86" "1.84" "1.82" "1.81" "1.78" "1.75" )
     SOURCE="xemacs/packages/xemacs-base-$VERSION-pkg"
      SHORT="$SPELL provides fundamental XEmacs support."
