@@ -1,4 +1,0 @@
-
-FN="$(  guess_filename  ${SOURCE}  $SOURCE_CACHE/$BSPELL/$VERSION  )"
-
-cp	${FN}	${BUILD_DIR}

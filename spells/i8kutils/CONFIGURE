@@ -1,4 +1,0 @@
-if query "Install i8kbuttons script to use vol up/down with alsa" y
-then
-	init=yes
-fi
