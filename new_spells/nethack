@@ -1,0 +1,55 @@
+   VERSION=( "342" )
+  CATEGORY="game"
+    SOURCE="nethack/nethack-$VERSION"
+  HOMEPAGE="http://nethack.org"
+      URL="$SOURCEFORGE_URL"
+ FRESHMEAT="nethack"
+     SHORT="nethack is a dungeon crawler game"
+    OPT[0]="x11:ENABLE_X11::For X11 graphics"
+      LONG="
+nethack is a dungeon crawler, like the ancient rouge,
+"
+
+function build() {
+	cd  sys/unix    &&
+	sh  setup.sh    &&
+	cd  $BUILD_DIR  &&
+
+
+	if echo $OPTS | grep ENABLE_X11 > /dev/null
+	then
+	  echo 'Enabling X11 Graphics'                                       &&
+	  sed -i s:'/\* #define X11_GRAPHICS \*/':'#define X11_GRAPHICS':    \
+							 include/config.h    &&
+	  sed -i s:'/\* # define USE_XPM \*/':'# define USE_XPM':            \
+							 include/config.h    &&
+	  sed -i s:'WINX11LIB = ':'WINX11LIB = -lXpm ':      src/Makefile    &&
+	  sed -i s:'WINLIB = ':'WINLIB = $(WINX11LIB) ':    src/Makefile     &&
+	  sed -i s:'WINSRC = ':'WINSRC = $(WINX11SRC) ':    src/Makefile     &&
+	  sed -i s:'WINOBJ = ':'WINOBJ = $(WINX11OBJ) ':    src/Makefile     &&
+	  sed -i s:'LFLAGS = ':'LFLAGS = -L/usr/X11R6/lib':  src/Makefile    &&
+	  sed -i s:'VARDATND =':'VARDATND = x11tiles pet_mark.xbm rip.xpm NetHack.ad':  \
+								   Makefile  &&
+	  CFLAGS="$CFLAGS -I/usr/X11R6/include"
+	fi
+
+	CFLAGS="$CFLAGS -I../include"
+	sed  -i  s:'/usr/bin/compress':'/bin/gzip':      include/config.h  &&
+	sed  -i  s:'\.Z':'.gz':                          include/config.h  &&
+	sed  -i  s:'/\* #define SCORE_ON_BOTL \*/':'#define SCORE_ON_BOTL':  \
+							 include/config.h  &&
+	sed  -i  s:'/\* #define DLB \*/':'#define DLB':    include/config.h  &&
+	sed  -i  s:'WINTTYLIB = -ltermlib':'WINTTYLIB = -lncurses':        \
+							     src/Makefile  &&
+	sed  -i  s:'CFLAGS = -O -I../include':"CFLAGS = $CFLAGS":          \
+							     src/Makefile  &&
+	sed  -i  s:'/\* #define LINUX \*/':'#define LINUX':                  \
+						       include/unixconf.h  &&
+	sed  -i  s:'/\* #define TIMED_DELAY \*/':'#define TIMED_DELAY':      \
+						       include/unixconf.h  &&
+
+
+	make                   &&
+	prepare_install        &&
+	make install
+}
