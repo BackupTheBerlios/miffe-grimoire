@@ -1,4 +1,4 @@
-   VERSION=( "1.35" "1.33" )
+   VERSION=( "1.36" "1.35" "1.33" )
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"
     SOURCE="xemacs/packages/auctex-$VERSION-pkg"

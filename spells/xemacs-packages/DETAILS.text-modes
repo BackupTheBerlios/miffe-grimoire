@@ -1,4 +1,4 @@
-   VERSION=( "1.71" "1.66" "1.61" "1.58" )
+   VERSION=( "1.73" "1.71" "1.66" "1.61" "1.58" )
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"
     SOURCE="xemacs/packages/text-modes-$VERSION-pkg"
