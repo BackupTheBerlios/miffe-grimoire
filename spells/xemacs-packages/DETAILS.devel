@@ -1,4 +1,5 @@
    VERSION=( "1.61" "1.60" "1.58" "1.50" )
+    IGNORE="\-pkg"
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"
     SOURCE="xemacs/packages/xemacs-devel-$VERSION-pkg"

@@ -1,4 +1,5 @@
    VERSION=( "1.18" "1.17" )
+    IGNORE="\-pkg"
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"
     SOURCE="xemacs/packages/sh-script-$VERSION-pkg"

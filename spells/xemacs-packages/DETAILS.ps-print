@@ -1,4 +1,5 @@
    VERSION=( "1.09" "1.08" )
+    IGNORE="\-pkg"
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"
     SOURCE="xemacs/packages/ps-print-$VERSION-pkg"

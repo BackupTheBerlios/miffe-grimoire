@@ -1,4 +1,5 @@
    VERSION=( "1.08" "1.06" "1.04")
+    IGNORE="\-pkg"
   CATEGORY="editor"
  ATTRIBUTE="concurrent xemacs-packages"
     SOURCE="xemacs/packages/clearcase-$VERSION-pkg"
