@@ -1,0 +1,12 @@
+   VERSION=( "1.4.1" )
+  CATEGORY="web graphic"
+ ATTRIBUTE="concurrent gallery-lang new"
+    SOURCE="gallery/sv_SE-pack-$VERSION"
+       URL="$SOURCEFORGE_URL"
+  HOMEPAGE="http://gallery.menalto.com"
+       REQ="gallery"
+       OPT=
+     SHORT="sv_SE language pack for gallery"
+cat << EOF
+sv_SE language pack for gallery.
+EOF

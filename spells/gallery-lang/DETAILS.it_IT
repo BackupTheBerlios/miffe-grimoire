@@ -1,0 +1,12 @@
+   VERSION=( "1.4.1" )
+  CATEGORY="web graphic"
+ ATTRIBUTE="concurrent gallery-lang new"
+    SOURCE="gallery/it_IT-pack-$VERSION"
+       URL="$SOURCEFORGE_URL"
+  HOMEPAGE="http://gallery.menalto.com"
+       REQ="gallery"
+       OPT=
+     SHORT="it_IT language pack for gallery"
+cat << EOF
+it_IT language pack for gallery.
+EOF

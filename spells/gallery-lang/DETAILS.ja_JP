@@ -1,0 +1,12 @@
+   VERSION=( "1.4.1" )
+  CATEGORY="web graphic"
+ ATTRIBUTE="concurrent gallery-lang new"
+    SOURCE="gallery/ja_JP-pack-$VERSION"
+       URL="$SOURCEFORGE_URL"
+  HOMEPAGE="http://gallery.menalto.com"
+       REQ="gallery"
+       OPT=
+     SHORT="ja_JP language pack for gallery"
+cat << EOF
+ja_JP language pack for gallery.
+EOF

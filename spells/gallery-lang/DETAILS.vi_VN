@@ -1,0 +1,12 @@
+   VERSION=( "1.4.1" )
+  CATEGORY="web graphic"
+ ATTRIBUTE="concurrent gallery-lang new"
+    SOURCE="gallery/vi_VN-pack-$VERSION"
+       URL="$SOURCEFORGE_URL"
+  HOMEPAGE="http://gallery.menalto.com"
+       REQ="gallery"
+       OPT=
+     SHORT="vi_VN language pack for gallery"
+cat << EOF
+vi_VN language pack for gallery.
+EOF
