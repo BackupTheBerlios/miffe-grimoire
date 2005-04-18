@@ -1,4 +1,4 @@
- VERSION=( "0.3.3" )
+ VERSION=( "0.3.4" "0.3.3" )
 CATEGORY="dockapps"
      URL="http://tnemeth.free.fr"
   SOURCE="projets/programmes/$SPELL-$VERSION"

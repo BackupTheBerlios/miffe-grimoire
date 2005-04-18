@@ -1,4 +1,4 @@
-  VERSION=( "1.1.0pre2" "1.0.1" )
+  VERSION=( "1.1.0pre4" "1.1.0pre2" "1.0.1" )
  CATEGORY="dockapps"
 ATTRIBUTE="x11 utility"
       URL="http://www.sh.rim.or.jp/~ssato/src/"

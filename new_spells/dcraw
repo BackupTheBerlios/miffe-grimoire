@@ -1,4 +1,4 @@
-       VERSION=( "1.219" "1.161" "1.151" )
+       VERSION=( "1.250" "1.219" "1.161" "1.151" )
       CATEGORY="digital-camera graphic"
      ATTRIBUTE="console utility  new"
 #        SOURCE="sources/dcraw"
@@ -27,7 +27,8 @@ output than the tools provided by the camera vendor.
 "
 
 function build() {
-	gcc $CFLAGS -lm $LDFLAGS -o dcraw $( guess_filename ${SOURCE[0]} ) 	&&
+	gcc $CFLAGS -lm -ljpeg $LDFLAGS -o dcraw 		\
+			$( guess_filename ${SOURCE[0]} ) 	&&
 
 	prepare_install						&&
 	cp $( guess_filename ${SOURCE[1]} )  /usr/man/man1	&&

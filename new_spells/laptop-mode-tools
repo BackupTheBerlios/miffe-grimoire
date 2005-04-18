@@ -1,4 +1,4 @@
-   VERSION=( "1.04" )
+   VERSION=( "1.05" "1.04" )
   CATEGORY="disk utility"
  ATTRIBUTE="console"
     SOURCE="downloads/laptop-mode-tools_$VERSION"

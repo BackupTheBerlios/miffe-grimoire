@@ -1,4 +1,4 @@
-      VERSION=( "0.08" "0.07" "0.06" )
+      VERSION=( "0.09" "0.08" "0.07" "0.06" )
       CATEGORY="dockapps"
      ATTRIBUTE="x11"
         SOURCE="wmifinfo-$VERSION"
