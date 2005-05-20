@@ -1,5 +1,5 @@
 inherit  xemacs
-   VERSION=( "1.16" "1.15" "1.14" "1.13" )
+   VERSION=( "1.17" "1.16" "1.15" "1.14" "1.13" )
     SOURCE="xemacs/packages/dired-$VERSION-pkg"
       DESC="$SPELL manages file systems from XEmacs.
 "

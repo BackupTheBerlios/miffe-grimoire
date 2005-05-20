@@ -1,4 +1,4 @@
-    VERSION=( "5-1.6.3" "5-1.6.2" )
+    VERSION=( "5-1.6.4" "5-1.6.3" "5-1.6.2" )
    CATEGORY="data science library"
   ATTRIBUTE="new library"
      SOURCE="HDF5/current/src/hdf$VERSION"

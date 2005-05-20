@@ -1,5 +1,5 @@
 inherit  xemacs
-   VERSION=( "1.20" "1.19" "1.18" "1.17" "1.16" )
+   VERSION=( "1.21" "1.20" "1.19" "1.18" "1.17" "1.16" )
     SOURCE="xemacs/packages/c-support-$VERSION-pkg"
       DESC="$SPELL provides basic single-file add-ons for editing C code.
 "

@@ -1,5 +1,5 @@
 inherit  xemacs
-   VERSION=( "1.28" "1.25" "1.24" "1.23" )
+   VERSION=( "1.29" "1.28" "1.25" "1.24" "1.23" )
     SOURCE="xemacs/packages/texinfo-$VERSION-pkg"
       DESC="$SPELL provides XEmacs TeXinfo support.
 "
